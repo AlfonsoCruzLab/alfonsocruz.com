@@ -23,6 +23,7 @@ p {
 .dontblow {
 	font-size: 2.5em;
 	background: yellow;
+	max-width: 400px;
 }
 
 i {
