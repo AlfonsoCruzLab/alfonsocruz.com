@@ -1,5 +1,5 @@
 body {
-	font-size: 60px;
+	font-size: 3em;
 	padding: 0.5em;
 }
 
@@ -11,7 +11,6 @@ a {
 }
 
 img {
-	width: 100%;
 }
 
 .intro  {
@@ -47,9 +46,6 @@ i:hover:after {
 }
 
 .container {
-	width: 100%;
-	background: black;
-	overflow: auto;
 }
 
 .portrait {
