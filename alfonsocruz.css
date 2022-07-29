@@ -1,0 +1,69 @@
+body {
+	font-size: 2.75em;
+	padding: 0.5em;
+}
+
+button {
+	font-size: 0.75em;
+}
+
+a {
+}
+
+img {
+}
+
+.intro  {
+}
+
+p {
+}
+
+i {
+	cursor: help;
+}
+
+i:hover:after {
+    content: "\2192" "\2009" attr(alt);
+	margin-left: 0.5ch;
+	margin-right: 0.5ch;
+	color: grey;
+}
+
+.popup {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: pink;
+}
+
+.close {
+	position: fixed;
+    top: 20px;
+	right: 20px;
+}
+
+.container {
+	width: 100%;
+	background: black;
+	overflow: auto;
+}
+
+.portrait {
+}
+
+.landscape {
+}
+
+.articles {
+}
+
+.articles a {
+}
+
+
+@media (orientation: landscape) {
+		
+}
