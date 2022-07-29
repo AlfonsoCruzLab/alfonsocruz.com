@@ -30,6 +30,10 @@ i:hover:after {
 	color: grey;
 }
 
+video {
+	width: 300px;
+}
+
 .popup {
 	position: fixed;
 	top: 0px;
