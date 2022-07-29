@@ -1,7 +1,6 @@
 body {
-	font-size: 3em;
+	font-size: 2em;
 	padding: 0.5em;
-	max-width: 100vw;
 }
 
 button {
@@ -18,6 +17,7 @@ img {
 }
 
 p {
+	max-width: 40ch;
 }
 
 i {
@@ -70,5 +70,8 @@ iframe {
 
 
 @media (orientation: landscape) {
-		
+body {
+	font-size: 1em;
+	padding: 0.125em;
+}		
 }
