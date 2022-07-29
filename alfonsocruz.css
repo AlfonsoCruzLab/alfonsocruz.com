@@ -17,6 +17,7 @@ img {
 }
 
 p {
+	max-width: 50ch;
 }
 
 i {
