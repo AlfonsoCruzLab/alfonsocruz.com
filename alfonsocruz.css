@@ -44,6 +44,7 @@ iframe {
 	left: 0px;
 	height: 100%;
 	width: 100vw;
+	max-width: 500px;
     background: white;
 }
 
