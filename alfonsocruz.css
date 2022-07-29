@@ -35,6 +35,10 @@ video {
   width:100%;
 }
 
+iframe {
+  width: 100%;
+}
+
 .popup {
 	position: fixed;
 	top: 0px;
