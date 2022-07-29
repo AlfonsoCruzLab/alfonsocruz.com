@@ -1,6 +1,7 @@
 body {
 	font-size: 3em;
 	padding: 0.5em;
+	max-width: 100vw;
 }
 
 button {
@@ -43,8 +44,6 @@ iframe {
 	left: 0px;
 	height: 100%;
 	width: 100%;
-	max-width: 80vw;
-	background: pink;
 }
 
 .close {
