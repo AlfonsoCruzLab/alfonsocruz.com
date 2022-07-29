@@ -7,18 +7,6 @@ button {
 	font-size: 0.75em;
 }
 
-a {
-}
-
-img {
-}
-
-.intro  {
-}
-
-p {
-}
-
 i {
 	cursor: help;
 }
@@ -28,13 +16,6 @@ i:hover:after {
 	margin-left: 0.5ch;
 	margin-right: 0.5ch;
 	color: grey;
-}
-
-video {
-}
-
-iframe {
-  width: 100%;
 }
 
 .popup {
@@ -51,22 +32,6 @@ iframe {
     top: 20px;
 	right: 20px;
 }
-
-.container {
-}
-
-.portrait {
-}
-
-.landscape {
-}
-
-.articles {
-}
-
-.articles a {
-}
-
 
 @media (orientation: landscape) {
 body {
