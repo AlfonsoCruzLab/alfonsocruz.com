@@ -31,7 +31,8 @@ i:hover:after {
 }
 
 video {
-	width: 300px;
+  max-width:300px;
+  width:100%;
 }
 
 .popup {
