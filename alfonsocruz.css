@@ -7,9 +7,9 @@ body {
 	font-family: "Univers Light", sans-serif, Arial;
 	font-smoothing: subpixel-antialiased;
 	background-color: #111;
-	color: #aaa;
-	font-size: 3em;
-	padding: 0.5em;
+	color: #999;
+	font-size: 3vw;
+	padding: 0.5vw;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 }
 
 button {
-	font-size: 0.75em;
+	font-size: 0.75vw;
 }
 
 i {
@@ -43,6 +43,6 @@ i:hover:after {
 
 .close {
 	position: fixed;
-    top: 20px;
-	right: 20px;
+    top: 1vw;
+	right: 1vw;
 }
