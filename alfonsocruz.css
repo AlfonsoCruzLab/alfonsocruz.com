@@ -39,8 +39,9 @@ i:hover:after {
 
 .close {
 	position: fixed;
-    top: 2vw;
-	right: 2vw;
+	font-size: 4vw;
+    top: 1.8vw;
+	right: 1.8vw;
 }
 
 .intro {
@@ -50,7 +51,6 @@ i:hover:after {
 @media (orientation: landscape) {
 body {
 	font-size: 1vw;
-	max-width: 50ch;
 	padding: 1vw;
-}		
+	max-width: 28vw;
 }
