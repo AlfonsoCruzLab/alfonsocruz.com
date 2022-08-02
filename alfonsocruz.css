@@ -53,6 +53,10 @@ iframe {
 	height: 75vh;
 }
 
+.fullwidth {
+	width: 100%;
+}
+
 @media (orientation: landscape) {
 body {
 	font-size: 1vw;
