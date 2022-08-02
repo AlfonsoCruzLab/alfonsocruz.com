@@ -7,18 +7,14 @@ body {
 	font-family: "Univers Light", sans-serif, Arial;
 	font-smoothing: subpixel-antialiased;
 	background-color: #111;
-	color: #888;
-	font-size: 3vw;
-	padding: 0.5vw;
+	color: #777;
+	font-size: 3.4vw;
+	padding: 2vw;
 }
 
 a {
 	color: white;
 	text-decoration: none;
-}
-
-button {
-	font-size: 0.75vw;
 }
 
 i {
@@ -43,6 +39,14 @@ i:hover:after {
 
 .close {
 	position: fixed;
-    top: 1vw;
-	right: 1vw;
+    top: 2vw;
+	right: 2vw;
+}
+
+@media (orientation: landscape) {
+body {
+	font-size: 1vw;
+	max-width: 50ch;
+	padding: 1vw;
+}		
 }
