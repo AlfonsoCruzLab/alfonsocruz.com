@@ -59,7 +59,7 @@ iframe {
 	
 .logo {
 	float: right;
-	height: 100%;
+	height: 5vw;;
 }
 
 @media (orientation: landscape) {
