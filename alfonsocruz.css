@@ -75,8 +75,8 @@ body {
 	padding: 1vw;
 }
 	
-.close:hover > p {
-    background: red;
+#logo:hover > div#footer {
+    background: #f00;
 }	
 
 .popup {
