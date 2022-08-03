@@ -81,7 +81,9 @@ body {
 
 .footer {
 	position: fixed;
+	width: 96vw;
 	bottom: 1vw;
+	background: pink;
 }
 	
 #logo {
