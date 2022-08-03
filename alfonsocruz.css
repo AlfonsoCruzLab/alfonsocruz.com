@@ -61,7 +61,7 @@ iframe {
 	display:block;
 	float: right;
 	width: auto;
-	height: 30vw; 
+	height: 20vw; 
 }
 
 @media (orientation: landscape) {
