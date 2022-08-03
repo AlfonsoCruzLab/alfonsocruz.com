@@ -28,8 +28,8 @@ i:hover:after {
 	color: grey;
 }
 
-p {
-	max-width: 50ch;
+small {
+	font-size: 0.75em;
 }
 
 .popup {
@@ -77,9 +77,13 @@ body {
 	
 .close {
 	font-size: 1vw;
+}
+	
+p {
+	max-width: 28vw;
 }	
 
-.footer {
+#footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0px;
@@ -88,7 +92,7 @@ body {
 }
 	
 #logo {
-	height: 9vw; 
+	height: 6vw; 
 }
 	
 }
