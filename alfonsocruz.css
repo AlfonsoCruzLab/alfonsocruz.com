@@ -9,7 +9,7 @@ html, body {
 	background-color: #111;
 	color: #ccc;
 	font-size: 3vw;
-	padding: 1vw;
+	padding: 1.5vw;
 	height: 100%;
     margin: 0;
 }
@@ -102,9 +102,9 @@ iframe {
 
 
 @media (orientation: landscape) {
-body {
+html, body {
 	font-size: 1vw;
-	padding: 1vw;
+	padding: 0.6vw;
 }	
 
 .popup {
