@@ -28,6 +28,10 @@ i:hover:after {
 	color: grey;
 }
 
+p {
+	max-width: 50ch;
+}
+
 .popup {
 	position: fixed;
 	top: 0px;
@@ -57,17 +61,31 @@ iframe {
 	width: 100%;
 }
 
+
 #logo {
 	display:block;
 	float: right;
 	width: auto;
-	height: 20vw; 
+	height: 18vw; 
 }
 
 @media (orientation: landscape) {
 body {
 	font-size: 1vw;
 	padding: 1vw;
-	max-width: 28vw;
 }
+	
+.close {
+	font-size: 1vw;
+}	
+
+.footer {
+	position: fixed;
+	bottom: 1vw;
+}
+	
+#logo {
+	height: 9vw; 
+}
+	
 }
