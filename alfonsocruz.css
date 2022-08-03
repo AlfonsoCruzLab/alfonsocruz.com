@@ -86,7 +86,13 @@ body {
 	
 p {
 	max-width: 28vw;
-}	
+}
+	
+.articles {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	}	
 
 #footer {
 	position: fixed;
