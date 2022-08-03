@@ -57,6 +57,13 @@ iframe {
 	width: 100%;
 }
 
+#logo {
+	display:block;
+	float: right;
+	width: auto;
+	height: 30vw; 
+}
+
 @media (orientation: landscape) {
 body {
 	font-size: 1vw;
