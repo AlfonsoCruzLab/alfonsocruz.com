@@ -56,15 +56,11 @@ iframe {
 .fullwidth {
 	width: 100%;
 }
-	
-.logo {
-	float: right;
-	height: 100%;
-}
 
 @media (orientation: landscape) {
 body {
 	font-size: 1vw;
 	padding: 1vw;
 	max-width: 28vw;
+}
 }
