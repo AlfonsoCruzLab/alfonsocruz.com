@@ -74,6 +74,10 @@ body {
 	font-size: 1vw;
 	padding: 1vw;
 }
+	
+.close:hover > p {
+    background: red;
+}	
 
 .popup {
 	padding-left: 33vw;
