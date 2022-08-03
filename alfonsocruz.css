@@ -3,18 +3,50 @@
         src: url("fonts/UniversLTStd-Light.otf");
       }
 
-body {
+html, body {
 	font-family: "Univers Light", sans-serif, Arial;
 	font-smoothing: subpixel-antialiased;
 	background-color: #111;
 	color: #ccc;
 	font-size: 3vw;
-	padding: 1.8vw;
+	padding: 1vw;
+	height: 100%;
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .col {
+  flex: 1;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.flex-grid .col {
+  flex: 1;
 }
 
 a {
 	color: white;
 	text-decoration: none;
+}
+
+a:hover ~ .intro {
+    color: pink;
 }
 
 i {
@@ -61,7 +93,6 @@ iframe {
 	width: 100%;
 }
 
-
 #logo {
 	display:block;
 	float: right;
@@ -69,14 +100,11 @@ iframe {
 	height: 18vw; 
 }
 
+
 @media (orientation: landscape) {
 body {
 	font-size: 1vw;
 	padding: 1vw;
-}
-	
-#logo:hover > div#footer {
-    background: #f00;
 }	
 
 .popup {
@@ -97,14 +125,6 @@ p {
 	top: 0px;
 	right: 0px;
 	}	
-
-#footer {
-	position: fixed;
-	width: 100%;
-	bottom: 0px;
-	left: 0px;
-	padding: 1vw;
-}
 	
 #logo {
 	height: 6vw; 
