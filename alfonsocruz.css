@@ -50,13 +50,11 @@ i:hover:after {
 }
 .close {
 	position: fixed;
-	font-size: 4em;
-	top: 1.8em;
-	right: 1.8em
+	top: 0.5em;
+	right: 0.5em
 }
 .intro {
 	color: #777;
-	max-width: 44ch;
 }
 iframe {
 	height: 75vh
