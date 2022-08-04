@@ -47,7 +47,7 @@ i:hover:after {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: #111
+	background: #111;
 }
 .close {
 	position: fixed;
@@ -74,5 +74,24 @@ iframe {
 @media (orientation: landscape) {
 html, body {
 	font-size: 1em;
+}
+.popup {
+	position: absolute;
+	left: 33%;
+	right: 0;
+	width: auto;
+	background: none
+}	
+.intro {
+	max-width: 43ch		
+}
+main {
+	max-width: 65ch	
+	}	
+.articles {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	width: 25%
 }
 }
