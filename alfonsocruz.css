@@ -4,6 +4,7 @@
 }
 html, body {
 	font-family: "Univers Light", sans-serif, Arial;
+	font-size: 1.2em;
 	background-color: #111;
 	color: #ccc;
 	height: 100%;
@@ -68,4 +69,10 @@ iframe {
 	float: right;
 	width: auto;
 	height: 6em
+}
+
+@media (orientation: landscape) {
+html, body {
+	font-size: 1em;
+}
 }
