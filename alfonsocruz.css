@@ -60,10 +60,6 @@ i:hover:after {
 	color: grey;
 }
 
-small {
-	font-size: 0.75em;
-}
-
 .popup {
 	position: fixed;
 	top: 0px;
