@@ -1,129 +1,81 @@
 @font-face {
-        font-family: "Univers Light";
-        src: url("fonts/UniversLTStd-Light.otf");
-      }
-
+	font-family: "Univers Light";
+	src: url("fonts/UniversLTStd-Light.otf")
+}
 html, body {
 	font-family: "Univers Light", sans-serif, Arial;
-	font-smoothing: subpixel-antialiased;
 	background-color: #111;
 	color: #ccc;
-	font-size: 3vw;
-	padding: 1.5vw;
 	height: 100%;
-    margin: 0;
+	padding: 0.5em;
+	box-sizing: border-box
 }
-
-* {
-  box-sizing: border-box;
-}
-
 .box {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
+	display: flex;
+	flex-flow: column;
+	height: 100%
 }
-
 .box .row.content {
-  flex: 1 1 auto;
+	flex: 1 1 auto
 }
-
 .box .col {
-  flex: 1;
+	flex: 1
 }
-
 .flex-grid {
-  display: flex;
+	display: flex
 }
-
 .flex-grid .col {
-  flex: 1;
+	flex: 1
 }
-
 a {
-	color: white;
-	text-decoration: none;
+	color: #fff;
+	text-decoration: none
 }
-
-a:hover ~ .intro {
-    color: pink;
-}
-
 i {
-	cursor: help;
+	cursor: help
 }
-
 i:hover:after {
-    content: "\2192" "\2009" attr(alt);
+	content: "\2192" "\2009" attr(alt);
 	margin-left: 0.5ch;
 	margin-right: 0.5ch;
-	color: grey;
+	color: #ccc
 }
-
 .popup {
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	height: 100%;
 	width: 100%;
-    background: #111;
+	background: #111
 }
-
 .close {
 	position: fixed;
-	font-size: 4vw;
-    top: 1.8vw;
-	right: 1.8vw;
+	font-size: 4em;
+	top: 1.8em;
+	right: 1.8em
 }
-
 .intro {
 	color: #777;
+	max-width: 44ch;
 }
-
 iframe {
-	width: 100%;
-	height: 75vh;
+	height: 75vh
 }
-
 .fullwidth {
 	width: 100%;
+	box-sizing: border-box
 }
-
 #logo {
-	display:block;
+	display: block;
 	float: right;
 	width: auto;
-	height: 18vw; 
+	height: 6em
 }
 
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
 html, body {
-	font-size: 1.2vw;
-	padding: 1vw;
-}	
-
-.popup {
-	padding-left: 33vw;
-	background: none;
+	font-size: 2em;
+	padding: 1em
 }
-	
-.close {
-	font-size: 1vw;
-}
-	
-p {
-	max-width: 33vw;
-}
-	
-.articles {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	}	
-	
-#logo {
-	height: 6vw; 
-}
-	
 }
