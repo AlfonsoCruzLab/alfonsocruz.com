@@ -99,8 +99,8 @@ iframe {
 
 @media (orientation: landscape) {
 html, body {
-	font-size: 1vw;
-	padding: 0.6vw;
+	font-size: 1.2vw;
+	padding: 1vw;
 }	
 
 .popup {
@@ -113,7 +113,7 @@ html, body {
 }
 	
 p {
-	max-width: 28vw;
+	max-width: 33vw;
 }
 	
 .articles {
