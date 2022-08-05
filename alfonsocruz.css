@@ -9,7 +9,7 @@ html, body {
 	background-color: #111;
 	color: #ccc;
 	height: 100%;
-	padding: 1vw;
+	padding: 1.2vw;
 	box-sizing: border-box
 }
 .box {
@@ -55,8 +55,9 @@ small {
 }
 .close {
 	position: fixed;
-	top: 0.5vw;
-	right: 0.5vw
+	font-size: 4.5vw;
+	top: 1.2vw;
+	right: 1.2vw
 }
 .intro {
 	color: #777;
