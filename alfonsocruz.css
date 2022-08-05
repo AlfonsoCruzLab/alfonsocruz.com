@@ -42,6 +42,9 @@ i:hover:after {
 	margin-right: 0.5ch;
 	color: #ccc
 }
+small {
+	font-size: 1.6vw;
+}
 .popup {
 	position: fixed;
 	top: 0;
