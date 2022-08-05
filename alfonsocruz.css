@@ -4,7 +4,7 @@
 }
 html, body {
 	font-family: "Univers Light", sans-serif, Arial;
-	font-size: 2.4vw;
+	font-size: 2.7vw;
 	line-height: 1.4;
 	background-color: #111;
 	color: #ccc;
@@ -43,7 +43,7 @@ i:hover:after {
 	color: #ccc
 }
 small {
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 }
 .popup {
 	position: fixed;
@@ -72,5 +72,5 @@ iframe {
 	display: block;
 	float: right;
 	width: auto;
-	height: 6vw
+	height: 18vw
 }
