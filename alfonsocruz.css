@@ -69,6 +69,11 @@ iframe {
 	width: 100%;
 	box-sizing: border-box
 }
+.articles {
+	border-top: 0.2vw solid;
+	margin-top: 2.4vw;
+	padding-top: 1.2vw;
+}
 #logo {
 	display: block;
 	float: right;
