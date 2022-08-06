@@ -42,9 +42,6 @@ i:hover:after {
 	margin-right: 0.5ch;
 	color: #ccc
 }
-small {
-	font-size: 2vw;
-}
 .popup {
 	position: fixed;
 	top: 0;
@@ -69,10 +66,11 @@ iframe {
 	width: 100%;
 	box-sizing: border-box
 }
-.articles {
+.articles, .footer{
 	border-top: 0.2vw solid;
 	margin-top: 2.4vw;
 	padding-top: 1.2vw;
+	font-size: 2vw;
 }
 #logo {
 	display: block;
