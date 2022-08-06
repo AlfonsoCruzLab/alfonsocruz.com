@@ -20,14 +20,11 @@ html, body {
 .box .row.content {
 	flex: 1 1 auto
 }
-.box .col {
+.box .col .flex-grid{
 	flex: 1
 }
 .flex-grid {
 	display: flex
-}
-.flex-grid .col {
-	flex: 1
 }
 a {
 	color: #fff;
