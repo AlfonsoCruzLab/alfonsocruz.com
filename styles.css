@@ -69,7 +69,7 @@ body {
   body {
     display: flex;
     column-gap: 24px;
-    background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 98.5% no-repeat #111;
+    background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 97.5% no-repeat #111;
     background-size: 100px;
     padding: 24px;
     padding-right: 0px;
@@ -83,7 +83,7 @@ body .homeContentWrap {
 }
 @media (min-width: 900px) {
   body .homeContentWrap {
-    max-width: 33.333vw;
+    max-width: calc(33.333vw - 24px);
     display: flex !important;
     opacity: 1 !important;
     position: sticky;
@@ -139,7 +139,7 @@ body footer {
     border-top: none;
     margin-top: 0;
     position: relative;
-    top: 12px;
+    top: 6px;
   }
 }
 body footer p:not(:last-child) {
@@ -151,9 +151,9 @@ body footer p a {
 }
 body .close {
   position: fixed;
-  font-size: 20px;
-  top: 5px;
-  right: 10px;
+  font-size: 22px;
+  top: 20px;
+  right: 18px;
   color: #ccc;
   text-decoration: none;
   z-index: 9000;
@@ -205,41 +205,32 @@ small {
   .articles {
     position: fixed;
     top: 20px;
-    right: 24px;
-    width: calc(33.333vw - 15% - 36px);
+    right: 12px;
+    width: calc(22.222vw - 36px);
     border-top: none;
+    padding-right: 12px;
   }
-}
-@media (min-width: 900px) and (min-width: 1800px) {
-  .articles {
-    right: 42px;
-  }
-}
-@media (min-width: 900px) {
+
   .articles .fullwidth {
     height: auto !important;
   }
-}
-@media (min-width: 900px) {
+
   .ajax-wrapper {
     width: calc(100vw - 22.222%);
   }
-}
-@media (min-width: 900px) {
+
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
-    width: calc(66.666vw - 33.333% - 24px) !important;
+    width: calc(44.444vw - 24px) !important;
     margin-left: 0;
   }
-}
-@media (min-width: 900px) {
+
   .ajax-wrapper .breakout {
     width: calc(66.666vw - 68px);
   }
   .ajax-wrapper .breakout img {
     width: 100% !important;
   }
-}
-@media (min-width: 900px) {
+
   .ajax-wrapper .articles iframe {
     max-width: 100% !important;
     width: 100% !important;
@@ -395,6 +386,10 @@ body.subpage .ajax-wrapper {
   .content .scroller iframe, .content .scroller > div, .content .scroller > .twitter-tweet, .content .scroller > img {
     max-width: 550px !important;
   }
+}
+
+.intro.selected a:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
