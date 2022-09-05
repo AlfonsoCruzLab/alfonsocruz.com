@@ -68,10 +68,11 @@ body {
 @media (min-width: 900px) {
   body {
     display: flex;
-    column-gap: 12px;
+    column-gap: 24px;
     background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 98.5% no-repeat #111;
     background-size: 100px;
     padding: 24px;
+    padding-right: 0px;
   }
 }
 body .homeContentWrap {
@@ -187,7 +188,7 @@ small {
 
 @media (min-width: 900px) {
   .homeContentWrap p {
-    transition: all 0.3s linear;
+    transition: opacity, color 0.3s linear;
   }
 
   .homeContentWrap p.hidden {
@@ -203,32 +204,42 @@ small {
 
   .articles {
     position: fixed;
-    top: 12px;
-    right: 12px;
-    width: calc(33.333vw - 15%);
+    top: 20px;
+    right: 24px;
+    width: calc(33.333vw - 15% - 36px);
     border-top: none;
   }
-
+}
+@media (min-width: 900px) and (min-width: 1800px) {
+  .articles {
+    right: 42px;
+  }
+}
+@media (min-width: 900px) {
   .articles .fullwidth {
     height: auto !important;
   }
-
+}
+@media (min-width: 900px) {
   .ajax-wrapper {
     width: calc(100vw - 22.222%);
   }
-
+}
+@media (min-width: 900px) {
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
-    width: calc(66.666vw - 33.333%) !important;
+    width: calc(66.666vw - 33.333% - 24px) !important;
     margin-left: 0;
   }
-
+}
+@media (min-width: 900px) {
   .ajax-wrapper .breakout {
     width: calc(66.666vw - 68px);
   }
   .ajax-wrapper .breakout img {
     width: 100% !important;
   }
-
+}
+@media (min-width: 900px) {
   .ajax-wrapper .articles iframe {
     max-width: 100% !important;
     width: 100% !important;
@@ -237,6 +248,7 @@ small {
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -257,6 +269,9 @@ body.subpage .ajax-wrapper {
 }
 .intro.selected a.active {
   color: #fff;
+}
+.intro.selected a:hover {
+  color: #777;
 }
 
 .content.loadme.project {
@@ -304,12 +319,13 @@ body.subpage .ajax-wrapper {
 }
 .ajax-link .projectHover {
   position: absolute;
-  left: 26.5vw;
+  left: 22.5vw;
   top: 0px;
   width: 500px;
   display: none;
   opacity: 0;
   transition: opacity 0.3s linear;
+  pointer-events: none;
 }
 @media (min-width: 900px) {
   .ajax-link .projectHover {
@@ -317,27 +333,35 @@ body.subpage .ajax-wrapper {
   }
 }
 .ajax-link .projectHover.wah {
-  width: 700px;
+  left: 5vw;
 }
 .ajax-link .projectHover.ftt {
-  left: 35.5vw;
+  left: 41.5vw;
 }
 .ajax-link .projectHover.ftt em::before {
-  width: 29vw !important;
-  left: -30vw;
+  width: 35.5vw !important;
+  left: -36vw;
 }
 .ajax-link .projectHover.tm {
-  left: 28vw;
+  left: 15.9vw;
+}
+.ajax-link .projectHover.tm em::before {
+  width: 7.5vw !important;
+  left: -8vw;
 }
 .ajax-link .projectHover.eco {
-  left: 27.5vw;
+  left: 26vw;
 }
 .ajax-link .projectHover.eco em::before {
-  width: 15vw !important;
-  left: -16vw;
+  width: 14vw !important;
+  left: -14.5vw;
 }
 .ajax-link .projectHover.ex {
-  left: 30vw;
+  left: 39vw;
+}
+.ajax-link .projectHover.ex em::before {
+  width: 28.5vw !important;
+  left: -29vw;
 }
 .ajax-link .projectHover em {
   color: #ccc;
@@ -346,12 +370,12 @@ body.subpage .ajax-wrapper {
 .ajax-link .projectHover em::before {
   content: "";
   display: block;
-  background: #ccc;
-  width: 19.5vw;
+  background: #777;
+  width: 15.5vw;
   height: 1px;
   position: absolute;
-  left: -20vw;
-  top: -1.22vw;
+  left: -16vw;
+  top: -1vw;
 }
 .ajax-link:hover .projectHover {
   opacity: 1;
@@ -359,6 +383,18 @@ body.subpage .ajax-wrapper {
 
 .intro.selected .projectHover {
   display: none !important;
+}
+
+@media (min-width: 600px) {
+  .content .scroller {
+    display: flex;
+    column-gap: 24px;
+    align-items: flex-start;
+    overflow-x: scroll;
+  }
+  .content .scroller iframe, .content .scroller > div, .content .scroller > .twitter-tweet, .content .scroller > img {
+    max-width: 550px !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
