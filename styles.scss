@@ -30,7 +30,7 @@ html, body {
 
 body {
 	font-family: 'Univers LT Std',  sans-serif, Arial;
-	font-size: max(14px, 1.30vw);
+	font-size: max(14px, 1.24vw);
 	line-height: 1.4;
 	background-color: #111;
 	color: #ccc;
@@ -39,10 +39,11 @@ body {
 	@include for-tablet-landscape-up {
 		display: flex;
 		column-gap: 24px;
-		background: url('/images/alfonso_cruz_logo_2022.svg') 98.5% 98.5% no-repeat #111;
+		background: url('/images/alfonso_cruz_logo_2022.svg') 98.5% 97% no-repeat #111;
 		background-size: 100px;
 		padding: 24px;
 		padding-right: 0px;
+		font-size: max(11px, 1.24vw);
 
 	}
 	.homeContentWrap {
@@ -51,7 +52,7 @@ body {
 		flex-direction: column;
 		height: 100%;
 		@include for-tablet-landscape-up {
-			max-width: 33.333vw;
+			max-width: calc(33.333vw - 24px);
 			display: flex !important;
 			opacity: 1 !important;
 			position: sticky;
@@ -89,7 +90,7 @@ body {
 				text-decoration: none;
 			}
 		}
-		.instagram-media, .twitter-tweet, video, img, hr, .fb-post {
+		.instagram-media, .twitter-tweet:not(:last-child), video, img, hr, .fb-post {
 			margin-bottom: 1.6em !important;
 			max-width: 100% !important;
 		}
@@ -103,7 +104,7 @@ body {
 		color: #ccc;
 		margin-top: 2.4vw;
 		padding-top: 2.4vw;
-		font-size: max(10px, 1vw);
+		font-size: max(10px, 0.93vw);
 		flex-shrink: 0;
 		background: url('/images/alfonso_cruz_logo_2022.svg') right 98% no-repeat;
 		background-size: 80px;
@@ -112,7 +113,7 @@ body {
 			border-top: none;
 			margin-top: 0;
 			position: relative;
-			top: 12px;
+			top: 6px;
 
 		}
 		p {
@@ -128,8 +129,8 @@ body {
 	
 	.close {
 		position: fixed;
-		font-size: 20px;
-		top: 5px;
+		font-size: 22px;
+		top: 20px;
 		right: 10px;
 		color: #ccc;
 		text-decoration: none;
@@ -141,10 +142,12 @@ body {
 	display: none;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	overflow-x: hidden;
 	@include for-tablet-landscape-up {
 		padding-top: 0;
 		width: calc(66.666vw - 22.222%);
 		overflow-y: scroll;
+		padding-bottom: 0;
 	}
 }
 
@@ -153,11 +156,11 @@ body {
 }
 
 small {
-	font-size: max(10px, 0.75vw);
+	font-size: max(10px, 0.72vw);
 }
 
 .articles {
-	font-size: max(10px, 0.75vw);
+	font-size: max(10px, 0.72vw);
 	border-top: solid 1px #ccc;
 	padding-top: 1em;
 }
@@ -183,12 +186,11 @@ small {
 	.articles {
 		position: fixed;
 		top: 20px;
-		right: 24px;
-		@include for-big-desktop-up {
-			right: 42px;
-		}
-		width: calc(33.333vw - 15% - 36px);
+		right: 12px;
+		width: calc(22.222vw - 36px);
 		border-top: none;
+		padding-right: 12px;
+		z-index: 1;
 	}
 	
 	.articles .fullwidth {
@@ -200,13 +202,19 @@ small {
 	}
 	
 	.ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video  {
-		width: calc(66.666vw - 33.333% - 24px) !important;
+		width: calc(44.444vw - 24px) !important;
 		margin-left: 0;
 	}
 	
-	.ajax-wrapper .breakout {
-		width: calc(66.666vw - 68px);
+	.ajax-wrapper .breakout, .ajax-wrapper .landscape {
+		width: calc(66.666vw - 56px);
+		position: relative;
+		z-index: 3000;
 		img {
+			width: 100% !important;
+		}
+		
+		iframe {
 			width: 100% !important;
 		}
 	}
@@ -295,7 +303,7 @@ body.subpage .ajax-wrapper {
 	position: relative;
 	.projectHover {
 		position: absolute;
-		left: 22.5vw;
+		left: 22.3vw;
 		top: 0px;
 		width: 500px;
 		display: none;
@@ -305,11 +313,20 @@ body.subpage .ajax-wrapper {
 		@include for-tablet-landscape-up {
 			display: block;
 		}
+		&.cv {
+			left: 25vw;
+			em {
+				&::before {
+					width: 10.5vw !important;
+					left: -11vw;
+					}
+				}
+		}
 		&.wah {
-			left: 5vw;
+			left: 4.5vw;
 		}
 		&.ftt {
-			left: 41.5vw;
+			left: 41vw;
 			em { 
 				&::before {
 					width: 35.5vw !important;
@@ -318,7 +335,7 @@ body.subpage .ajax-wrapper {
 			}
 		}
 		&.tm {
-			left: 15.9vw;
+			left: 15.4vw;
 			em {
 				&::before {
 					width: 7.5vw !important;
@@ -327,16 +344,16 @@ body.subpage .ajax-wrapper {
 			}
 		}
 		&.eco {
-			left: 26vw;
+			left: 25.5vw;
 			em {
 				&::before {
-					width: 14vw !important;
-					left: -14.5vw;
+					width: 15vw !important;
+					left: -15.5vw;
 				}
 			}
 		}
 		&.ex {
-			left: 39vw;
+			left: 38.5vw;
 			em {
 				&::before {
 					width: 28.5vw !important;
@@ -374,15 +391,50 @@ body.subpage .ajax-wrapper {
 }
 
 .content .scroller {
-	@include for-tablet-portrait-up {
+	@include for-tablet-landscape-up {
 		display: flex;
-		column-gap: 24px;
+		column-gap: 20px;
 		align-items: flex-start;
 		overflow-x: scroll;
-		iframe, > div, > .twitter-tweet, > img {
-			max-width: 550px !important;
+		margin-bottom: 1.6em;
+		position: relative;
+		z-index: 3000;
+		iframe, > .twitter-tweet, > img {
+			width: 100%;
 		}
 	}
 }
 
+.intro.selected a:hover {
+	color: #fff;
+}
+
+.portrait {
+	width: calc(50% - 24px);
+}
+
+.portrait-small {
+	width: calc(22.222vw - 32px);
+}
+body .content .last-item {
+	.twitter-tweet, .scroller {
+		margin-bottom: 0 !important;
+		img {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+img + p small {
+	margin-top: -20px;
+	display: block;
+}
+
+.scroller .portrait {
+	min-width: calc((66.666vw - 72px) / 2);
+}
+
+.last-item .scroller .portrait iframe {
+	margin-bottom: 0 !important;
+}
 
