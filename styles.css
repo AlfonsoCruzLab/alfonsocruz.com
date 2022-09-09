@@ -132,7 +132,7 @@ body footer {
   font-size: max(10px, 0.93vw);
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
-  background-size: 80px;
+  background-size: 60px;
 }
 @media (min-width: 900px) {
   body footer {
