@@ -422,6 +422,11 @@ body.subpage .ajax-wrapper {
   min-width: calc(22.222vw - 32px);
 }
 
+.iframeviewer {
+  height: 75vh;
+  boder: #fff solid 1px;	
+}
+
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
   margin-bottom: 0 !important;
 }
