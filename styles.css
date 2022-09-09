@@ -194,7 +194,7 @@ small {
 }
 
 .articles a:hover {
-  color: white;
+  color: #fff !important;
 }
 
 @media (min-width: 900px) {
