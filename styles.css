@@ -345,6 +345,7 @@ body.subpage .ajax-wrapper {
 @media (min-width: 900px) {
   .ajax-link .projectHover {
     display: block;
+    width: calc(33.333vw - 24px);
   }
 }
 .ajax-link .projectHover.cv {
