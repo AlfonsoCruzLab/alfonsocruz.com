@@ -125,8 +125,8 @@ body .content img.noMargin {
   margin-bottom: 0 !important;
 }
 body footer {
-  border-top: 0.2vw solid #ccc;
-  color: #ccc;
+  border-top: 0.2vw solid #777;
+  color: #777;
   margin-top: 2.4vw;
   padding-top: 2.4vw;
   font-size: max(10px, 0.93vw);
