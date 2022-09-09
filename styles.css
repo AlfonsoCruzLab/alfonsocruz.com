@@ -189,6 +189,10 @@ small {
   padding-top: 1em;
 }
 
+.articles a{
+  color: red;	
+}
+
 @media (min-width: 900px) {
   .homeContentWrap p {
     transition: opacity, color 0.3s linear;
