@@ -427,6 +427,19 @@ body.subpage .ajax-wrapper {
   border: 1px solid #ccc;	
 }
 
+#brixtonbridge {
+  margin-bottom: 30px;
+  height: 40vw;
+}
+
+@media (min-width: 900px) {
+  #brixtonbridge {
+    margin-bottom: 20px;
+    height: 55vw;
+  }
+}
+
+
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
   margin-bottom: 0 !important;
 }
