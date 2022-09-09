@@ -187,11 +187,14 @@ small {
   font-size: max(10px, 0.72vw);
   border-top: solid 1px #ccc;
   padding-top: 1em;
-  color: yellow;	
 }
 
 .articles a {
-  color: red !important;
+  color: #777 !important;
+}
+
+.articles a:hover {
+  color: white;
 }
 
 @media (min-width: 900px) {
