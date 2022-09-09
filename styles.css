@@ -348,7 +348,7 @@ body.subpage .ajax-wrapper {
   }
 }
 .ajax-link .projectHover.cv {
-  left: 25vw;
+  left: 5vw;
 }
 .ajax-link .projectHover.cv em::before {
   width: 10.5vw !important;
