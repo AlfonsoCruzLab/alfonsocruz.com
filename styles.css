@@ -134,6 +134,11 @@ body footer {
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 60px;
 }
+
+body footer a{
+  color: #ccc;
+}
+
 @media (min-width: 900px) {
   body footer {
     background: transparent;
