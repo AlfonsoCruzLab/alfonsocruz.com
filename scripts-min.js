@@ -29,7 +29,7 @@ $( ".ajax-link" ).on( "click", function(event) {
             });
         }
        
-       $(".ajax-wrapper").fadeIn(1500);
+       $(".ajax-wrapper").fadeIn(500);
        $(".intro").addClass("selected");
      });
   });
