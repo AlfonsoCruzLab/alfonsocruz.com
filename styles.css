@@ -136,7 +136,7 @@ body footer {
 }
 
 body footer a{
-  color: #ccc !important;
+  color: #bbb !important;
 }
 
 body footer a:hover{
@@ -168,7 +168,7 @@ body .close {
   font-size: 22px;
   top: 20px;
   right: 10px;
-  color: #ccc;
+  color: #bbb;
   text-decoration: none;
   z-index: 9000;
 }
@@ -202,7 +202,7 @@ b {
 
 .articles {
   font-size: max(10px, 0.72vw);
-  border-top: solid 1px #ccc;
+  border-top: solid 1px #bbb;
   padding-top: 1em;
 }
 
@@ -329,7 +329,7 @@ body.subpage .ajax-wrapper {
 .content.loadme.project .projectHeader hr {
   height: 1px;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
   margin: 0 !important;
 }
 
@@ -391,7 +391,7 @@ body.subpage .ajax-wrapper {
   left: -29vw;
 }
 .ajax-link .projectHover em {
-  color: #ccc;
+  color: #bbb;
   position: relative;
 }
 .ajax-link .projectHover em::before {
@@ -446,7 +446,7 @@ body.subpage .ajax-wrapper {
 
 @media (min-width: 900px) {
   #brixtonbridge {
-	border: 1px solid #ccc;	
+	border: 1px solid #bbb;	
     margin-bottom: 30px;
     height: 35vw;
   }
@@ -454,14 +454,14 @@ body.subpage .ajax-wrapper {
 
 @media (max-width: 900px) {
   #brixtonbridge {
-	border: 1px solid #ccc;	  
+	border: 1px solid #bbb;	  
     margin-bottom: 20px;
     height: 50vw;
   }
 }
 
 img, video, .iframeviewer {
-  border: 1px solid #ccc;	
+  border: 1px solid #bbb;	
 }
 
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
