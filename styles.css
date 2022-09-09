@@ -424,7 +424,7 @@ body.subpage .ajax-wrapper {
 
 .iframeviewer {
   height: 75vh;
-  border: 0.2vw solid #ccc;	
+  border: 1px solid #ccc;	
 }
 
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
