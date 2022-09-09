@@ -190,8 +190,8 @@ small {
   color: yellow;	
 }
 
-.articles a{
-  color: red;	
+.articles a {
+  color: red !important;
 }
 
 @media (min-width: 900px) {
