@@ -136,7 +136,7 @@ body footer {
 }
 
 body footer a{
-  color: #ccc;
+  color: #ccc !important;
 }
 
 @media (min-width: 900px) {
