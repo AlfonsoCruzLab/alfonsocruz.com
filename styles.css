@@ -438,7 +438,6 @@ body.subpage .ajax-wrapper {
 
 .iframeviewer {
   height: 75vh;
-  border: 1px solid #ccc;	
 }
 
 @media (min-width: 900px) {
@@ -457,7 +456,7 @@ body.subpage .ajax-wrapper {
   }
 }
 
-img, video {
+img, video, .iframeviewer {
   border: 1px solid #ccc;	
 }
 
