@@ -139,6 +139,10 @@ body footer a{
   color: #ccc !important;
 }
 
+body footer:hover {
+  color: red;
+}
+
 @media (min-width: 900px) {
   body footer {
     background: transparent;
