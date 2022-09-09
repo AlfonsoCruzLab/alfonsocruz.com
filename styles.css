@@ -196,6 +196,10 @@ small {
   font-size: max(10px, 0.72vw);
 }
 
+b {
+  color: #fff;	
+}
+
 .articles {
   font-size: max(10px, 0.72vw);
   border-top: solid 1px #ccc;
