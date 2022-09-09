@@ -191,6 +191,9 @@ small {
 
 .articles a {
   color: #777 !important;
+  -moz-transition:color .2s ease-in;
+  -o-transition:color .2s ease-in;
+  -webkit-transition:color .2s ease-in;	
 }
 
 .articles a:hover {
