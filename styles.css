@@ -69,7 +69,8 @@ body {
   body {
     display: flex;
     column-gap: 24px;
-    background: url("/images/alfonso_cruz_logo_2022.svg") 24px 98% no-repeat #000;
+    background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
+	background-position: bottom 24px right 24px;  
     background-size: 100px;
     padding: 24px;
     padding-right: 0px;
