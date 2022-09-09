@@ -191,9 +191,9 @@ small {
 
 .articles a {
   color: #777 !important;
-  -moz-transition:color .2s ease-in;
-  -o-transition:color .2s ease-in;
-  -webkit-transition:color .2s ease-in;	
+  -moz-transition:color .1s ease-in;
+  -o-transition:color .1s ease-in;
+  -webkit-transition:color .1s ease-in;	
 }
 
 .articles a:hover {
@@ -202,14 +202,14 @@ small {
 
 @media (min-width: 900px) {
   .homeContentWrap p {
-    transition: opacity, color 0.3s linear;
+    transition: opacity, color 0.2s linear;
   }
   .homeContentWrap p.hidden {
     color: #111;
   }
   .homeContentWrap p.hidden a {
     color: #777;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
   }
   .homeContentWrap p.hidden a.active {
     color: #fff;
@@ -328,7 +328,7 @@ body.subpage .ajax-wrapper {
   width: 500px;
   display: none;
   opacity: 0;
-  transition: opacity 0.3s linear;
+  transition: opacity 0.2s linear;
   pointer-events: none;
 }
 @media (min-width: 900px) {
