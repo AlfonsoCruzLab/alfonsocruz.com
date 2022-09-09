@@ -189,17 +189,6 @@ small {
   padding-top: 1em;
 }
 
-.articles a {
-  color: #777 !important;
-  -moz-transition:color .15s ease-in;
-  -o-transition:color .15s ease-in;
-  -webkit-transition:color .15s ease-in;	
-}
-
-.articles a:hover {
-  color: #fff !important;
-}
-
 @media (min-width: 900px) {
   .homeContentWrap p {
     transition: opacity, color 0.2s linear;
@@ -223,6 +212,15 @@ small {
     padding-right: 12px;
     z-index: 1;
   }
+  .articles a {
+    color: #777 !important;
+    -moz-transition:color .15s ease-in;
+    -o-transition:color .15s ease-in;
+    -webkit-transition:color .15s ease-in;	
+  }
+  .articles a:hover {
+    color: #fff !important;
+  }	
   .articles .fullwidth {
     height: auto !important;
   }
