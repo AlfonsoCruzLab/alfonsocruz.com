@@ -450,7 +450,7 @@ img + p small {
     padding-top: 40px;
   }
   body.subpage .content.loadme.project {
-    padding-top: 0;
+    padding-top: 40px;
   }
   body .close {
     top: 8px;
