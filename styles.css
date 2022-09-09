@@ -139,6 +139,10 @@ body footer a{
   color: #ccc !important;
 }
 
+body footer a:hover{
+  color: #fff;
+}
+
 body footer:hover {
   color: #fff;
 }
