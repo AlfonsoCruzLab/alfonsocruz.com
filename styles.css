@@ -457,6 +457,9 @@ body.subpage .ajax-wrapper {
   }
 }
 
+img, video {
+  border: 1px solid #ccc;	
+}
 
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
   margin-bottom: 0 !important;
