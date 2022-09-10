@@ -223,11 +223,11 @@ b {
   .articles {
     position: fixed;
     top: 20px;
-    left: 75.45vw;
+    left: 77.85vw;
     width: 20.7vw;
     border-top: none;
     z-index: 1;
-	background: yellow;  
+	background: blue;  
   }
   .articles a {
     color: #777 !important;
