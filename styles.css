@@ -69,8 +69,7 @@ body {
   body {
     display: flex;
     column-gap: 24px;
-    background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
-	background-position: bottom 24px right 24px;  
+    background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 97% no-repeat #000;
     background-size: 100px;
     padding: 24px;
     padding-right: 0px;
@@ -224,11 +223,11 @@ b {
   .articles {
     position: fixed;
     top: 20px;
-    left: calc(58.8vw + 360px);
-    width: calc(16.8vw + 72px);
+    right: 12px;
+    width: calc(22.222vw - 36px);
     border-top: none;
+    padding-right: 12px;
     z-index: 1;
-	background: yellow;  
   }
   .articles a {
     color: #777 !important;
@@ -246,7 +245,7 @@ b {
     width: calc(100vw - 22.222%);
   }
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
-    width: calc(33.6vw + 168px) !important;
+    width: calc(44.444vw - 24px) !important;
     margin-left: 0;
   }
   .ajax-wrapper .breakout, .ajax-wrapper .landscape {
@@ -433,12 +432,12 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait {
-  width: calc(25.2vw + 120px);
+  width: calc(50% - 24px);
 }
 
 .portrait-small {
-  width: calc(16.8vw + 72px);
-  min-width: calc(16.8vw - 72px);
+  width: calc(22.222vw - 32px);
+  min-width: calc(22.222vw - 32px);
 }
 
 .iframeviewer {
