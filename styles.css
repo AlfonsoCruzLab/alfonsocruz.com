@@ -84,7 +84,7 @@ body .homeContentWrap {
 }
 @media (min-width: 900px) {
   body .homeContentWrap {
-    max-width: 32.85vw;
+    max-width: 31.65vw;
     display: flex !important;
     opacity: 1 !important;
     position: sticky;
@@ -242,7 +242,7 @@ b {
     height: auto !important;
   }
   .ajax-wrapper {
-    width: 65.7vw;
+    width: 68.35vw;
 	background: yellow;
   }
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
