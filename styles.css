@@ -227,7 +227,6 @@ b {
     width: 20.7vw;
     border-top: none;
     z-index: 1;
-	background: blue;  
   }
   .articles a {
     color: #777 !important;
@@ -243,7 +242,6 @@ b {
   }
   .ajax-wrapper {
     width: 68.35vw;
-	background: yellow;
   }
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
     width: 42.6vw !important;
@@ -462,6 +460,7 @@ body.subpage .ajax-wrapper {
 }
 
 img, video, .iframeviewer {
+  border: 1px solid #bbb;	
 }
 
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
