@@ -68,10 +68,10 @@ body {
 @media (min-width: 900px) {
   body {
     display: flex;
-    column-gap: 24px;
+    column-gap: 1.2vw;
     background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 97% no-repeat #000;
     background-size: 100px;
-    padding: 24px;
+    padding: 1.2vw;
     padding-right: 0px;
     font-size: max(11px, 1.24vw);
   }
@@ -313,7 +313,7 @@ body.subpage .ajax-wrapper {
   .content.loadme.project .projectHeader {
     top: 50%;
     width: 33.333vw;
-    padding: 24px;
+    padding: 1.2vw;
     transform: translateY(-50%);
   }
   .content.loadme.project .projectHeader hr {
