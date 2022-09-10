@@ -224,7 +224,7 @@ b {
   .articles {
     position: fixed;
     top: 20px;
-    left: calc(83.2vw - 72px);
+    left: calc(58.8vw + 360px);
     width: calc(16.8vw + 72px);
     border-top: none;
     z-index: 1;
