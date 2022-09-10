@@ -223,10 +223,9 @@ b {
   .articles {
     position: fixed;
     top: 20px;
-    right: 12px;
-    width: calc(22.222vw - 36px);
+    left: 75.45vw;
+    width: 20.7vw;
     border-top: none;
-    padding-right: 12px;
     z-index: 1;
   }
   .articles a {
