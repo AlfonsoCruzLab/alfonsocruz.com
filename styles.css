@@ -68,10 +68,11 @@ body {
 @media (min-width: 900px) {
   body {
     display: flex;
-    column-gap: 1.2vw;
-    background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 97% no-repeat #000;
+    column-gap: 24px;
+    background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
+	background-position: bottom 1.2vw right 1.45vw;  
     background-size: 100px;
-    padding: 1.2vw;
+    padding: 24px;
     padding-right: 0px;
     font-size: max(11px, 1.24vw);
   }
@@ -167,7 +168,7 @@ body .close {
   position: fixed;
   font-size: 22px;
   top: 20px;
-  right: 10px;
+  right: 1.45vw;
   color: #bbb;
   text-decoration: none;
   z-index: 9000;
