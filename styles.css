@@ -84,7 +84,7 @@ body .homeContentWrap {
 }
 @media (min-width: 900px) {
   body .homeContentWrap {
-    max-width: calc(33.333vw - 24px);
+    max-width: 35.25;
     display: flex !important;
     opacity: 1 !important;
     position: sticky;
@@ -249,7 +249,7 @@ b {
     margin-left: 0;
   }
   .ajax-wrapper .breakout, .ajax-wrapper .landscape {
-    width: calc(66.666vw - 56px);
+    width: 64.5vw;
     position: relative;
     z-index: 3000;
   }
@@ -486,7 +486,7 @@ img + p small {
 }
 
 .scroller .breakout {
-  min-width: calc(66.666vw - 36px);
+  min-width: 64.5vw;
 }
 
 .last-item .scroller .portrait iframe, body .content .last-item .breakout img {
