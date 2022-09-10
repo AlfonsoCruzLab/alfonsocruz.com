@@ -84,7 +84,7 @@ body .homeContentWrap {
 }
 @media (min-width: 900px) {
   body .homeContentWrap {
-    max-width: 35.25vw;
+    max-width: 32.85vw;
     display: flex !important;
     opacity: 1 !important;
     position: sticky;
