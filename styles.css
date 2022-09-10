@@ -242,7 +242,8 @@ b {
     height: auto !important;
   }
   .ajax-wrapper {
-    width: calc(100vw - 22.222%);
+    width: 64.5vw;
+	background: red;
   }
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
     width: 42.6vw !important;
