@@ -246,7 +246,7 @@ b {
     width: calc(100vw - 22.222%);
   }
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
-    width: calc(44.444vw - 24px) !important;
+    width: calc(33.6vw + 168px) !important;
     margin-left: 0;
   }
   .ajax-wrapper .breakout, .ajax-wrapper .landscape {
