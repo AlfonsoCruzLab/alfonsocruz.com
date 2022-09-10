@@ -414,7 +414,7 @@ body.subpage .ajax-wrapper {
 @media (min-width: 900px) {
   .content .scroller {
     display: flex;
-    column-gap: 20px;
+    column-gap: 1.2vw;
     align-items: flex-start;
     overflow-x: scroll;
     margin-bottom: 1.6em;
