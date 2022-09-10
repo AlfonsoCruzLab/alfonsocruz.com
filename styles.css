@@ -432,7 +432,7 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait {
-  width: calc(50% - 24px);
+  width: 31.65vw;
 }
 
 .portrait-small {
@@ -482,7 +482,7 @@ img + p small {
 }
 
 .scroller .portrait {
-  min-width: calc((66.666vw - 72px) / 2);
+  min-width: 31.65vw;
 }
 
 .scroller .breakout {
