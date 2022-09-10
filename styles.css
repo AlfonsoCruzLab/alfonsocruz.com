@@ -176,8 +176,8 @@ body .close {
 
 .ajax-wrapper {
   display: none;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
   overflow-x: hidden;
 }
 @media (min-width: 900px) {
