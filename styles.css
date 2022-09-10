@@ -68,11 +68,11 @@ body {
 @media (min-width: 900px) {
   body {
     display: flex;
-    column-gap: 24px;
+    column-gap: 1.2vw;
     background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
 	background-position: bottom 1.2vw right 1.45vw;  
     background-size: 100px;
-    padding: 24px;
+    padding: 1.2vw;
     padding-right: 0px;
     font-size: max(11px, 1.24vw);
   }
