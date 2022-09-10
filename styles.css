@@ -482,9 +482,6 @@ img + p small {
   display: block;
 }
 
-.scroller .portrait {
-  min-width: calc((66.666vw - 72px) / 2);
-}
 
 .scroller .breakout {
   min-width: calc(66.666vw - 36px);
