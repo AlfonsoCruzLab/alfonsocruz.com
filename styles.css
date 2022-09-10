@@ -242,8 +242,8 @@ b {
     height: auto !important;
   }
   .ajax-wrapper {
-    width: 64.5vw;
-	background: red;
+    width: 65.7vw;
+	background: yellow;
   }
   .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
     width: 42.6vw !important;
