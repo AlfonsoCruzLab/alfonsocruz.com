@@ -193,6 +193,10 @@ body .close {
   width: 100%;
 }
 
+a {
+  cursor: crosshair;
+}
+
 small {
   font-size: max(10px, 0.72vw);
 }
@@ -285,7 +289,6 @@ body.subpage .ajax-wrapper {
 }
 .intro.selected a {
   color: #777;
-  cursor: crosshair;
 }
 .intro.selected a.active {
   color: #fff;
