@@ -433,7 +433,7 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait {
-  width: calc(50% - 24px);
+  width: calc(25.2vw + 120px);
 }
 
 .portrait-small {
