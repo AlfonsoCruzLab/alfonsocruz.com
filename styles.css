@@ -424,6 +424,7 @@ body.subpage .ajax-wrapper {
     align-items: flex-start;
     overflow-x: scroll;
     margin-bottom: 1.6em;
+	margin-right: 1.2vw;  
     position: relative;
     z-index: 3000;
   }
