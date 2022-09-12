@@ -108,14 +108,14 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.6em;
 }
 body main .intro p a, body main .content p a {
-  color: #bbb;
+  color: #ccc;
   text-decoration: none;
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.6em;
 }
 body .content p a, body .content .articles a {
-  color: #bbb;
+  color: #ccc;
   text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
@@ -158,7 +158,7 @@ body footer p:not(:last-child) {
   margin-bottom: 1.6em;
 }
 body footer p a {
-  color: #bbb;
+  color: #ccc;
   text-decoration: none;
 }
 body .close {
