@@ -505,9 +505,11 @@ img + p small {
   }
   body .content.loadme.project {
     padding-top: 40px;
+	  background: yellow;
   }
   body.subpage .content.loadme.project {
     padding-top: 40px;
+	  background: red;
   }
   body .close {
     top: 8px;
