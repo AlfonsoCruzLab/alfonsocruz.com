@@ -227,7 +227,7 @@ b {
   }
   .articles {
     position: fixed;
-    padding-top: 0;  
+    padding-top: 0.2vw;  
     top: 1.2vw;
     left: 77.85vw;
     width: 20.7vw;
