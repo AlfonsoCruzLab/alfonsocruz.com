@@ -167,7 +167,7 @@ body footer p a {
 body .close {
   position: fixed;
   font-size: 22px;
-  top: 20px;
+  top: 1.2vw;
   right: 1.45vw;
   color: #bbb;
   text-decoration: none;
@@ -227,6 +227,7 @@ b {
   }
   .articles {
     position: fixed;
+    padding-top: 0;  
     top: 1.2vw;
     left: 77.85vw;
     width: 20.7vw;
