@@ -504,10 +504,10 @@ img + p small {
     display: none;
   }
   body .content.loadme.project {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   body.subpage .content.loadme.project {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   body .close {
     top: 8px;
