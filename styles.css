@@ -227,7 +227,7 @@ b {
   }
   .articles {
     position: fixed;
-    top: 20px;
+    top: 1.2vw;
     left: 77.85vw;
     width: 20.7vw;
     border-top: none;
