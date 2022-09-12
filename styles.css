@@ -170,6 +170,9 @@ body .close {
   text-decoration: none;
   z-index: 9000;
 }
+body .close:hover {
+  color: #fff;
+}
 
 .ajax-wrapper {
   display: none;
