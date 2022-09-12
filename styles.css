@@ -137,12 +137,12 @@ body footer {
 }
 
 body footer a{
-  color: #bbb !important;
+  color: #fff !important;
 }
 
 
 body footer:hover {
-  color: #bbb;
+  color: #fff;
 }
 
 @media (min-width: 900px) {
