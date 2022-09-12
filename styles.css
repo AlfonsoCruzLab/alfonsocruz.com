@@ -169,6 +169,7 @@ body .close {
   color: #bbb;
   text-decoration: none;
   z-index: 9000;
+  transition: all 0.2s linear;	
 }
 body .close:hover {
   color: #fff;
