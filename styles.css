@@ -141,7 +141,7 @@ body footer a{
 }
 
 body footer a:hover{
-  color: #fff;
+  color: #fff !important;
 }
 
 body footer:hover {
