@@ -510,7 +510,9 @@ img + p small {
     padding-top: 60px;
   }
   body .close {
+    font-size: 22px;
     top: 8px;
+    right: 8px;
   }
   .portrait-small {
     width: 100%;
