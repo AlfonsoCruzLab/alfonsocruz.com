@@ -227,13 +227,13 @@ b {
   }
   .articles {
     position: fixed;
-    padding-top: 0.2vw;  
+    padding-top: 0.6vw;  
     top: 1.2vw;
     left: 77.85vw;
     width: 20.7vw;
     border-top: none;
     z-index: 1;
-	background-color: pink;  
+	background-color: yellow;  
   }
   .articles a {
     color: #777 !important;
