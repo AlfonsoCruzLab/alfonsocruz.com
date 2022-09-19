@@ -1,0 +1,532 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: "Univers LT Std";
+  src: url("/fonts/UniversLTStd-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Univers LT Std", sans-serif, Arial;
+  font-size: max(14px, 1.24vw);
+  line-height: 1.4;
+  background-color: #000;
+  color: #bbb;
+  height: 100%;
+  padding: 12px;
+}
+@media (min-width: 900px) {
+  body {
+    display: flex;
+    column-gap: 1.2vw;
+    background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
+	background-position: bottom 1.2vw right 1.45vw;  
+    background-size: 100px;
+    padding: 1.2vw;
+    padding-right: 0px;
+    font-size: max(11px, 1.24vw);
+  }
+}
+body .homeContentWrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media (min-width: 900px) {
+  body .homeContentWrap {
+    max-width: 31.65vw;
+    display: flex !important;
+    opacity: 1 !important;
+    position: sticky;
+    top: 0;
+  }
+}
+body main {
+  flex: 1 0 auto;
+}
+body main .intro, body main .content {
+  margin: 1em 0;
+  color: #777;
+}
+@media (min-width: 900px) {
+  body main .intro, body main .content {
+    margin-top: 0;
+  }
+}
+body main .intro p:not(:last-child), body main .content p:not(:last-child) {
+  margin-bottom: 1.6em;
+}
+body main .intro p a, body main .content p a {
+  color: #ddd;
+  text-decoration: none;
+}
+body .content p:not(:last-child), body .content .articles:not(:last-child) {
+  margin-bottom: 1.6em;
+}
+body .content p a, body .content .articles a {
+  color: #ddd;
+  text-decoration: none;
+}
+body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
+  margin-bottom: 1.6em !important;
+  max-width: 100% !important;
+}
+body .content img.noMargin {
+  margin-bottom: 0 !important;
+}
+body footer {
+  border-top: 0.2vw solid #777;
+  color: #777;
+  margin-top: 2.4vw;
+  padding-top: 2.4vw;
+  font-size: max(10px, 0.93vw);
+  flex-shrink: 0;
+  background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
+  background-size: 60px;
+}
+
+body footer a{
+  color: #ddd !important;
+}
+
+
+body footer:hover {
+  color: #ddd;
+}
+
+@media (min-width: 900px) {
+  body footer {
+    background: transparent;
+    border-top: none;
+    margin-top: 0;
+    position: relative;
+    top: 6px;
+  }
+}
+body footer p:not(:last-child) {
+  margin-bottom: 1.6em;
+}
+body footer p a {
+  color: #ddd;
+  text-decoration: none;
+}
+body .close {
+  position: fixed;
+  font-size: max(11px, 1.24vw);
+  top: 1.2vw;
+  right: 1.45vw;
+  color: #bbb;
+  text-decoration: none;
+  z-index: 9000;
+  transition: all 0.2s linear;	
+}
+body .close:hover {
+  color: #fff;
+}
+
+.ajax-wrapper {
+  display: none;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  overflow-x: hidden;
+}
+@media (min-width: 900px) {
+  .ajax-wrapper {
+    padding-top: 0;
+    width: calc(66.666vw - 22.222%);
+    overflow-y: scroll;
+    padding-bottom: 0;
+  }
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+a {
+  cursor: crosshair;
+}
+
+small {
+  font-size: max(10px, 0.72vw);
+}
+
+b {
+  color: #fff;	
+}
+
+.articles {
+  font-size: max(10px, 0.72vw);
+  border-top: solid 1px #bbb;
+  padding-top: 1em;
+}
+
+@media (min-width: 900px) {
+  .homeContentWrap p {
+    transition: opacity, color 0.2s linear;
+  }
+  .homeContentWrap p.hidden {
+    color: #000;
+  }
+  .homeContentWrap p.hidden a {
+    color: #777;
+    transition: all 0.2s linear;
+  }
+  .homeContentWrap p.hidden a.active {
+    color: #fff;
+  }
+  .articles {
+    position: fixed;
+    padding-top: 0.5vw;  
+    top: 1.2vw;
+    left: 77.85vw;
+    width: 20.7vw;
+    border-top: none;
+    z-index: 1;
+  }
+  .articles a {
+    color: #777 !important;
+    -moz-transition:color .15s ease-in;
+    -o-transition:color .15s ease-in;
+    -webkit-transition:color .15s ease-in;	
+  }
+  .articles a:hover {
+    color: #fff !important;
+  }	
+  .articles .fullwidth {
+    height: auto !important;
+  }
+  .ajax-wrapper {
+    width: 68.35vw;
+  }
+  .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
+    width: 42.6vw !important;
+    margin-left: 0;
+  }
+  .ajax-wrapper .breakout, .ajax-wrapper .landscape {
+    width: 64.5vw;
+    position: relative;
+    z-index: 3000;
+  }
+  .ajax-wrapper .breakout img, .ajax-wrapper .landscape img {
+    width: 100% !important;
+  }
+  .ajax-wrapper .breakout iframe, .ajax-wrapper .landscape iframe {
+    width: 100% !important;
+  }
+  .ajax-wrapper .articles iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #666;
+  padding: 0;
+}
+
+body.subpage .ajax-wrapper {
+  display: block;
+}
+
+.intro.selected p {
+  color: #000;
+}
+.intro.selected a {
+  color: #777;
+}
+.intro.selected a.active {
+  color: #fff;
+}
+.intro.selected a:hover {
+  color: #777;
+}
+
+.content.loadme.project {
+  padding-top: 100px;
+}
+@media (min-width: 900px) {
+  .content.loadme.project {
+    padding-top: 0;
+  }
+}
+.content.loadme.project .projectHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  width: 100%;
+  padding: 12px;
+}
+@media (min-width: 900px) {
+  .content.loadme.project .projectHeader {
+    top: 50%;
+    width: 33.333vw;
+    padding: 1.2vw;
+    transform: translateY(-50%);
+  }
+  .content.loadme.project .projectHeader hr {
+    display: none;
+  }
+}
+.content.loadme.project .projectHeader h1 {
+  color: #fff;
+}
+.content.loadme.project .projectHeader h2 {
+  margin-bottom: 5px;
+}
+.content.loadme.project .projectHeader hr {
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  margin: 0 !important;
+}
+
+.ajax-link {
+  position: relative;
+}
+.ajax-link .projectHover {
+  position: absolute;
+  left: 22.3vw;
+  top: 0px;
+  width: 500px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  pointer-events: none;
+}
+@media (min-width: 900px) {
+  .ajax-link .projectHover {
+    display: block;
+    width: calc(44.444vw - 24px);
+  }
+}
+.ajax-link .projectHover.cv {
+  left: 17.25vw;
+}
+.ajax-link .projectHover.cv em::before {
+  width: 10.5vw !important;
+  left: -11vw;
+}
+.ajax-link .projectHover.wah {
+  left: 4.5vw;
+}
+.ajax-link .projectHover.ftt {
+  left: 41vw;
+}
+.ajax-link .projectHover.ftt em::before {
+  width: 35.5vw !important;
+  left: -36vw;
+}
+.ajax-link .projectHover.tm {
+  left: 15.4vw;
+}
+.ajax-link .projectHover.tm em::before {
+  width: 7.5vw !important;
+  left: -8vw;
+}
+.ajax-link .projectHover.eco {
+  left: 25.5vw;
+}
+.ajax-link .projectHover.eco em::before {
+  width: 15vw !important;
+  left: -15.5vw;
+}
+.ajax-link .projectHover.ex {
+  left: 38.5vw;
+}
+.ajax-link .projectHover.ex em::before {
+  width: 28.5vw !important;
+  left: -29vw;
+}
+.ajax-link .projectHover em {
+  color: #bbb;
+  position: relative;
+}
+.ajax-link .projectHover em::before {
+  content: "";
+  display: block;
+  background: #777;
+  width: 15.5vw;
+  height: 1px;
+  position: absolute;
+  left: -16vw;
+  top: -1vw;
+}
+.ajax-link:hover .projectHover {
+  opacity: 1;
+}
+
+.intro.selected .projectHover {
+  display: none !important;
+}
+
+@media (min-width: 900px) {
+  .content .scroller {
+    display: flex;
+    column-gap: 1.2vw;
+    align-items: flex-start;
+    overflow-x: scroll;
+    margin-bottom: 1.6em;
+	margin-right: calc(1.2vw - 3px);
+    position: relative;
+    z-index: 3000;
+  }
+  .content .scroller iframe, .content .scroller > .twitter-tweet, .content .scroller > img {
+    width: 100%;
+  }
+}
+
+.intro.selected a:hover {
+  color: #fff;
+}
+
+.portrait {
+  width: 31.65vw;
+}
+
+.portrait-small {
+  width: 20.7vw;
+  min-width: 20.7vw;
+}
+
+.iframeviewer {
+  height: 75vh;
+}
+
+@media (min-width: 900px) {
+  #brixtonbridge {
+	border: 1px solid #bbb;	
+    margin-bottom: 30px;
+    height: 35vw;
+  }
+}	
+
+@media (max-width: 900px) {
+  #brixtonbridge {
+	border: 1px solid #bbb;	  
+    margin-bottom: 20px;
+    height: 50vw;
+  }
+}
+
+img, video, .iframeviewer {
+  border: 1px solid #bbb;	
+}
+
+body .content .last-item .twitter-tweet, body .content .last-item .scroller {
+  margin-bottom: 0 !important;
+}
+body .content .last-item .twitter-tweet img, body .content .last-item .scroller img {
+  margin-bottom: 0 !important;
+}
+
+img + p small {
+  margin-top: -20px;
+  display: block;
+}
+
+.breakout + p small {
+  margin-top: -20px;
+  display: block;
+}
+
+.scroller .portrait {
+  min-width: 31.65vw;
+}
+
+.scroller .breakout {
+  min-width: 64.5vw;
+}
+
+.last-item .scroller .portrait iframe, body .content .last-item .breakout img {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 599px) {
+  body.subpage .homeContentWrap {
+    display: none;
+  }
+  body .content.loadme.project {
+    padding-top: 60px;
+  }
+  body.subpage .content.loadme.project {
+    padding-top: 60px;
+  }
+  body .close {
+    font-size: 22px;
+    top: 8px;
+    right: 10px;
+  }
+  .portrait-small {
+    width: 100%;
+  }
+  .portrait {
+    width: 100%;
+  }
+  .scroller > div {
+    margin-bottom: 0.8em;
+  }
+  .last-item {
+    margin-bottom: 1.6em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
