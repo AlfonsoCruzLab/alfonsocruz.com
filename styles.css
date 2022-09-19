@@ -500,7 +500,7 @@ img + p small {
   margin-bottom: 0 !important;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 599px) {
   body.subpage .homeContentWrap {
     display: none;
   }
