@@ -444,7 +444,7 @@ body.subpage .ajax-wrapper {
 
 .portrait-small {
   width: 20.7vw;
-  min-width: 20.7vw;
+  min-width: 20.7vw !important;
 }
 
 .iframeviewer {
