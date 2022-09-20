@@ -453,16 +453,12 @@ body.subpage .ajax-wrapper {
 
 @media (min-width: 900px) {
   #brixtonbridge {
-	border: 1px solid #bbb;	
-    margin-bottom: 30px;
     height: 35vw;
   }
 }	
 
 @media (max-width: 900px) {
   #brixtonbridge {
-	border: 1px solid #bbb;	  
-    margin-bottom: 20px;
     height: 50vw;
   }
 }
