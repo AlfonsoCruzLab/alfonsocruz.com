@@ -444,11 +444,13 @@ body.subpage .ajax-wrapper {
 
 .portrait-small {
   width: 20.7vw;
+  min-width: 20.7vw !important;
 }
 
 @media (max-width: 1570px) {
 .portrait-small {
   width: 31.65vw;
+  min-width: 31.65vw !important;
 }
 }
 
