@@ -49,6 +49,14 @@
       "oAP" : "\/eco-suit.html",
       "oF" : 0
     },
+    "\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon.ico",
+      "oF" : 0
+    },
     "\/fight-the-tower.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -68,19 +76,6 @@
     "\/images\/33e9b75f-6374-4b8a-92e3-9928ddae4f07.jpeg" : {
       "ft" : 16384,
       "iS" : 378070,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/33e9b75f-6374-4b8a-92e3-9928ddae4f07.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/33e9b75f-6374-4b8a-92e3-9928ddae4f07.jpg" : {
-      "ft" : 16384,
-      "iS" : 561994,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/33e9b75f-6374-4b8a-92e3-9928ddae4f07.jpg",
@@ -205,15 +200,327 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/Formulate_3x2.png" : {
-      "ft" : 32768,
-      "iS" : 938374,
+    "\/images\/eco-suit_window_video.jpg" : {
+      "ft" : 16384,
+      "iS" : 337400,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/Formulate_3x2.png",
+      "oAP" : "\/images\/eco-suit_window_video.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 2199,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/android-chrome-192x192.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 6091,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 1960,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/browserconfig.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/images\/favicon\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 613,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 833,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/favicon.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/favicon.ai",
+      "oF" : 0
+    },
+    "\/images\/favicon\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/favicon.ico",
+      "oF" : 0
+    },
+    "\/images\/favicon\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 334,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/favicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/favicon\/favicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/favicon\/mstile-70x70.png" : {
+      "ft" : 32768,
+      "iS" : 1876,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/mstile-70x70.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/mstile-144x144.png" : {
+      "ft" : 32768,
+      "iS" : 2631,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/mstile-144x144.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/mstile-150x150.png" : {
+      "ft" : 32768,
+      "iS" : 2678,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/mstile-150x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/mstile-310x150.png" : {
+      "ft" : 32768,
+      "iS" : 2939,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/mstile-310x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/mstile-310x310.png" : {
+      "ft" : 32768,
+      "iS" : 5439,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/mstile-310x310.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon\/safari-pinned-tab.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/favicon\/safari-pinned-tab.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/favicon\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon\/site.webmanifest",
+      "oF" : 0
+    },
+    "\/images\/Fight_The_Tower_B2_Posters_V2_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 98817,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Fight_The_Tower_B2_Posters_V2_2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Fight_The_Tower_B2_Posters_V2_3.jpg" : {
+      "ft" : 16384,
+      "iS" : 98786,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Fight_The_Tower_B2_Posters_V2_3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Fight_The_Tower_B2_Posters_V2_4.jpg" : {
+      "ft" : 16384,
+      "iS" : 82693,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Fight_The_Tower_B2_Posters_V2_4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Formulate_3x2_v2_01.jpg" : {
+      "ft" : 16384,
+      "iS" : 139429,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Formulate_3x2_v2_01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Formulate_3x2_v2_02.jpg" : {
+      "ft" : 16384,
+      "iS" : 135062,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Formulate_3x2_v2_02.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Formulate_3x2_v2_03.jpg" : {
+      "ft" : 16384,
+      "iS" : 121736,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Formulate_3x2_v2_03.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Formulate_3x2_v2_04.jpg" : {
+      "ft" : 16384,
+      "iS" : 81871,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Formulate_3x2_v2_04.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Formulate_3x2_v2_05.jpg" : {
+      "ft" : 16384,
+      "iS" : 127772,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Formulate_3x2_v2_05.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Formulate_3x2_v2_06.jpg" : {
+      "ft" : 16384,
+      "iS" : 158659,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Formulate_3x2_v2_06.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -237,6 +544,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/IMG_4058.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Lost-Twin_The_Mist_Process.jpg" : {
+      "ft" : 16384,
+      "iS" : 82787,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Lost-Twin_The_Mist_Process.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -270,16 +590,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/We_are_here_to_help_you_Diagram_V13-01.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/We_are_here_to_help_you_Diagram_V13-01.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/images\/weareheretohelpyou_diagram.jpg" : {
       "ft" : 16384,
       "iS" : 611339,
@@ -305,6 +615,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/index-temp.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index-temp.html",
+      "oF" : 0
     },
     "\/index.html" : {
       "cB" : 0,
@@ -418,36 +736,12 @@
       "oAP" : "\/the-mist.html",
       "oF" : 0
     },
-    "\/videos\/5323cceef0a04b819a7f32fc8f52f523.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/videos\/5323cceef0a04b819a7f32fc8f52f523.mp4",
-      "oF" : 0
-    },
-    "\/videos\/aeb16a3306484e90ae87fa13bab1fa18.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/videos\/aeb16a3306484e90ae87fa13bab1fa18.mp4",
-      "oF" : 0
-    },
     "\/videos\/eco-suit_window_video.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/videos\/eco-suit_window_video.mp4",
-      "oF" : 0
-    },
-    "\/videos\/IMG_7596.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/videos\/IMG_7596.mp4",
       "oF" : 0
     },
     "\/videos\/Lost-Twin_The_Mist_Process.mp4" : {
@@ -645,7 +939,7 @@
     "creationDate" : 681737536.60769796,
     "displayValue" : "alfonsocruz",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_gray",
+    "iconImageName" : "\/images\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
