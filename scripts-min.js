@@ -2,6 +2,8 @@
 $( ".ajax-link" ).on( "click", function(event) {
   event.preventDefault();
   
+  $( ".ajax-wrapper" ).scrollTop(0);
+  
   $('.homeContentWrap').fadeOut();
   
   $('.homeContentWrap .content p').addClass("hidden");
