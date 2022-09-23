@@ -357,6 +357,7 @@ body.subpage .ajax-wrapper {
   .ajax-link .projectHover {
     display: block;
     width: calc(44.444vw - 24px);
+	left: 17.25vw;
   }
 }
 /*
