@@ -407,10 +407,9 @@ body.subpage .ajax-wrapper {
   content: "";
   display: block;
   background: #777;
-  width: 15.5vw;
   height: 1px;
   position: absolute;
-  left: 0vw;
+  right: 0vw;
   top: -1vw;
 }
 .ajax-link:hover .projectHover {
