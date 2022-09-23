@@ -534,5 +534,8 @@ body.subpage .intro.selected a {
   transition: color 0.3s linear;
 }
 
+.content .breakout--has-caption img {
+  margin-bottom: 0 !important;
+}
 
 /*# sourceMappingURL=styles.css.map */
