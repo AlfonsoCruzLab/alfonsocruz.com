@@ -347,8 +347,8 @@ body.subpage .ajax-wrapper {
   position: absolute;
   left: 31.65vw;
   top: 0px;
-  /*width: 500px;*/
-background: blue;	
+  width: 42.6vw;
+background: green;	
   display: none;
   opacity: 0;
   transition: opacity 0.2s linear;
