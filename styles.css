@@ -397,7 +397,7 @@ body.subpage .ajax-wrapper {
 .ajax-link .projectHover.ex em::before {
   width: 28.5vw !important;
   left: -29vw;
-}*/
+}
 .ajax-link .projectHover em {
   color: #bbb;
   position: relative;
@@ -411,7 +411,7 @@ body.subpage .ajax-wrapper {
   position: absolute;
   left: 0vw;
   top: -1vw;
-}
+}*/
 .ajax-link:hover .projectHover {
   opacity: 1;
 }
