@@ -346,7 +346,8 @@ body.subpage .ajax-wrapper {
 .ajax-link .projectHover {
   position: fixed;
   left: 31.65vw;
-  padding-top: 0;	
+  margin-top: 0;
+background: yellow;	
   padding-left: 1.2vw;	
   width: 42.6vw;
   display: none;
