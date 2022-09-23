@@ -538,4 +538,8 @@ body.subpage .intro.selected a {
   margin-bottom: 0 !important;
 }
 
+.last-item .breakout img {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */
