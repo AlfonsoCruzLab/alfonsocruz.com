@@ -356,7 +356,6 @@ body.subpage .ajax-wrapper {
 @media (min-width: 900px) {
   .ajax-link .projectHover {
     display: block;
-	left: 17.25vw;
   }
 }
 /*
