@@ -359,6 +359,7 @@ body.subpage .ajax-wrapper {
     width: calc(44.444vw - 24px);
   }
 }
+/*
 .ajax-link .projectHover.cv {
   left: 17.25vw;
 }
@@ -396,7 +397,7 @@ body.subpage .ajax-wrapper {
 .ajax-link .projectHover.ex em::before {
   width: 28.5vw !important;
   left: -29vw;
-}
+}*/
 .ajax-link .projectHover em {
   color: #bbb;
   position: relative;
