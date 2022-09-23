@@ -403,15 +403,7 @@ body.subpage .ajax-wrapper {
   color: #bbb;
   position: relative;
 }
-.ajax-link .projectHover em::before {
-  content: "";
-  display: block;
-  background: #777;
-  height: 1px;
-  position: absolute;
-  right: 0vw;
-  top: -1vw;
-}
+
 .ajax-link:hover .projectHover {
   opacity: 1;
 }
