@@ -409,7 +409,7 @@ body.subpage .ajax-wrapper {
   width: 15.5vw;
   height: 1px;
   position: absolute;
-  left: -16vw;
+  left: 0vw;
   top: -1vw;
 }
 .ajax-link:hover .projectHover {
