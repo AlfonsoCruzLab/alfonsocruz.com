@@ -345,9 +345,9 @@ body.subpage .ajax-wrapper {
 }
 .ajax-link .projectHover {
   position: fixed;
-  left: 31.65vw;
-  margin-top: 0;
-background: yellow;	
+  left: 32.85vw;
+  top: 0;
+background: blue;	
   padding-left: 1.2vw;	
   width: 42.6vw;
   display: none;
