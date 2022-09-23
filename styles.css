@@ -344,7 +344,7 @@ body.subpage .ajax-wrapper {
   position: relative;
 }
 .ajax-link .projectHover {
-  position: absolute;
+  position: fixed;
   left: 1.2vw;
   top: 0px;
   width: 42.6vw;
@@ -356,6 +356,7 @@ body.subpage .ajax-wrapper {
 @media (min-width: 900px) {
   .ajax-link .projectHover {
     display: block;
+	width: 42.6vw;  
   }
 }
 /*
