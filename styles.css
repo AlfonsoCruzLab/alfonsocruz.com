@@ -151,7 +151,10 @@ body footer a{
 body footer:hover {
   color: #ddd;
 }
-
+@media (min-width: 600px) {
+  body footer {
+	font-size: max(0.6vw);
+}
 @media (min-width: 1024px) {
   body footer {
     background: transparent;
