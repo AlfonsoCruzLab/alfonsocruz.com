@@ -73,7 +73,7 @@ body {
     font-size: max(2.4vw);
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   body {
     display: flex;
     column-gap: 1.2vw;
