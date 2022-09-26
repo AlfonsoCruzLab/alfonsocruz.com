@@ -319,7 +319,7 @@ body.subpage .ajax-wrapper {
 }
 
 .content.loadme.project {
-  padding-top: 8.1vw;
+  padding-top: 12vw;
 }
 @media (min-width: 900px) {
   .content.loadme.project {
@@ -494,10 +494,10 @@ img + p small {
     display: none;
   }
   body .content.loadme.project {
-    padding-top: 8.1vw;
+    padding-top: 12vw;
   }
   body.subpage .content.loadme.project {
-    padding-top: 8.1vw;
+    padding-top: 12vw;
   }
   body .close {
     top: 2.7vw;
