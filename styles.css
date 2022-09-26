@@ -71,7 +71,7 @@ body {
     column-gap: 1.2vw;
     background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
 	background-position: bottom 1.2vw right 1.45vw;  
-    background-size: 100px;
+    background-size: 9.75vw;
     padding: 1.2vw;
     padding-right: 0px;
     font-size: max(1.2vw);
@@ -130,7 +130,7 @@ body footer {
   color: #777;
   margin-top: 2.4vw;
   padding-top: 2.4vw;
-  font-size: max(10px, 0.93vw);
+  font-size: max(0.9vw);
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 60px;
@@ -163,7 +163,7 @@ body footer p a {
 }
 body .close {
   position: fixed;
-  font-size: max(11px, 1.24vw);
+  font-size: max(1.2vw);
   top: 1.2vw;
   right: 1.45vw;
   color: #bbb;
@@ -199,7 +199,7 @@ a {
 }
 
 small {
-  font-size: max(10px, 0.72vw);
+  font-size: max(0.8vw);
 }
 
 b {
@@ -207,7 +207,7 @@ b {
 }
 
 .articles {
-  font-size: max(10px, 0.72vw);
+  font-size: max(0.8vw);
   border-top: solid 1px #bbb;
   padding-top: 1em;
 }
