@@ -71,7 +71,7 @@ body {
     column-gap: 1.2vw;
     background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
 	background-position: bottom 1.2vw right 1.45vw;  
-    background-size: 9.75vw;
+    background-size: 6vw;
     padding: 1.2vw;
     padding-right: 0px;
     font-size: max(1.2vw);
@@ -133,7 +133,7 @@ body footer {
   font-size: max(2.7vw);
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
-  background-size: 18vw;
+  background-size: 15vw;
 }
 
 body footer a{
