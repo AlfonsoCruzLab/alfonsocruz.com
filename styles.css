@@ -69,7 +69,6 @@ body {
   body {
     display: flex;
     column-gap: 1.2vw;
-    background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
     font-size: max(2.4vw);
   }
 }
