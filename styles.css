@@ -206,7 +206,12 @@ a {
 }
 
 small {
+  font-size: max(2.7vw);
+}
+@media (min-width: 900px) {
+small {
   font-size: max(0.8vw);
+}
 }
 
 b {
