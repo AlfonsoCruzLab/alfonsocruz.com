@@ -207,6 +207,7 @@ a {
 
 small {
   font-size: max(2.4vw);
+  line-height: 1;	
 }
 @media (min-width: 900px) {
 small {
@@ -318,7 +319,7 @@ body.subpage .ajax-wrapper {
 }
 
 .content.loadme.project {
-  padding-top: 100px;
+  padding-top: 5.4vw;
 }
 @media (min-width: 900px) {
   .content.loadme.project {
@@ -331,7 +332,7 @@ body.subpage .ajax-wrapper {
   left: 0;
   background: #000;
   width: 100%;
-  padding: 12px;
+  padding: 2.7vw;
 }
 @media (min-width: 900px) {
   .content.loadme.project .projectHeader {
