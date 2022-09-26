@@ -163,7 +163,7 @@ body footer p a {
 }
 body .close {
   position: fixed;
-  font-size: max(3.6vw);
+  font-size: max(7.2vw);
   top: 2.7vw;
   right: 2.7vw;
   color: #bbb;
