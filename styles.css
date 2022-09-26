@@ -360,58 +360,12 @@ body.subpage .ajax-wrapper {
 	transform: translateY(-1.68vw);  
   }
 }
-/*
-.ajax-link .projectHover.cv {
-  left: 17.25vw;
-}
-.ajax-link .projectHover.cv em::before {
-  width: 10.5vw !important;
-  left: -11vw;
-}
-.ajax-link .projectHover.wah {
-  left: 4.5vw;
-}
-.ajax-link .projectHover.ftt {
-  left: 41vw;
-}
-.ajax-link .projectHover.ftt em::before {
-  width: 35.5vw !important;
-  left: -36vw;
-}
-.ajax-link .projectHover.tm {
-  left: 15.4vw;
-}
-.ajax-link .projectHover.tm em::before {
-  width: 7.5vw !important;
-  left: -8vw;
-}
-.ajax-link .projectHover.eco {
-  left: 25.5vw;
-}
-.ajax-link .projectHover.eco em::before {
-  width: 15vw !important;
-  left: -15.5vw;
-}
-.ajax-link .projectHover.ex {
-  left: 38.5vw;
-}
-.ajax-link .projectHover.ex em::before {
-  width: 28.5vw !important;
-  left: -29vw;
-}*/
+
 .ajax-link .projectHover em {
   color: #bbb;
   position: relative;
-}/*
-.ajax-link .projectHover em::before {
-  content: "";
-  display: block;
-  background: #777;
-  height: 1px;
-  position: absolute;
-  right: 0vw;
-  top: -1vw;
-}*/
+}
+
 .ajax-link:hover .projectHover {
   opacity: 1;
 }
@@ -427,7 +381,7 @@ body.subpage .ajax-wrapper {
     align-items: flex-start;
     overflow-x: scroll;
     margin-bottom: 1.6em;
-	margin-right: calc(1.2vw - 3px);
+	/*margin-right: calc(1.2vw - 3px);*/
     position: relative;
     z-index: 3000;
   }
