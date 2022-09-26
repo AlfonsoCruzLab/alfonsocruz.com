@@ -133,7 +133,7 @@ body footer {
   font-size: max(2.7vw);
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
-  background-size: 20.7vw;
+  background-size: 18vw;
 }
 
 body footer a{
@@ -152,7 +152,6 @@ body footer:hover {
     margin-top: 0;
     position: relative;
 	font-size: max(0.9vw);
-    top: 6px;
   }
 }
 body footer p:not(:last-child) {
@@ -164,9 +163,9 @@ body footer p a {
 }
 body .close {
   position: fixed;
-  font-size: max(1.2vw);
-  top: 1.2vw;
-  right: 1.45vw;
+  font-size: max(3.6vw);
+  top: 2.7vw;
+  right: 2.7vw;
   color: #bbb;
   text-decoration: none;
   z-index: 9000;
@@ -174,6 +173,13 @@ body .close {
 }
 body .close:hover {
   color: #fff;
+}
+@media (min-width: 900px) {
+body .close {
+  font-size: max(1.2vw);
+  top: 1.2vw;
+  right: 1.45vw;	
+}
 }
 
 .ajax-wrapper {
