@@ -127,10 +127,10 @@ body .content img.noMargin {
 }
 body footer {
   border-top: 0.2vw solid #777;
-  color: red;
+  color: #777;
   margin-top: 2.4vw;
   padding-top: 2.4vw;
-  font-size: max(1.8vw);
+  font-size: max(2.4vw);
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 60px;
