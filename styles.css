@@ -206,7 +206,7 @@ a {
 }
 
 small {
-  font-size: max(2.7vw);
+  font-size: max(2.4vw);
 }
 @media (min-width: 900px) {
 small {
