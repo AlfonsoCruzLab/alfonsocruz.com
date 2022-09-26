@@ -381,7 +381,6 @@ body.subpage .ajax-wrapper {
     align-items: flex-start;
     overflow-x: scroll;
     margin-bottom: 1.2vw;
-	margin-right: 1.2vw;
     position: relative;
     z-index: 3000;
   }
@@ -398,18 +397,11 @@ body.subpage .ajax-wrapper {
   width: 31.65vw;
 }
 
-@media (max-width: 1024px) {
 .portrait-small {
   width: 42.6vw;
   min-width: 42.6vw; 
 }
-}
-@media (max-width: 1570px) {
-.portrait-small {
-  width: 31.65vw;
-  min-width: 31.65vw;
-}
-}
+
 @media (min-width: 1570px) {
 .portrait-small {
   width: 20.7vw;
