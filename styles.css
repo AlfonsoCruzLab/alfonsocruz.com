@@ -58,12 +58,12 @@ html, body {
 
 body {
   font-family: "Univers LT Std", sans-serif, Arial;
-  font-size: max(1.24vw);
+  font-size: max(2.48vw);
   line-height: 1.4;
   background-color: #000;
   color: #bbb;
   height: 100%;
-  padding: 1.2vw;
+  padding: 2.4vw;
 }
 @media (min-width: 900px) {
   body {
