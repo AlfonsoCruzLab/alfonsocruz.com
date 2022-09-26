@@ -214,9 +214,15 @@ b {
 }
 
 .articles {
-  font-size: max(0.8vw);
+  font-size: max(2.7vw);
   border-top: solid 1px #bbb;
   padding-top: 1em;
+}
+
+@media (min-width: 900px) {
+.articles {
+  font-size: max(0.8vw);
+}
 }
 
 @media (min-width: 900px) {
