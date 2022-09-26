@@ -58,12 +58,12 @@ html, body {
 
 body {
   font-family: "Univers LT Std", sans-serif, Arial;
-  font-size: max(14px, 1.24vw);
+  font-size: max(1.24vw);
   line-height: 1.4;
   background-color: #000;
   color: #bbb;
   height: 100%;
-  padding: 12px;
+  padding: 1.2vw;
 }
 @media (min-width: 900px) {
   body {
@@ -74,7 +74,7 @@ body {
     background-size: 100px;
     padding: 1.2vw;
     padding-right: 0px;
-    font-size: max(11px, 1.24vw);
+    font-size: max(1.24vw);
   }
 }
 body .homeContentWrap {
