@@ -163,7 +163,7 @@ body footer p a {
 }
 body .close {
   position: fixed;
-  font-size: max(8.1vw);
+  font-size: max(7.2vw);
   top: 2.7vw;
   right: 2.7vw;
   color: #bbb;
@@ -176,7 +176,7 @@ body .close:hover {
 }
 @media (min-width: 900px) {
 body .close {
-  font-size: max(1.8vw);
+  font-size: max(1.2vw);
   top: 1.2vw;
   right: 1.45vw;	
 }
