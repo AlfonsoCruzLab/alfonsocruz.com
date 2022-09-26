@@ -400,18 +400,18 @@ body.subpage .ajax-wrapper {
 
 .portrait-small {
   width: 42.6vw;
-  min-width: 42.6vw !important; 
+  min-width: 42.6vw; 
 }
 @media (max-width: 1570px) {
 .portrait-small {
   width: 31.65vw;
-  min-width: 31.65vw !important;
+  min-width: 31.65vw;
 }
 }
 @media (min-width: 1570px) {
 .portrait-small {
   width: 20.7vw;
-  min-width: 20.7vw !important;
+  min-width: 20.7vw;
 }
 }
 
