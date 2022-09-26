@@ -401,7 +401,7 @@ body.subpage .ajax-wrapper {
   width: 42.6vw;
   min-width: 42.6vw; 
 }
-@media (max-width: 1570px) {
+@media (min-width: 1024px) {
 .portrait-small {
   width: 31.65vw;
   min-width: 31.65vw;
