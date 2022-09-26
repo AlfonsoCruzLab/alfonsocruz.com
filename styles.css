@@ -394,7 +394,14 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait {
+  width: 42.6vw;
+  min-width: 42.6vw;
+}
+@media (min-width: 1024px) {
+.portrait {
   width: 31.65vw;
+  min-width: 31.65vw;
+}
 }
 
 .portrait-small {
