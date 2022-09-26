@@ -65,7 +65,7 @@ body {
   height: 100%;
   padding: 12px;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   body {
     display: flex;
     column-gap: 1.2vw;
@@ -83,7 +83,7 @@ body .homeContentWrap {
   flex-direction: column;
   height: 100%;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   body .homeContentWrap {
     max-width: 31.65vw;
     display: flex !important;
@@ -99,7 +99,7 @@ body main .intro, body main .content {
   margin: 1em 0;
   color: #777;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   body main .intro, body main .content {
     margin-top: 0;
   }
@@ -145,7 +145,7 @@ body footer:hover {
   color: #ddd;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   body footer {
     background: transparent;
     border-top: none;
@@ -181,7 +181,7 @@ body .close:hover {
   padding-bottom: 1.2vw;
   overflow-x: hidden;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .ajax-wrapper {
     padding-top: 0;
     width: calc(66.666vw - 22.222%);
@@ -212,7 +212,7 @@ b {
   padding-top: 1em;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .homeContentWrap p {
     transition: opacity, color 0.2s linear;
   }
@@ -302,7 +302,7 @@ body.subpage .ajax-wrapper {
 .content.loadme.project {
   padding-top: 100px;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .content.loadme.project {
     padding-top: 0;
   }
@@ -315,7 +315,7 @@ body.subpage .ajax-wrapper {
   width: 100%;
   padding: 12px;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .content.loadme.project .projectHeader {
     top: 50%;
     width: 33.333vw;
@@ -354,7 +354,7 @@ body.subpage .ajax-wrapper {
   transition: opacity 0.2s linear;
   pointer-events: none;
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .ajax-link .projectHover {
     display: block;
 	transform: translateY(-1.68vw);  
@@ -374,7 +374,7 @@ body.subpage .ajax-wrapper {
   display: none !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .content .scroller {
     display: flex;
     column-gap: 1.2vw;
@@ -414,13 +414,13 @@ body.subpage .ajax-wrapper {
   height: 75vh;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   #brixtonbridge {
     height: 35vw;
   }
 }	
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   #brixtonbridge {
     height: 50vw;
   }
