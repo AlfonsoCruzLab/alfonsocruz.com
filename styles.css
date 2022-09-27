@@ -511,6 +511,14 @@ img + p small {
   margin-bottom: 0 !important;
 }
 
+@media (max-width: 600) {
+  .portrait-small {
+    width: 100%;
+  }
+  .portrait {
+    width: 100%;
+  }
+}
 @media (max-width: 1023px) {
   body.subpage .homeContentWrap {
     display: none;
@@ -523,12 +531,6 @@ img + p small {
   }
   body .close {
     top: 2.7vw;
-  }
-  .portrait-small {
-    width: 100%;
-  }
-  .portrait {
-    width: 100%;
   }
   .scroller > div {
     margin-bottom: 0.8em;
