@@ -155,6 +155,8 @@ body footer:hover {
     border-top: none;
     margin-top: 0;
     position: relative;
+	font-size: max(0.9vw) !important;
+	color: red;
   }
 }
 body footer p:not(:last-child) {
@@ -245,13 +247,6 @@ small {
 @media (min-width: 1024px) {
 small, .articles {
   font-size: max(0.8vw);
-}
-}
-@media (min-width: 1024px) {
-body footer {
-  	font-size: max(0.9vw) !important;
-	color: red;
-	background: yellow;
 }
 }
 
