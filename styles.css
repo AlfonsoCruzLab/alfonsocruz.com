@@ -421,7 +421,6 @@ body.subpage .ajax-wrapper {
     overflow-x: scroll;
     margin-bottom: 1.5vw;
     position: relative;
-    z-index: 3000;
   }
   .content .scroller iframe, .content .scroller > .twitter-tweet, .content .scroller > img {
     width: 100%;
@@ -431,7 +430,8 @@ body.subpage .ajax-wrapper {
 @media (min-width: 1024px) {
   .content .scroller {
     column-gap: 1.2vw;
-	margin-bottom: 1.2vw;  
+	margin-bottom: 1.2vw;
+	z-index: 3000;  
   }
 }
 
