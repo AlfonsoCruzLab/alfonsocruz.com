@@ -148,11 +148,6 @@ body footer a{
 
 body footer:hover {
   color: #ddd;
-}
-@media (min-width: 720px) {
-  body footer {
-	font-size: max(1.8vw);
-}
 }	
 @media (min-width: 1024px) {
   body footer {
@@ -244,7 +239,7 @@ small {
 }
 }
 @media (min-width: 720px) {
-.articles {
+.articles, body footer {
   font-size: max(2.1vw);
 }
 }
