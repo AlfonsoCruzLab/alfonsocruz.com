@@ -65,7 +65,7 @@ body {
   height: 100%;
   padding: 3vw;
 }
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   body {
     font-size: max(2.7vw);
   }
@@ -149,7 +149,7 @@ body footer a{
 body footer:hover {
   color: #ddd;
 }
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   body footer {
 	font-size: max(1.8vw);
 }
@@ -183,7 +183,7 @@ body .close {
 body .close:hover {
   color: #fff;
 }
-@media (min-width: 600px) {
+@media (min-width: 720px) {
 body .close {
   font-size: max(3.6vw);
 }
@@ -413,7 +413,7 @@ body.subpage .ajax-wrapper {
   display: none !important;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   .content .scroller {
     display: flex;
     column-gap: 3vw;
@@ -516,7 +516,7 @@ img + p small {
   margin-bottom: 0 !important;
 }
 
-@media (max-width: 600) {
+@media (max-width: 720px) {
   .portrait-small {
     width: 100%;
   }
