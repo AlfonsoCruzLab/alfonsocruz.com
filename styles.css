@@ -418,7 +418,7 @@ body.subpage .ajax-wrapper {
 @media (min-width: 600px) {
   .content .scroller {
     display: flex;
-    column-gap: 1.2vw;
+    column-gap: 3vw;
     align-items: flex-start;
     overflow-x: scroll;
     margin-bottom: 1.2vw;
@@ -430,13 +430,19 @@ body.subpage .ajax-wrapper {
   }
 }
 
+@media (min-width: 1024px) {
+  .content .scroller {
+    column-gap: 1.2vw;
+  }
+}
+
 .intro.selected a:hover {
   color: #fff;
 }
 
 .portrait {
-  width: 42.6vw;
-  min-width: 42.6vw;
+  width: 41vw;
+  min-width: 41vw;
 }
 @media (min-width: 1024px) {
 .portrait {
@@ -446,8 +452,8 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait-small {
-  width: 42.6vw;
-  min-width: 42.6vw; 
+  width: 41vw;
+  min-width: 41vw; 
 }
 @media (min-width: 1024px) {
 .portrait-small {
