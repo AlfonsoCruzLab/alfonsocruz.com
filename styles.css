@@ -421,7 +421,7 @@ body.subpage .ajax-wrapper {
     column-gap: 3vw;
     align-items: flex-start;
     overflow-x: scroll;
-    margin-bottom: 1.2vw;
+    margin-bottom: 3vw;
     position: relative;
     z-index: 3000;
   }
@@ -433,6 +433,7 @@ body.subpage .ajax-wrapper {
 @media (min-width: 1024px) {
   .content .scroller {
     column-gap: 1.2vw;
+	margin-bottom: 1.2vw;  
   }
 }
 
