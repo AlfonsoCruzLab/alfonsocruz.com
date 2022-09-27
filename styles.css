@@ -247,6 +247,11 @@ b {
 }
 }
 
+a {
+  -moz-transition:color .15s ease-in;
+  -o-transition:color .15s ease-in;
+  -webkit-transition:color .15s ease-in;		
+}
 .homeContentWrap p {
   transition: opacity, color 0.2s linear;
 }
@@ -258,9 +263,6 @@ b {
 }
 .homeContentWrap p.hidden a {
   color: #777;
-  -moz-transition:color .15s ease-in;
-  -o-transition:color .15s ease-in;
-  -webkit-transition:color .15s ease-in;	
 }
 .articles a {
   color: #777 !important;
