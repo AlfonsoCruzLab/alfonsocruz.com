@@ -148,15 +148,19 @@ body footer a{
 
 body footer:hover {
   color: #ddd;
-}	
+}
+@media (min-width: 720px) {
+  body footer {
+	font-size: max(2.1vw);
+  }
+}
 @media (min-width: 1024px) {
   body footer {
     background: transparent;
     border-top: none;
     margin-top: 0;
     position: relative;
-	font-size: max(0.9vw) !important;
-	color: red;
+	font-size: max(0.9vw);
   }
 }
 body footer p:not(:last-child) {
@@ -240,7 +244,7 @@ small {
 }
 }
 @media (min-width: 720px) {
-.articles, body footer {
+.articles {
   font-size: max(2.1vw);
 }
 }
