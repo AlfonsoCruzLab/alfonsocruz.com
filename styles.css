@@ -439,27 +439,22 @@ body.subpage .ajax-wrapper {
   color: #fff;
 }
 
-.portrait {
+.portrait, .portrait-small {
+  width: 100%;	
+}
+@media (min-width: 720px) {
+.portrait, .portrait-small {
   width: 45vw;
   min-width: 45vw;
 }
+}
 @media (min-width: 1024px) {
-.portrait {
+.portrait, .portrait-small {
   width: 31.65vw;
   min-width: 31.65vw;
 }
 }
 
-.portrait-small {
-  width: 45vw;
-  min-width: 45vw; 
-}
-@media (min-width: 1024px) {
-.portrait-small {
-  width: 31.65vw;
-  min-width: 31.65vw;
-}
-}
 @media (min-width: 1570px) {
 .portrait-small {
   width: 20.7vw;
@@ -516,14 +511,6 @@ img + p small {
   margin-bottom: 0 !important;
 }
 
-@media (max-width: 720px) {
-  .portrait-small {
-    width: 100%;
-  }
-  .portrait {
-    width: 100%;
-  }
-}
 @media (max-width: 1023px) {
   body.subpage .homeContentWrap {
     display: none;
