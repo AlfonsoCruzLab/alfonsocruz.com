@@ -442,8 +442,8 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait {
-  width: 41vw;
-  min-width: 41vw;
+  width: 45.5vw;
+  min-width: 45.5vw;
 }
 @media (min-width: 1024px) {
 .portrait {
@@ -453,8 +453,8 @@ body.subpage .ajax-wrapper {
 }
 
 .portrait-small {
-  width: 41vw;
-  min-width: 41vw; 
+  width: 45.5vw;
+  min-width: 45.5vw; 
 }
 @media (min-width: 1024px) {
 .portrait-small {
