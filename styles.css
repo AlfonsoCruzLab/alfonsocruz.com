@@ -251,6 +251,7 @@ small, .articles {
 body footer {
   	font-size: max(0.9vw) !important;
 	color: red;
+	background: yellow;
 }
 }
 
