@@ -67,8 +67,6 @@ body {
 }
 @media (min-width: 600px) {
   body {
-    display: flex;
-    column-gap: 1.2vw;
     font-size: max(2.7vw);
   }
 }
