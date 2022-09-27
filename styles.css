@@ -419,7 +419,7 @@ body.subpage .ajax-wrapper {
     column-gap: 3vw;
     align-items: flex-start;
     overflow-x: scroll;
-    margin-bottom: 0;
+    margin-bottom: 1.5vw;
     z-index: 3000;
   }
   .content .scroller iframe, .content .scroller > .twitter-tweet, .content .scroller > img {
@@ -525,10 +525,10 @@ img + p small {
     top: 2.7vw;
   }
   .scroller > div {
-    margin-bottom: 0.8em;
+    margin-bottom: 0;
   }
   .last-item {
-    margin-bottom: 1.6em;
+    margin-bottom: 1.5vw;
   }
 }
 body.subpage .intro.selected a {
