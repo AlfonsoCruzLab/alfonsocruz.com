@@ -54,7 +54,7 @@ $(document).on("mouseleave", ".intro:not(.selected) .ajax-link", function() {
 //Close links
 $(document).on("click", '.close', function(event) { 
   
-  if ($(window).width() >= 900) {
+  if ($(window).width() >= 1024) {
     event.preventDefault();
     $(".ajax-wrapper").fadeOut();
     $('.homeContentWrap .content p').removeClass("hidden");
