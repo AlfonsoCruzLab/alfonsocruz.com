@@ -419,7 +419,7 @@ body.subpage .ajax-wrapper {
     column-gap: 3vw;
     align-items: flex-start;
     overflow-x: scroll;
-    margin-bottom: 1.5vw;
+    margin-bottom: 0;
     z-index: 3000;
   }
   .content .scroller iframe, .content .scroller > .twitter-tweet, .content .scroller > img {
