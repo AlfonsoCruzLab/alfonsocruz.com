@@ -203,6 +203,7 @@ body .close {
   padding-top: 1.2vw;
   padding-bottom: 1.2vw;
   overflow-x: hidden;
+  overflow-y: scroll;	
 }
 @media (min-width: 1024px) {
   .ajax-wrapper {
@@ -503,6 +504,10 @@ img + p small {
 
 .last-item .scroller .portrait iframe, body .content .last-item .breakout img {
   margin-bottom: 0 !important;
+}
+
+@media (max-width: 600px) {
+	
 }
 
 @media (max-width: 1023px) {
