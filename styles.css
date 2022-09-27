@@ -228,7 +228,7 @@ b {
 
 small {
   font-size: max(2.4vw);
-  line-height: 1;	
+  line-height: 1 !important;	
 }
 
 .articles {
