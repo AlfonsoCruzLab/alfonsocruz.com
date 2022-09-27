@@ -248,7 +248,7 @@ b {
 }
 
   .homeContentWrap p.hidden a {
-    color: #777;
+    color: red;
     transition: all 0.2s linear;
   }
 
