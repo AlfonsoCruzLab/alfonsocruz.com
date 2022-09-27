@@ -217,25 +217,18 @@ body .close {
 
 a {
   cursor: crosshair;
+  -moz-transition:color .15s ease-in;
+  -o-transition:color .15s ease-in;
+  -webkit-transition:color .15s ease-in;		
+}
+
+b {
+  color: #fff;	
 }
 
 small {
   font-size: max(2.4vw);
   line-height: 1;	
-}
-@media (min-width: 720px) {
-small {
-  font-size: max(1.2vw);
-}
-}
-@media (min-width: 1024px) {
-small {
-  font-size: max(0.8vw);
-}
-}
-
-b {
-  color: #fff;	
 }
 
 .articles {
@@ -244,17 +237,17 @@ b {
   padding-top: 1em;
 }
 
+@media (min-width: 720px) {
+small, .articles {
+  font-size: max(1.8vw);
+}
+}
 @media (min-width: 1024px) {
-.articles {
+small, .articles {
   font-size: max(0.8vw);
 }
 }
 
-a {
-  -moz-transition:color .15s ease-in;
-  -o-transition:color .15s ease-in;
-  -webkit-transition:color .15s ease-in;		
-}
 .homeContentWrap p {
   transition: opacity, color 0.2s linear;
 }
