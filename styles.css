@@ -247,6 +247,11 @@ b {
 }
 }
 
+  .homeContentWrap p.hidden a {
+    color: #777;
+    transition: all 0.2s linear;
+  }
+
 @media (min-width: 1024px) {
   .homeContentWrap p {
     transition: opacity, color 0.2s linear;
@@ -254,10 +259,7 @@ b {
   .homeContentWrap p.hidden {
     color: #000;
   }
-  .homeContentWrap p.hidden a {
-    color: #777;
-    transition: all 0.2s linear;
-  }
+
   .homeContentWrap p.hidden a.active {
     color: #fff;
   }
