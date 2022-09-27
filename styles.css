@@ -185,6 +185,11 @@ body .close {
 body .close:hover {
   color: #fff;
 }
+@media (min-width: 600px) {
+body .close {
+  font-size: max(3vw);
+}
+}
 @media (min-width: 1024px) {
 body .close {
   font-size: max(1.2vw);
