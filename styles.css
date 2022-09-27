@@ -223,6 +223,11 @@ small {
   font-size: max(2.4vw);
   line-height: 1;	
 }
+@media (min-width: 720px) {
+small {
+  font-size: max(1.2vw);
+}
+}
 @media (min-width: 1024px) {
 small {
   font-size: max(0.8vw);
