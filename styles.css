@@ -247,30 +247,14 @@ b {
 }
 }
 
-  .homeContentWrap p.hidden a {
-    color: red;
-    transition: all 0.2s linear;
-  }
-
-@media (min-width: 1024px) {
   .homeContentWrap p {
     transition: opacity, color 0.2s linear;
   }
   .homeContentWrap p.hidden {
     color: #000;
   }
-
   .homeContentWrap p.hidden a.active {
     color: #fff;
-  }
-  .articles {
-    position: fixed;
-    padding-top: 0.5vw;  
-    top: 1.2vw;
-    left: 77.85vw;
-    width: 20.7vw;
-    border-top: none;
-    z-index: 1;
   }
   .articles a {
     color: #777 !important;
@@ -280,7 +264,19 @@ b {
   }
   .articles a:hover {
     color: #fff !important;
-  }	
+  }
+
+@media (min-width: 1024px) {
+  .articles {
+    position: fixed;
+    padding-top: 0.5vw;  
+    top: 1.2vw;
+    left: 77.85vw;
+    width: 20.7vw;
+    border-top: none;
+    z-index: 1;
+  }
+	
   .articles .fullwidth {
     height: auto !important;
   }
