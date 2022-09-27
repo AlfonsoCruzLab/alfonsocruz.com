@@ -250,6 +250,7 @@ small, .articles {
 @media (min-width: 1024px) {
 body footer {
   	font-size: max(0.9vw) !important;
+	color: red;
 }
 }
 
