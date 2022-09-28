@@ -543,9 +543,9 @@ body.subpage .intro.selected a {
 }
 
 .thumbnail {
-	border: yellow;
+	border: green;
 	left: 10vw;
-	width: 207.7vw;
+	width: 20.7vw;
 	transform: translateY(-3.36vw);  
 }
 
