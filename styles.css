@@ -338,16 +338,16 @@ body.subpage .ajax-wrapper {
   color: #777;
 }
 
-.content.loadme.project {
+.content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
   padding-top: 18vw;
 }
 @media (min-width: 1024px) {
-.content.loadme.project {
-  padding-top: 15vw;
+  .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
+    padding-top: 15vw;
 }
 }	
 @media (min-width: 1024px) {
-  .content.loadme.project {
+  .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
     padding-top: 0;
   }
 }
@@ -519,12 +519,6 @@ img + p small {
 @media (max-width: 1023px) {
   body.subpage .homeContentWrap {
     display: none;
-  }
-  body .content.loadme.project {
-    padding-top: 18vw;
-  }
-  body.subpage .content.loadme.project {
-    padding-top: 18vw;
   }
   body .close {
     top: 2.7vw;
