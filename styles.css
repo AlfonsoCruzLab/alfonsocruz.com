@@ -543,7 +543,8 @@ body.subpage .intro.selected a {
 }
 
 .thumbnail {
-	border: red;
+	border: none;
+	left: 10vw;
 }
 
 /*# sourceMappingURL=styles.css.map */
