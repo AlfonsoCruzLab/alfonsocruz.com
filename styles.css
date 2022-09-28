@@ -339,7 +339,8 @@ body.subpage .ajax-wrapper {
 }
 
 .content.loadme.project {
-  padding-top: 30vw;
+  padding-top: 42vw;
+	background: pink;
 }
 @media (min-width: 1024px) {
 .content.loadme.project {
