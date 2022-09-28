@@ -544,6 +544,7 @@ body.subpage .intro.selected a {
 
 .thumbnail {
 	border: none;
+	position: fixed;
 	left: 20.7vw;
 	width: 20.7vw;
 	transform: translateY(-3.36vw);  
