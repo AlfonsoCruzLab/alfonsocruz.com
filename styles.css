@@ -543,8 +543,9 @@ body.subpage .intro.selected a {
 }
 
 .thumbnail {
-	border: none;
+	border: yellow;
 	left: 10vw;
+	transform: translateY(-1.68vw);  
 }
 
 /*# sourceMappingURL=styles.css.map */
