@@ -113,7 +113,7 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body main .intro p a, body main .content p a {
-  color: #ddd;
+  color: #000;
   text-decoration: none;
   background-color: #ddd;	
 }
