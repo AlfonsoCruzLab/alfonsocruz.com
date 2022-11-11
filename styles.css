@@ -168,7 +168,7 @@ body footer p:not(:last-child) {
 }
 body footer p a {
   color: #ddd;
-  text-decoration: underline;
+  text-decoration: none;
 }
 body .close {
   position: fixed;
@@ -176,7 +176,7 @@ body .close {
   top: 2.7vw;
   right: 2.7vw;
   color: #bbb;
-  text-decoration: underline;
+  text-decoration: none;
   z-index: 9000;
   transition: all 0.2s linear;	
 }
