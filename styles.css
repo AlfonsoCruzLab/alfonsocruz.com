@@ -260,10 +260,10 @@ small, .articles {
 }
 .homeContentWrap p.hidden a.active {
   color: #000;
-  background-color: #fff;	
+  background-color: #eee;	
 }
 .homeContentWrap p.hidden a {
-  color: #777;
+  color: #f0f;
 }
 .articles a {
   color: #777 !important;
