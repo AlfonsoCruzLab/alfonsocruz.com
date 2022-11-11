@@ -116,7 +116,7 @@ body main .intro p a, body main .content p a {
   color: #000;
   text-decoration: none;
   background-color: #ccc;
-  padding: 0 0.25ch;	
+  padding: 0 0.5ch;	
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
@@ -443,7 +443,7 @@ body.subpage .ajax-wrapper {
 }
 
 .intro.selected a:hover {
-  color: #fff;
+  color: #f00;
 }
 
 .portrait, .portrait-small {
