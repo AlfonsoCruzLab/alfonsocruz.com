@@ -259,7 +259,8 @@ small, .articles {
   color: #000;
 }
 .homeContentWrap p.hidden a.active {
-  color: #00f;
+  color: #000;
+  background-color: #fff;	
 }
 .homeContentWrap p.hidden a {
   color: #777;
@@ -331,10 +332,12 @@ body.subpage .ajax-wrapper {
   color: #000;
 }
 .intro.selected a {
-  color: #0ff;
+  color: #000;
+  background-color: #777;	
 }
 .intro.selected a.active {
-  color: #0f0;
+  color: #000;
+  background-color: #ccc;	
 }
 .intro.selected a:hover {
   color: #ff0;
