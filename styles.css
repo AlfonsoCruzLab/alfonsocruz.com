@@ -259,7 +259,7 @@ small, .articles {
   color: #000;
 }
 .homeContentWrap p.hidden a.active {
-  color: #fff;
+  color: #00f;
 }
 .homeContentWrap p.hidden a {
   color: #777;
@@ -334,7 +334,7 @@ body.subpage .ajax-wrapper {
   color: #777;
 }
 .intro.selected a.active {
-  color: #fff;
+  color: #0f0;
 }
 .intro.selected a:hover {
   color: #777;
@@ -443,7 +443,8 @@ body.subpage .ajax-wrapper {
 }
 
 .intro.selected a:hover {
-  color: #f00;
+  color: #000;
+  background-color: #ccc;	
 }
 
 .portrait, .portrait-small {
