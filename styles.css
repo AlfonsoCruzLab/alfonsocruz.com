@@ -121,7 +121,7 @@ body .content p:not(:last-child), body .content .articles:not(:last-child) {
 }
 body .content p a, body .content .articles a {
   color: #ddd;
-  text-decoration: underline;
+  text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
   margin-bottom: 1.4em !important;
