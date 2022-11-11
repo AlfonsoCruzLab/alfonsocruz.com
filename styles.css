@@ -102,7 +102,7 @@ body main {
 }
 body main .intro, body main .content {
   margin: 1em 0;
-  color: #bbb;
+  color: #ccc;
 }
 @media (min-width: 1024px) {
   body main .intro, body main .content {
@@ -115,14 +115,14 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
 body main .intro p a, body main .content p a {
   color: #000;
   text-decoration: none;
-  background-color: #bbb;
-  padding: 0 1ch;	
+  background-color: #ccc;
+  padding: 0 0.25ch;	
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body .content p a, body .content .articles a {
-  color: #ddd;
+  color: #ccc;
   text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
