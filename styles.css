@@ -114,14 +114,14 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
 }
 body main .intro p a, body main .content p a {
   color: #ddd;
-  text-decoration: none;
+  text-decoration: underline;
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body .content p a, body .content .articles a {
   color: #ddd;
-  text-decoration: none;
+  text-decoration: underline;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
   margin-bottom: 1.4em !important;
@@ -168,7 +168,7 @@ body footer p:not(:last-child) {
 }
 body footer p a {
   color: #ddd;
-  text-decoration: none;
+  text-decoration: underline;
 }
 body .close {
   position: fixed;
@@ -176,7 +176,7 @@ body .close {
   top: 2.7vw;
   right: 2.7vw;
   color: #bbb;
-  text-decoration: none;
+  text-decoration: underline;
   z-index: 9000;
   transition: all 0.2s linear;	
 }
