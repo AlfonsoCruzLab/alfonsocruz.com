@@ -331,13 +331,13 @@ body.subpage .ajax-wrapper {
   color: #000;
 }
 .intro.selected a {
-  color: #777;
+  color: #0ff;
 }
 .intro.selected a.active {
   color: #0f0;
 }
 .intro.selected a:hover {
-  color: #777;
+  color: #ff0;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
