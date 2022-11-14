@@ -120,9 +120,9 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
 body main .intro p a, body main .content p a {
   color: #000;
   text-decoration: none;
-  background-color: #f00;
+  background-color: #ff0;
   padding: 0 0.5ch;
-  border-radius: 0.25ch;	
+  border-radius: 1ch;	
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
