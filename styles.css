@@ -61,7 +61,7 @@ body {
   font-size: max(4vw);
   line-height: 1.4;
   background-color: #000;
-  color: #bbb;
+  color: #999;
   height: 100%;
   padding: 3vw;
 }
@@ -102,7 +102,7 @@ body main {
 }
 body main .intro, body main .content {
   margin: 1em 0;
-  color: #777;
+  color: #666;
 }
 @media (min-width: 1024px) {
   body main .intro, body main .content {
@@ -113,7 +113,7 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body main .intro p a, body main .content p a {
-  color: #ddd;
+  color: #ccc;
   text-decoration: underline;
   text-decoration-thickness: 0.1ch;
   text-underline-offset: 0.25ch;
@@ -122,7 +122,7 @@ body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body .content p a, body .content .articles a {
-  color: #ddd;
+  color: #ccc;
   text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
@@ -134,7 +134,7 @@ body .content img.noMargin {
 }
 body footer {
   border-top: 0.2vw solid #777;
-  color: #777;
+  color: #666;
   margin-top: 3vw;
   padding-top: 3vw;
   font-size: max(3vw);
@@ -144,12 +144,12 @@ body footer {
 }
 
 body footer a{
-  color: #ddd !important;
+  color: #ccc !important;
 }
 
 
 body footer:hover {
-  color: #ddd;
+  color: #ccc;
 }
 @media (min-width: 720px) {
   body footer {
@@ -169,7 +169,7 @@ body footer p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body footer p a {
-  color: #ddd;
+  color: #ccc;
   text-decoration: none;
 }
 body .close {
@@ -177,7 +177,7 @@ body .close {
   font-size: max(7.2vw);
   top: 2.7vw;
   right: 2.7vw;
-  color: #bbb;
+  color: #999;
   text-decoration: none;
   z-index: 9000;
   transition: all 0.2s linear;	
@@ -262,10 +262,10 @@ small, .articles {
   color: #fff;
 }
 .homeContentWrap p.hidden a {
-  color: #777;
+  color: #666;
 }
 .articles a {
-  color: #777 !important;
+  color: #666 !important;
   -moz-transition:color .15s ease-in;
   -o-transition:color .15s ease-in;
   -webkit-transition:color .15s ease-in;	
@@ -331,13 +331,13 @@ body.subpage .ajax-wrapper {
   color: #000;
 }
 .intro.selected a {
-  color: #777;
+  color: #666;
 }
 .intro.selected a.active {
   color: #fff;
 }
 .intro.selected a:hover {
-  color: #777;
+  color: #666;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
@@ -408,7 +408,7 @@ body.subpage .ajax-wrapper {
 }
 
 .ajax-link .projectHover em {
-  color: #bbb;
+  color: #999;
   position: relative;
 }
 
