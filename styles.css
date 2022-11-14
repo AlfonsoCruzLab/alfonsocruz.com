@@ -14,11 +14,6 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   text-size-adjust: none;
 }
 
-::selection {
-  color: #000;	
-  background: #ccc;
-}
-
 footer, header, nav, section, main {
   display: block;
 }
@@ -118,17 +113,15 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body main .intro p a, body main .content p a {
-  text-decoration: none;
-  color: #ccc;	
-  border: solid 1px #ccc;
-  padding: 0 0.75ch;
-  border-radius: 2ch;	
+  color: #ddd;
+  text-decoration: underline;
+  text-decoration-thickness: 30px;
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body .content p a, body .content .articles a {
-  color: #ccc;
+  color: #ddd;
   text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
@@ -225,9 +218,9 @@ body .close {
 
 a {
   cursor: crosshair;
-  -moz-transition:all .15s ease-in;
-  -o-transition:all .15s ease-in;
-  -webkit-transition:all .15s ease-in;		
+  -moz-transition:color .15s ease-in;
+  -o-transition:color .15s ease-in;
+  -webkit-transition:color .15s ease-in;		
 }
 
 b {
@@ -265,10 +258,10 @@ small, .articles {
   color: #000;
 }
 .homeContentWrap p.hidden a.active {
-  background-color: #eee;	
+  color: #fff;
 }
 .homeContentWrap p.hidden a {
-  background-color: #777;	
+  color: #777;
 }
 .articles a {
   color: #777 !important;
@@ -337,15 +330,13 @@ body.subpage .ajax-wrapper {
   color: #000;
 }
 .intro.selected a {
-  color: #000;
-  background-color: #777;	
+  color: #777;
 }
 .intro.selected a.active {
-  color: #000;
-  background-color: #ccc;	
+  color: #fff;
 }
 .intro.selected a:hover {
-  color: #ff0;
+  color: #777;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
@@ -451,8 +442,7 @@ body.subpage .ajax-wrapper {
 }
 
 .intro.selected a:hover {
-  color: #000;
-  background-color: #ccc;	
+  color: #fff;
 }
 
 .portrait, .portrait-small {
