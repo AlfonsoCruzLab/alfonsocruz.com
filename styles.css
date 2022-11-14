@@ -107,7 +107,7 @@ body main {
 }
 body main .intro, body main .content {
   margin: 1em 0;
-  color: #ccc;
+  color: #777;
 }
 @media (min-width: 1024px) {
   body main .intro, body main .content {
@@ -119,6 +119,7 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
 }
 body main .intro p a, body main .content p a {
   text-decoration: none;
+  color: #ccc;	
   border: solid 1px #ccc;
   padding: 0 0.75ch;
   border-radius: 2ch;	
