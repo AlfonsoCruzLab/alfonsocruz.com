@@ -16,7 +16,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 ::selection {
   color: #000;	
-  background: #ccc;
+  background: #bbb;
 }
 
 footer, header, nav, section, main {
@@ -66,7 +66,7 @@ body {
   font-size: max(4vw);
   line-height: 1.4;
   background-color: #000;
-  color: #999;
+  color: #888;
   height: 100%;
   padding: 3vw;
 }
@@ -107,7 +107,7 @@ body main {
 }
 body main .intro, body main .content {
   margin: 1em 0;
-  color: #999;
+  color: #888;
 }
 @media (min-width: 1024px) {
   body main .intro, body main .content {
@@ -118,7 +118,7 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body main .intro p a, body main .content p a {
-  color: #ccc;
+  color: #bbb;
   text-decoration: underline;
   text-decoration-thickness: 0.1ch;
   text-underline-offset: 0.25ch;
@@ -127,7 +127,7 @@ body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body .content p a, body .content .articles a {
-  color: #ccc;
+  color: #bbb;
   text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
@@ -139,7 +139,7 @@ body .content img.noMargin {
 }
 body footer {
   border-top: 0.2vw solid #777;
-  color: #666;
+  color: #888;
   margin-top: 3vw;
   padding-top: 3vw;
   font-size: max(3vw);
@@ -149,12 +149,12 @@ body footer {
 }
 
 body footer a{
-  color: #ccc !important;
+  color: #bbb !important;
 }
 
 
 body footer:hover {
-  color: #ccc;
+  color: #bbb;
 }
 @media (min-width: 720px) {
   body footer {
@@ -174,7 +174,7 @@ body footer p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body footer p a {
-  color: #ccc;
+  color: #bbb;
   text-decoration: none;
 }
 body .close {
@@ -182,7 +182,7 @@ body .close {
   font-size: max(7.2vw);
   top: 2.7vw;
   right: 2.7vw;
-  color: #999;
+  color: #bbb;
   text-decoration: none;
   z-index: 9000;
   transition: all 0.2s linear;	
@@ -267,10 +267,10 @@ small, .articles {
   color: #fff;
 }
 .homeContentWrap p.hidden a {
-  color: #666;
+  color: #888;
 }
 .articles a {
-  color: #666 !important;
+  color: #888 !important;
   -moz-transition:color .15s ease-in;
   -o-transition:color .15s ease-in;
   -webkit-transition:color .15s ease-in;	
@@ -324,7 +324,7 @@ small, .articles {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #666;
+  background: #888;
   padding: 0;
 }
 
@@ -336,13 +336,13 @@ body.subpage .ajax-wrapper {
   color: #000;
 }
 .intro.selected a {
-  color: #666;
+  color: #888;
 }
 .intro.selected a.active {
   color: #fff;
 }
 .intro.selected a:hover {
-  color: #666;
+  color: #888;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
@@ -413,7 +413,7 @@ body.subpage .ajax-wrapper {
 }
 
 .ajax-link .projectHover em {
-  color: #999;
+  color: #bbb;
   position: relative;
 }
 
