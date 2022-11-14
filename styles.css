@@ -115,7 +115,8 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
 body main .intro p a, body main .content p a {
   color: #ddd;
   text-decoration: underline;
-  text-decoration-thickness: 0.01ch;
+  text-decoration-thickness: 0.1ch;
+  text-underline-offset: 0.25ch;
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
