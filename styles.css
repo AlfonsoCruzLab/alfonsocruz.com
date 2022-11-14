@@ -102,7 +102,7 @@ body main {
 }
 body main .intro, body main .content {
   margin: 1em 0;
-  color: #666;
+  color: #999;
 }
 @media (min-width: 1024px) {
   body main .intro, body main .content {
