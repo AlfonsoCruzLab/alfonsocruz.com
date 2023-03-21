@@ -72,19 +72,19 @@ body {
   color: #bbb;
   height: 100%;
   padding: 3vw;
-  animation: bgfade 30s infinite;
+  animation: bgfade 50s infinite;
 }
   @keyframes bgfade {
     0% { background-image: url("/images/backgrounds/ftt.gif"); }
-	1% { background-image: url("/images/backgrounds/ftt.gif"); }
-    20% { background-image: url("/images/backgrounds/wahthy.gif"); }
-	21% { background-image: url("/images/backgrounds/wahthy.gif"); }
-    40% { background-image: url("/images/backgrounds/the-mist.gif"); }    
-	41% { background-image: url("/images/backgrounds/the-mist.gif"); }
-    60% { background-image: url("/images/backgrounds/lab.gif"); }
-	61% { background-image: url("/images/backgrounds/lab.gif"); }
-    80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
-	81% { background-image: url("/images/backgrounds/eco-suit.gif"); }
+    1% { background-image: url("/images/backgrounds/wahthy.gif"); }
+	20% { background-image: url("/images/backgrounds/wahthy.gif"); }
+    21% { background-image: url("/images/backgrounds/the-mist.gif"); }    
+	40% { background-image: url("/images/backgrounds/the-mist.gif"); }
+    41% { background-image: url("/images/backgrounds/lab.gif"); }
+	60% { background-image: url("/images/backgrounds/lab.gif"); }
+    61% { background-image: url("/images/backgrounds/eco-suit.gif"); }
+	80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
+	81% { background-image: url("/images/backgrounds/ftt.gif"); }
 	100% { background-image: url("/images/backgrounds/ftt.gif"); }
     }
 
