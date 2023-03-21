@@ -72,14 +72,19 @@ body {
   color: #bbb;
   height: 100%;
   padding: 3vw;
-  animation: bgfade 30s infinite;
+  animation: bgfade 60s infinite;
 }
   @keyframes bgfade {
     0% { background-image: url("/images/backgrounds/ftt.gif"); }
+	10% { background-image: url("/images/backgrounds/ftt.gif"); }
     20% { background-image: url("/images/backgrounds/wahthy.gif"); }
-    40% { background-image: url("/images/backgrounds/the-mist.gif"); }
+	30% { background-image: url("/images/backgrounds/wahthy.gif"); }
+    40% { background-image: url("/images/backgrounds/the-mist.gif"); }    
+	50% { background-image: url("/images/backgrounds/the-mist.gif"); }
     60% { background-image: url("/images/backgrounds/lab.gif"); }
+	70% { background-image: url("/images/backgrounds/lab.gif"); }
     80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
+	90% { background-image: url("/images/backgrounds/eco-suit.gif"); }
 	100% { background-image: url("/images/backgrounds/ftt.gif"); }
     }
 
