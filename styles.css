@@ -25,6 +25,7 @@ footer, header, nav, section, main {
 
 body {
   line-height: 1;
+  background-image: image("/images/backgrounds/ftt.gif")
 }
 
 ol, ul {
