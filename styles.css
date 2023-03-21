@@ -72,7 +72,7 @@ body {
   color: #bbb;
   height: 100%;
   padding: 3vw;
-  animation: bgfade 20s infinite;
+  animation: bgfade 5s infinite;
 }
   @keyframes bgfade {
     0% { background-image: url("/images/backgrounds/ftt.gif"); }
@@ -156,6 +156,7 @@ body footer {
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 15vw;
+  position: fixed;
 }
 
 body footer a{
