@@ -80,7 +80,7 @@ body {
   body {
     display: flex;
     column-gap: 1.2vw;
-    background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;
+    /**background: url("/images/alfonso_cruz_logo_2022.svg") no-repeat #000;**/
 	background-position: bottom 1.2vw right 1.45vw;  
     background-size: 6vw;
     padding: 1.2vw;
