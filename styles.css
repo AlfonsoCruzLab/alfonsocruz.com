@@ -66,34 +66,22 @@ body {
   font-size: max(4vw);
   line-height: 1.4;
   background-color: #000;
-  background-image:
-	url("/images/backgrounds/ftt.gif"),
-	url("/images/backgrounds/wahthy.gif"),
-	url("/images/backgrounds/the-mist.gif"),
-	url("/images/backgrounds/lab.gif"),
-	url("/images/backgrounds/eco-suit.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #bbb;
   height: 100%;
   padding: 3vw;
-  -moz-animation: swim 2s linear 0s infinite;
-  -webkit-animation: swim 2s linear 0s infinite;
-  animation: swim 2s linear 0s infinite;
+  animation: bgfade 15s infinite;
 }
-@-moz-keyframes swim {
-    from { background-opacity: 100%; }
-    to  { background-opacity: 0; }
-}
-@-webkit-keyframes swim {
-    from { background-opacity: 100%; }
-    to  { background-opacity: 0; }
-}
-@keyframes swim {
-    from { background-opacity: 100%; }
-    to  { background-opacity: 0; }
-}
+  @keyframes bgfade {
+    0% { background-image: url("/images/backgrounds/ftt.gif"); }
+    20% { background-image: url("/images/backgrounds/wahthy.gif"); }
+    40% { background-image: url("/images/backgrounds/the-mist.gif"); }
+    60% { background-image: url("/images/backgrounds/lab.gif"); }
+    80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
+	100% { background-image: url("/images/backgrounds/ftt.gif"); }
+    }
 
 @media (min-width: 720px) {
   body {
