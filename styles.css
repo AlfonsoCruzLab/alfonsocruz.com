@@ -78,7 +78,23 @@ body {
   color: #bbb;
   height: 100%;
   padding: 3vw;
+  -moz-animation: swim 2s linear 0s infinite;
+  -webkit-animation: swim 2s linear 0s infinite;
+  animation: swim 2s linear 0s infinite;
 }
+@-moz-keyframes swim {
+    from { background-position: 200% 0, 0 0; }
+    to  { background-position: -100% 0, 0 0; }
+}
+@-webkit-keyframes swim {
+    from { background-position: 200% 0, 0 0; }
+    to  { background-position: -100% 0, 0 0; }
+}
+@keyframes swim {
+    from { background-position: 200% 0, 0 0; }
+    to  { background-position: -100% 0, 0 0; }
+}
+
 @media (min-width: 720px) {
   body {
     font-size: max(3vw);
