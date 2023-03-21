@@ -164,7 +164,7 @@ body footer:hover {
 }
 @media (min-width: 1024px) {
   body footer {
-    background: transparent;
+    /**background: transparent;**/
     border-top: none;
     margin-top: 0;
     position: relative;
