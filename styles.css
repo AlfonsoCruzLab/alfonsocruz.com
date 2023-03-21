@@ -83,16 +83,16 @@ body {
   animation: swim 2s linear 0s infinite;
 }
 @-moz-keyframes swim {
-    from { background-position: 200% 0, 0 0; }
-    to  { background-position: -100% 0, 0 0; }
+    from { background-opacity: 100%; }
+    to  { background-opacity: 0; }
 }
 @-webkit-keyframes swim {
-    from { background-position: 200% 0, 0 0; }
-    to  { background-position: -100% 0, 0 0; }
+    from { background-opacity: 100%; }
+    to  { background-opacity: 0; }
 }
 @keyframes swim {
-    from { background-position: 200% 0, 0 0; }
-    to  { background-position: -100% 0, 0 0; }
+    from { background-opacity: 100%; }
+    to  { background-opacity: 0; }
 }
 
 @media (min-width: 720px) {
