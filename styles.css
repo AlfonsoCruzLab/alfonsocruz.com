@@ -164,10 +164,6 @@ body footer {
   width: 100vw;
 }
 
-footer p{
-	max-width: 10vw;
-}
-
 body footer a{
   color: #bbb !important;
 }
@@ -189,6 +185,9 @@ body footer:hover {
     position: relative;
 	font-size: max(0.9vw) !important;
   }
+footer p{
+	max-width: 31.65vw;
+}
 }
 body footer p:not(:last-child) {
   margin-bottom: 1.4em;
