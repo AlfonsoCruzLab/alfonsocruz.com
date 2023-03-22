@@ -161,11 +161,11 @@ body footer {
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 15vw;
+  width: 100vw;
 }
-#logo {
-  background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
-  background-size: 15vw;
-  background-color: white;
+
+footer p{
+	max-width: 10vw;
 }
 
 body footer a{
