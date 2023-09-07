@@ -21,8 +21,8 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background: #bbb;
 }
 
-:hover {
-  color: #ff0;	
+a:hover {
+  color: #00f;	
 }
 
 footer, header, nav, section, main {
