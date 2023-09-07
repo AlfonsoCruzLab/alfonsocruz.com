@@ -15,7 +15,6 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 ::selection {
-  color: #000;	
   background: #bbb;
 }
 
@@ -31,6 +30,9 @@ body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, 
   color: #bbb;
 }
 
+::selection, .homeContentWrap p.hidden, .intro.selected p {
+  color: #00f;	
+}
 
 footer, header, nav, section, main {
   display: block;
@@ -272,9 +274,6 @@ small, .articles {
 .homeContentWrap p {
   transition: opacity, color 0.2s linear;
 }
-.homeContentWrap p.hidden {
-  color: #000;
-}
 
 .articles a {
   -moz-transition:color .15s ease-in;
@@ -333,10 +332,6 @@ small, .articles {
 
 body.subpage .ajax-wrapper {
   display: block;
-}
-
-.intro.selected p {
-  color: #000;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
