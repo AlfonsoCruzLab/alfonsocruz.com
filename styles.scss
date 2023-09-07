@@ -24,15 +24,6 @@
 	font-display: swap;
 }
 
-::selection {
-  color: #000;	
-  background: #bbb;
-}
-
-a:hover, a.hover, a.active, b, h1 {
-  color: #0ff;	
-}
-
 html, body {
   height: 100%;
 }
@@ -41,8 +32,6 @@ body {
 	font-family: 'Univers LT Std',  sans-serif, Arial;
 	font-size: max(14px, 1.24vw);
 	line-height: 1.4;
-	background-color: #111;
-	color: #ccc;
 	height: 100%;
 	padding: 12px;
 	@include for-tablet-landscape-up {
