@@ -14,9 +14,15 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   text-size-adjust: none;
 }
 
+
+
 ::selection {
   color: #000;	
   background: #bbb;
+}
+
+:hover {
+  color: #ff0;	
 }
 
 footer, header, nav, section, main {
@@ -167,10 +173,6 @@ body footer a{
   color: #bbb !important;
 }
 
-
-body footer:hover {
-  color: #bbb;
-}
 @media (min-width: 720px) {
   body footer {
 	font-size: max(2.25vw);
@@ -206,9 +208,7 @@ body .close {
   z-index: 9000;
   transition: all 0.2s linear;	
 }
-body .close:hover {
-  color: #fff;
-}
+
 @media (min-width: 720px) {
 body .close {
   font-size: max(3.6vw);
@@ -294,9 +294,6 @@ small, .articles {
   -o-transition:color .15s ease-in;
   -webkit-transition:color .15s ease-in;	
 }
-.articles a:hover {
-  color: #fff !important;
-}
 
 @media (min-width: 1024px) {
   .articles {
@@ -359,9 +356,6 @@ body.subpage .ajax-wrapper {
 }
 .intro.selected a.active {
   color: #fff;
-}
-.intro.selected a:hover {
-  color: #888;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
@@ -464,10 +458,6 @@ body.subpage .ajax-wrapper {
 	margin-bottom: 1.2vw;
 	position: relative;  
   }
-}
-
-.intro.selected a:hover {
-  color: #fff;
 }
 
 .portrait, .portrait-small {
