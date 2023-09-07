@@ -21,7 +21,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background: #bbb;
 }
 
-a:hover {
+a.hover, a.active, b, h1 {
   color: #00f;	
 }
 
@@ -248,9 +248,6 @@ a {
   -webkit-transition:color .15s ease-in;		
 }
 
-b {
-  color: #fff;	
-}
 
 small {
   font-size: max(2.4vw);
@@ -355,7 +352,6 @@ body.subpage .ajax-wrapper {
   color: #888;
 }
 .intro.selected a.active {
-  color: #fff;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
@@ -391,9 +387,7 @@ body.subpage .ajax-wrapper {
     display: none;
   }
 }
-.content.loadme.project .projectHeader h1 {
-  color: #fff;
-}
+
 .content.loadme.project .projectHeader h2 {
   margin-bottom: 1.2vw;
 }
