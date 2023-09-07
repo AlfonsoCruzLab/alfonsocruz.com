@@ -62,7 +62,6 @@ body {
 		flex: 1 0 auto;
 		.intro, .content {
 			margin: 1em 0;
-			color: #777;
 			@include for-tablet-landscape-up {
 				margin-top: 0;
 			}
@@ -96,8 +95,6 @@ body {
 	}
 	
 	footer {
-		border-top: 0.2vw solid #ccc;
-		color: #ccc;
 		margin-top: 2.4vw;
 		padding-top: 2.4vw;
 		font-size: max(10px, 0.93vw);
@@ -127,7 +124,6 @@ body {
 		font-size: 22px;
 		top: 20px;
 		right: 10px;
-		color: #ccc;
 		text-decoration: none;
 		z-index: 9000;
 	}
@@ -156,7 +152,6 @@ small {
 
 .articles {
 	font-size: max(10px, 0.72vw);
-	border-top: solid 1px #ccc;
 	padding-top: 1em;
 }
 
@@ -167,9 +162,7 @@ small {
 	}
 	
 	.homeContentWrap p.hidden {
-		color: #111;
 		a {
-			color: #777;
 			transition: all 0.3s linear;
 			&.active {
 			}
@@ -238,14 +231,11 @@ body.subpage .ajax-wrapper {
 
 .intro.selected {
 	p {
-		color: #111;
 	}
 	a {
-		color: #777;
 		&.active {
 		}
 		&:hover {
-			color: #777;
 		}
 	}
 }
@@ -286,7 +276,6 @@ body.subpage .ajax-wrapper {
 		hr {
 			height: 1px;
 			border: none;
-			border-bottom: 1px solid #ccc;
 			margin: 0 !important;
 		}
 	}
@@ -356,7 +345,6 @@ body.subpage .ajax-wrapper {
 			
 		}
 		em {
-			color: #ccc;
 			position: relative;
 			&::before {
 				content: '';
