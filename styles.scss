@@ -73,7 +73,6 @@ body {
 					margin-bottom: 1.6em;
 				}
 				a {
-					color: #fff;
 					text-decoration: none;
 				}
 			}
@@ -86,7 +85,6 @@ body {
 				margin-bottom: 1.6em;
 			}
 			a {
-				color: #fff;
 				text-decoration: none;
 			}
 		}
@@ -121,7 +119,6 @@ body {
 				margin-bottom: 1.6em;
 			}
 			a {
-				color: #fff;
 				text-decoration: none;
 			}
 		}
@@ -177,7 +174,6 @@ small {
 			color: #777;
 			transition: all 0.3s linear;
 			&.active {
-				color: #fff;
 			}
 		}
 	
@@ -249,7 +245,6 @@ body.subpage .ajax-wrapper {
 	a {
 		color: #777;
 		&.active {
-			color: #fff;
 		}
 		&:hover {
 			color: #777;
@@ -284,7 +279,6 @@ body.subpage .ajax-wrapper {
 
 		
 		h1 {
-			color: #fff;
 		}
 		
 		h2 {
@@ -404,10 +398,6 @@ body.subpage .ajax-wrapper {
 			width: 100%;
 		}
 	}
-}
-
-.intro.selected a:hover {
-	color: #fff;
 }
 
 .portrait {
