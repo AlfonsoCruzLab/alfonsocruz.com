@@ -21,7 +21,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background: #bbb;
 }
 
-a.hover, a.active, b, h1 {
+a:hover, a.hover, a.active, b, h1 {
   color: #00f;	
 }
 
@@ -280,7 +280,6 @@ small, .articles {
   color: #000;
 }
 .homeContentWrap p.hidden a.active {
-  color: #fff;
 }
 .homeContentWrap p.hidden a {
   color: #888;
