@@ -24,6 +24,15 @@
 	font-display: swap;
 }
 
+::selection {
+  color: #000;	
+  background: #bbb;
+}
+
+a:hover, a.hover, a.active, b, h1 {
+  color: #0ff;	
+}
+
 html, body {
   height: 100%;
 }
