@@ -27,6 +27,10 @@ body, body main .intro p a, body main .content p a, body .content p a, body .con
   color: #ddd;
 }
 
+body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, .articles a, .intro.selected a {
+  color: #00f;
+}
+
 
 footer, header, nav, section, main {
   display: block;
@@ -130,7 +134,6 @@ body main {
 }
 body main .intro, body main .content {
   margin: 1em 0;
-  color: #888;
 }
 @media (min-width: 1024px) {
   body main .intro, body main .content {
@@ -160,7 +163,6 @@ body .content img.noMargin {
 }
 body footer {
   border-top: 0.2vw solid #888;
-  color: #888;
   margin-top: 3vw;
   padding-top: 3vw;
   font-size: max(3vw);
@@ -273,13 +275,8 @@ small, .articles {
 .homeContentWrap p.hidden {
   color: #000;
 }
-.homeContentWrap p.hidden a.active {
-}
-.homeContentWrap p.hidden a {
-  color: #888;
-}
+
 .articles a {
-  color: #888 !important;
   -moz-transition:color .15s ease-in;
   -o-transition:color .15s ease-in;
   -webkit-transition:color .15s ease-in;	
@@ -340,11 +337,6 @@ body.subpage .ajax-wrapper {
 
 .intro.selected p {
   color: #000;
-}
-.intro.selected a {
-  color: #888;
-}
-.intro.selected a.active {
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
