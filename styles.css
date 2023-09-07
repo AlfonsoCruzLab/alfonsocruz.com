@@ -23,6 +23,10 @@ a:hover, a.hover, a.active, b, h1 {
   color: #fff !important;	
 }
 
+body, body main .intro p a, body main .content p a, body .content p a, body .content .articles a, body footer a, body .close, body footer p a, .ajax-link .projectHover em {
+  color: #ff0;
+}
+
 
 footer, header, nav, section, main {
   display: block;
@@ -74,7 +78,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #bbb;
   height: 100%;
   padding: 3vw;
   animation: bgfade 50s infinite;
@@ -138,7 +141,6 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body main .intro p a, body main .content p a {
-  color: #bbb;
   text-decoration: underline;
   text-decoration-thickness: 0.1ch;
   text-underline-offset: 0.25ch;
@@ -147,7 +149,6 @@ body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body .content p a, body .content .articles a {
-  color: #bbb;
   text-decoration: none;
 }
 body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
@@ -166,10 +167,6 @@ body footer {
   flex-shrink: 0;
   background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 15vw;
-}
-
-body footer a{
-  color: #bbb !important;
 }
 
 @media (min-width: 720px) {
@@ -194,7 +191,6 @@ body footer p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body footer p a {
-  color: #bbb;
   text-decoration: none;
 }
 body .close {
@@ -202,7 +198,6 @@ body .close {
   font-size: max(7.2vw);
   top: 2.7vw;
   right: 2.7vw;
-  color: #bbb;
   text-decoration: none;
   z-index: 9000;
   transition: all 0.2s linear;	
@@ -418,7 +413,6 @@ body.subpage .ajax-wrapper {
 }
 
 .ajax-link .projectHover em {
-  color: #bbb;
   position: relative;
 }
 
