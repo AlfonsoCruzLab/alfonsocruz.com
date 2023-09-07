@@ -28,7 +28,7 @@ body, body main .intro p a, body main .content p a, body .content p a, body .con
 }
 
 body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, .articles a, .intro.selected a {
-  color: #00f;
+  color: #bbb;
 }
 
 
