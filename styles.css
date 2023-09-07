@@ -19,19 +19,19 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 a:hover, a.hover, a.active, b, h1 {
-  color: #fff !important;	
+  color: #f00;	
 }
 
 body, body main .intro p a, body main .content p a, body .content p a, body .content .articles a, body footer a, body .close, body footer p a, .ajax-link .projectHover em {
-  color: #ddd;
+  color: #ff0;
 }
 
 body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, .articles a, .intro.selected a {
-  color: #bbb;
+  color: #0f0;
 }
 
 ::selection, .homeContentWrap p.hidden, .intro.selected p {
-  color: #00f;	
+  color: #0ff;	
 }
 
 footer, header, nav, section, main {
