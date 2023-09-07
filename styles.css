@@ -15,7 +15,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 ::selection {
-  background: #bbb;
+  background: #ddd;
 }
 
 a:hover, a.hover, a.active, b, h1 {
@@ -164,7 +164,7 @@ body .content img.noMargin {
   margin-bottom: 0 !important;
 }
 body footer {
-  border-top: 0.2vw solid #888;
+  border-top: 0.2vw solid #bbb;
   margin-top: 3vw;
   padding-top: 3vw;
   font-size: max(3vw);
@@ -326,7 +326,7 @@ small, .articles {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #888;
+  background: #ddd;
   padding: 0;
 }
 
@@ -374,7 +374,7 @@ body.subpage .ajax-wrapper {
 .content.loadme.project .projectHeader hr {
   height: 1px;
   border: none;
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #ddd;
   margin: 0 !important;
 }
 
@@ -473,7 +473,7 @@ body.subpage .ajax-wrapper {
 }
 
 img, video, .iframeviewer {
-  border: 1px solid #bbb;	
+  border: 1px solid #ddd;	
 }
 
 body .content .last-item .twitter-tweet, body .content .last-item .scroller {
