@@ -533,6 +533,8 @@ body.subpage .intro.selected a {
 
 .thumbnail {
 	position: fixed;
+	left: 0px;
+	right: 0px;
 	width: 100vw;
 	height: 100vh;
 }
