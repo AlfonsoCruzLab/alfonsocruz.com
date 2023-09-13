@@ -532,11 +532,9 @@ body.subpage .intro.selected a {
 }
 
 .thumbnail {
-	border: 1px solid #ddd;
 	position: fixed;
-	left: 20.7vw;
-	width: 20.7vw;
-	transform: translateY(-6.2vw);  
+	width: 100vw;
+	height: 100vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
