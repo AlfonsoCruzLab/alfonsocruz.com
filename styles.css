@@ -103,7 +103,27 @@ body {
 	80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
 	85% { background-image: url("/images/backgrounds/ftt.gif"); }
 	100% { background-image: url("/images/backgrounds/ftt.gif"); }
-    }	
+    }
+
+#fight-the-tower {
+	background-image: url("/images/backgrounds/ftt.gif");
+}
+
+#we-are-here-to-help-you {
+	background-image: url("/images/backgrounds/wahthy.gif");
+}
+
+#the-mist {
+	background-image: url("/images/backgrounds/the-mist.gif");
+}
+
+#lab {
+	background-image: url("/images/backgrounds/lab.gif");
+}
+
+#fight-the-tower {
+	background-image: url("/images/backgrounds/ftt.gif");
+}
 
 @media (min-width: 720px) {
   body {
