@@ -414,6 +414,7 @@ body.subpage .ajax-wrapper {
   opacity: 0;
   transition: opacity 0.2s linear;
   pointer-events: none;
+  background-color: #aaa;
 }
 @media (min-width: 1024px) {
   .ajax-link .projectHover {
