@@ -359,6 +359,7 @@ body.subpage .ajax-wrapper {
 
 .subpage {
 	background-opacity: 0.5;
+	z-index: 999;
 }
 
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
