@@ -28,10 +28,11 @@ body, body main .intro p a, body main .content p a, body .content p a, body .con
 
 body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, .articles a, .intro.selected a {
   color: #bbb;
+  opacity: 1;
 }
 
 ::selection, .homeContentWrap p.hidden, .intro.selected p {
-  color: #111;	
+  opacity: 0;	
 }
 
 footer, header, nav, section, main {
