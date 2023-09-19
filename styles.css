@@ -558,7 +558,7 @@ body.subpage .intro.selected a {
 	border: 1px solid #ddd;
 	position: fixed;
 	left: 20.7vw;
-	width: 20.7vw;
+	width: 100vw;
 	transform: translateY(-6.2vw);  
 }
 
