@@ -559,7 +559,8 @@ body.subpage .intro.selected a {
 	position: fixed;
 	left: -20.7vw;
 	width: 100vw;
-	transform: translateY(-6.2vw);  
+	transform: translateY(-6.2vw);
+	z-index: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
