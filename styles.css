@@ -415,8 +415,9 @@ body.subpage .ajax-wrapper {
   opacity: 0;
   transition: opacity 0.2s linear;
   pointer-events: none;
-  background-position: fixed;
-  background-positionn: top 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ftt {
