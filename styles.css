@@ -417,7 +417,7 @@ body.subpage .ajax-wrapper {
   pointer-events: none;
 }
 
-.projectHover ftt {
+.ftt {
   background-image: url("images/thumbnails/eco-suit.jpg");
 }
 
