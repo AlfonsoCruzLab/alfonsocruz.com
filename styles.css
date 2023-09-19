@@ -407,6 +407,7 @@ body.subpage .ajax-wrapper {
 .ajax-link .projectHover {
   position: fixed;
   left: 0;
+  top: 0;	
   width: 100vw;
   height: 100vw;
   padding-top: 0;	
@@ -418,6 +419,7 @@ body.subpage .ajax-wrapper {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;	
 }
 
 .ftt {
