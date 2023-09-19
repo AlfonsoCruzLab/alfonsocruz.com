@@ -86,6 +86,9 @@ body {
   background-size: cover;
   height: 100%;
   padding: 3vw;
+}
+
+#homepage {
   animation: bgfade 50s infinite;
 }
   @keyframes bgfade {
@@ -100,7 +103,7 @@ body {
 	80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
 	85% { background-image: url("/images/backgrounds/ftt.gif"); }
 	100% { background-image: url("/images/backgrounds/ftt.gif"); }
-    }
+    }	
 
 @media (min-width: 720px) {
   body {
