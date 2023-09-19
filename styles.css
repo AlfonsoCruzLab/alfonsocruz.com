@@ -407,9 +407,9 @@ body.subpage .ajax-wrapper {
 .ajax-link .projectHover {
   position: fixed;
   left: 0;
-  top: 1.7vw;	
+  top: 1.5vw;	
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 1.5vw);
   padding-top: 1.2vw;	
   padding-left: 34.05vw;	
   display: none;
