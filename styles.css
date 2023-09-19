@@ -31,7 +31,7 @@ body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, 
 }
 
 ::selection, .homeContentWrap p.hidden, .intro.selected p {
-  color: rgba(0,0,255,0.3);	
+  color: rgba(0,0,0,0);	
 }
 
 footer, header, nav, section, main {
