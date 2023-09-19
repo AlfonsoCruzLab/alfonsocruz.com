@@ -418,6 +418,22 @@ body.subpage .ajax-wrapper {
 }
 
 .ftt {
+  background-image: url("images/thumbnails/ftt.jpg");
+}
+
+.wah {
+  background-image: url("images/thumbnails/wahthy.jpg");
+}
+
+.tm {
+  background-image: url("images/thumbnails/the-mist.jpg");
+}
+
+.ex {
+  background-image: url("images/thumbnails/lab.jpg");
+}
+
+.eco {
   background-image: url("images/thumbnails/eco-suit.jpg");
 }
 
