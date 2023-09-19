@@ -88,7 +88,7 @@ body {
   padding: 3vw;
 }
 
-#homepage {
+#homepage, #cv {
   animation: bgfade 50s infinite;
 }
   @keyframes bgfade {
@@ -423,23 +423,23 @@ body.subpage .ajax-wrapper {
 }
 
 .ftt {
-  background-image: url("images/thumbnails/ftt.jpg");
+  background-image: url("images/backgrounds/ftt.gif");
 }
 
 .wah {
-  background-image: url("images/thumbnails/wahthy.jpg");
+  background-image: url("images/backgrounds/wahthy.gif");
 }
 
 .tm {
-  background-image: url("images/thumbnails/the-mist.jpg");
+  background-image: url("images/backgrounds/the-mist.gif");
 }
 
 .ex {
-  background-image: url("images/thumbnails/lab.jpg");
+  background-image: url("images/backgrounds/lab.gif");
 }
 
 .eco {
-  background-image: url("images/thumbnails/eco-suit.jpg");
+  background-image: url("images/backgrounds/eco-suit.gif");
 }
 
 @media (min-width: 1024px) {
