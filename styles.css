@@ -66,8 +66,8 @@ input {
 }
 
 @font-face {
-  font-family: "Univers";
-  src: url("/fonts/UniversRegular.woff") format("woff");
+  font-family: "Univers LT Std";
+  src: url("/fonts/UniversLTStd-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -77,7 +77,7 @@ html, body {
 }
 
 body {
-  font-family: "Univers", sans-serif, Arial;
+  font-family: "Univers LT Std", sans-serif, Arial;
   font-size: max(4vw);
   line-height: 1.4;
   background-color: #000;
