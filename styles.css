@@ -20,21 +20,18 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 a:hover, a.hover, a.active, b, h1 {
   color: #fff !important;
-  opacity: 1 !important;	
 }
 
 body, body main .intro p a, body main .content p a, body .content p a, body .content .articles a, body footer a, body .close, body footer p a, .ajax-link .projectHover em {
   color: #ddd;
-  opacity: 1;	
 }
 
 body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, .articles a, .intro.selected a {
   color: #bbb;
-  opacity: 1;
 }
 
 ::selection, .homeContentWrap p.hidden, .intro.selected p {
-  opacity: 0;	
+  color: #111;	
 }
 
 footer, header, nav, section, main {
