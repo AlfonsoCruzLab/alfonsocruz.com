@@ -416,6 +416,7 @@ body.subpage .ajax-wrapper {
   width: 100vw;
   height: 100vh;
   padding-top: 50vh;
+  padding-left: 3vw;	
   display: none;
   opacity: 0;
   transition: opacity 0.2s linear;
@@ -427,8 +428,8 @@ body.subpage .ajax-wrapper {
 }
 
 .cv {
-  padding-top: 1.2vw;	
-  padding-left: 34.05vw;
+  padding-top: 1.2vw !important;	
+  padding-left: 34.05vw !important;
   padding-right: 24vw;	
 }
 
