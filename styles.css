@@ -357,6 +357,10 @@ body.subpage .ajax-wrapper {
   display: block;
 }
 
+.subpage {
+	background-color: blue;
+}
+
 .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
   padding-top: 18vw;
 }
