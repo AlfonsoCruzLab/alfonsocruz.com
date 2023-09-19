@@ -415,7 +415,7 @@ body.subpage .ajax-wrapper {
   top: 1.66vw;	
   width: 100vw;
   height: 100vh;
-  padding-top: calc(50vh - 13vw);
+  padding-top: calc(50vh - 3vw);
   padding-left: 1.2vw;	
   display: none;
   opacity: 0;
