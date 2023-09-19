@@ -415,9 +415,7 @@ body.subpage .ajax-wrapper {
   top: 1.66vw;	
   width: 100vw;
   height: 100vh;
-  padding-top: 1.2vw;	
-  padding-left: 34.05vw;
-  padding-right: 24vw;	
+  padding-top: 50vh;
   display: none;
   opacity: 0;
   transition: opacity 0.2s linear;
@@ -426,6 +424,12 @@ body.subpage .ajax-wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -10 !important;	
+}
+
+.cv {
+  padding-top: 1.2vw;	
+  padding-left: 34.05vw;
+  padding-right: 24vw;	
 }
 
 .ftt {
