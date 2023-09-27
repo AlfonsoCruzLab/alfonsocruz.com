@@ -32,7 +32,7 @@ body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, 
 }
 
 ::selection, .homeContentWrap p.hidden, .intro.selected p {
-  color: rgba(0,0,0,0);	
+  color: rgba(0,0,0,1);	
 }
 
 footer, header, nav, section, main {
