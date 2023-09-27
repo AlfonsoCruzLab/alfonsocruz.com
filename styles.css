@@ -16,7 +16,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 ::selection {
   background: #ddd;
-  color: rgba(0,0,0,1);	
+  color: #000;	
 }
 
 a:hover, a.hover, a.active, b, h1 {
@@ -31,7 +31,7 @@ body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, 
   color: #bbb;
 }
 
-::selection, .homeContentWrap p.hidden, .intro.selected p {
+.homeContentWrap p.hidden, .intro.selected p {
   color: rgba(0,0,0,0);	
 }
 
