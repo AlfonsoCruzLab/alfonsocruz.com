@@ -89,6 +89,8 @@ body {
   padding: 3vw;
 }
 
+/*
+
 #homepage, #cv {
   animation: bgfade 50s infinite;
 }
@@ -125,6 +127,8 @@ body {
 #eco-suit {
 	background-image: url("/images/backgrounds/eco-suit.gif");
 }
+
+*/
 
 @media (min-width: 720px) {
   body {
