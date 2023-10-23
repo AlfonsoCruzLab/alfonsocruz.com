@@ -21,7 +21,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 a {
   text-decoration-thickness: 0.1ch;
-  text-underline-offset: 0.25ch;
+  text-underline-offset: 10%;
 }
 
 a:hover, a.hover, a.active, b, h1 {
