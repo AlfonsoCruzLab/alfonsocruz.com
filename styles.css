@@ -20,8 +20,8 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 a {
-  text-underline-offset: 10%;
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 0.1ch;
+  text-underline-offset: 0.25ch;
 }
 
 a:hover, a.hover, a.active, b, h1 {
@@ -179,8 +179,6 @@ body main .intro p:not(:last-child), body main .content p:not(:last-child) {
   margin-bottom: 1.4em;
 }
 body main .intro p a, body main .content p a {
-  text-decoration-thickness: 0.1ch;
-  text-underline-offset: 0.25ch;
 }
 body .content p:not(:last-child), body .content .articles:not(:last-child) {
   margin-bottom: 1.4em;
