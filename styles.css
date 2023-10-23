@@ -20,7 +20,8 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 a {
-  text-underline-offset: 10%;	
+  text-underline-offset: 10%;
+  text-decoration-thickness: 1px;
 }
 
 a:hover, a.hover, a.active, b, h1 {
