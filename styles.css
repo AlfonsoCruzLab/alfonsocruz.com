@@ -97,8 +97,8 @@ body {
 
 
 #homepage {
-  animation: typing 1s forwards;
-  background-color: black;	
+  animation: typing 1s steps(20, end) forwards;
+  background-color: #333;	
 }
  @keyframes typing {
   from { width: 0 }
