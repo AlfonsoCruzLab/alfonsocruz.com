@@ -24,7 +24,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background:linear-gradient(#ddd 0 0) 0 0;
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
-  animation: t calc(var(--n)*.1s) linear;
+  animation: t calc(var(--n)*.05s) linear;
 }
 @keyframes t{
   from {background-size:0 200%}
@@ -41,6 +41,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 a {
   text-decoration-thickness: 0.1ch;
   text-underline-offset: 10%;
+  color: #ddd !important;
 }
 
 a:hover, a.hover, a.active, b, h1 {
