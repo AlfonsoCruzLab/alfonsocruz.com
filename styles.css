@@ -133,6 +133,7 @@ body main .intro, body main .content {
   margin: 1em 0;
 }
 
+/*
 .typed-out{
       overflow: hidden;
       border-right: .15em solid #222;
@@ -145,6 +146,7 @@ body main .intro, body main .content {
       from { width: 0 }
       to { width: 100% }
     }
+*/
 
 @media (min-width: 1024px) {
   body main .intro, body main .content {
