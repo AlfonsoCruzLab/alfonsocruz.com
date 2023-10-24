@@ -133,21 +133,6 @@ body main .intro, body main .content {
   margin: 1em 0;
 }
 
-.text-cover {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2em;
-    background: #fff;
-    width: 100%;
-    animation: revealLine 8s steps(40) infinite;
-}
-
-@keyframes revealLine {
-    0% { left: 0%; }
-    100% { left: 100%; }
-}
-
 @media (min-width: 1024px) {
   body main .intro, body main .content {
     margin-top: 0;
