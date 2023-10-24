@@ -270,7 +270,7 @@ body .close {
 }
 
 a {
-  cursor: crosshair;
+  cursor: pointer;
   -moz-transition:color .15s ease-in;
   -o-transition:color .15s ease-in;
   -webkit-transition:color .15s ease-in;		
