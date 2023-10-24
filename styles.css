@@ -135,8 +135,7 @@ body main .intro, body main .content {
 
 .intro{
       overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
+      border-right: .15em solid black;
       animation: 
       typing 1s steps(20, end) forwards;
       font-size: 1.6rem;
