@@ -95,20 +95,7 @@ body {
   padding: 3vw;
 }
 
-.typed-out{
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
-      animation: 
-      typing 1s steps(20, end) forwards;
-      font-size: 1.6rem;
-      width: 0;
-	  background: black;
-    }
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
+
 
 @media (min-width: 720px) {
   body {
@@ -145,6 +132,22 @@ body main {
 body main .intro, body main .content {
   margin: 1em 0;
 }
+
+.intro{
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      animation: 
+      typing 1s steps(20, end) forwards;
+      font-size: 1.6rem;
+      width: 0;
+	  background: black;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
 @media (min-width: 1024px) {
   body main .intro, body main .content {
     margin-top: 0;
