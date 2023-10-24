@@ -138,9 +138,7 @@ body main .intro, body main .content {
       border-right: .15em solid black;
       animation: 
       typing 1s steps(20, end) forwards;
-      font-size: 1.6rem;
       width: 0;
-	  background: black;
     }
     @keyframes typing {
       from { width: 0 }
