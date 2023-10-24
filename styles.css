@@ -95,46 +95,15 @@ body {
   padding: 3vw;
 }
 
-/*
 
-#homepage, #cv {
-  animation: bgfade 50s infinite;
+
+#homepage {
+  animation: typing 1s forwards;
 }
-  @keyframes bgfade {
-    0% { background-image: url("/images/backgrounds/ftt.gif"); }
-    5% { background-image: url("/images/backgrounds/wahthy.gif"); }
-	20% { background-image: url("/images/backgrounds/wahthy.gif"); }
-    25% { background-image: url("/images/backgrounds/the-mist.gif"); }    
-	40% { background-image: url("/images/backgrounds/the-mist.gif"); }
-    45% { background-image: url("/images/backgrounds/lab.gif"); }
-	60% { background-image: url("/images/backgrounds/lab.gif"); }
-    65% { background-image: url("/images/backgrounds/eco-suit.gif"); }
-	80% { background-image: url("/images/backgrounds/eco-suit.gif"); }
-	85% { background-image: url("/images/backgrounds/ftt.gif"); }
-	100% { background-image: url("/images/backgrounds/ftt.gif"); }
-    }
-
-#fight-the-tower {
-	background-image: url("/images/backgrounds/ftt.gif");
+ @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
-
-#we-are-here-to-help-you {
-	background-image: url("/images/backgrounds/wahthy.gif");
-}
-
-#the-mist {
-	background-image: url("/images/backgrounds/the-mist.gif");
-}
-
-#lab {
-	background-image: url("/images/backgrounds/lab.gif");
-}
-
-#eco-suit {
-	background-image: url("/images/backgrounds/eco-suit.gif");
-}
-
-*/
 
 @media (min-width: 720px) {
   body {
