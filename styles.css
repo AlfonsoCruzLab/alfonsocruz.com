@@ -34,9 +34,6 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   -webkit-background-clip:text;
   background-clip:text;
 }
-.step {
-  animation-timing-function:steps(var(--n))
-}
 
 .homeContentWrap .type.hidden, .intro.selected .type{
   background:linear-gradient(#080808 0 0) 0 0;	
