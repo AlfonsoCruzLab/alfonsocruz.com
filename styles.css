@@ -39,7 +39,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .homeContentWrap .type.hidden, .intro.selected .type{
-  opacity: 0 !important;	
+  background:linear-gradient(#080808 0 0) 0 0;	
 }
 
 
