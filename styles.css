@@ -21,7 +21,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .type {
-  background:linear-gradient(#bbb 0 0) 0 0;
+  background:linear-gradient(to right, #bbb 90%, #080808 100%,);
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
   animation: t calc(var(--n)*.05s) linear;
