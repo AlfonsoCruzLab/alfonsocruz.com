@@ -324,6 +324,7 @@ small, .articles {
     width: 20.7vw;
     border-top: none;
     z-index: 1;
+	background: black;
 	overflow: scroll;  
   }
 	
