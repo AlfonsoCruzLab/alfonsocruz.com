@@ -38,8 +38,8 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   animation-timing-function:steps(var(--n))
 }
 
-.homeContentWrap .type.hidden p, .intro.selected .type p{
-  opacity: 0;	
+.homeContentWrap .type.hidden, .intro.selected .type{
+  opacity: 0 !important;	
 }
 
 
