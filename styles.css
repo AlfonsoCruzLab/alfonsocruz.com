@@ -61,9 +61,9 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   -moz-animation-duration:0.1s;
   animation-duration:0.1s;
 
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s;
 }
 
 a {
