@@ -25,6 +25,9 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
   animation: t calc(var(--n)*.1s) linear;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
 }
 @keyframes t{
   from {background-size:0 200%}
