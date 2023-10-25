@@ -24,7 +24,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background:linear-gradient(#bbb 0 0) 0 0;
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
-  animation: t calc(var(--n)*.02s) linear;
+  animation: t calc(var(--n)*.05s) linear;
 }
 @keyframes t{
   from {background-size:0 200%}
@@ -61,9 +61,9 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   -moz-animation-duration:0.1s;
   animation-duration:0.1s;
 
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s;
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  animation-delay: 9s;
 }
 
 a {
