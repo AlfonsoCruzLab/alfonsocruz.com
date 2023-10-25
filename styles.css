@@ -38,7 +38,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   animation-timing-function:steps(var(--n))
 }
 
-.homeContentWrap .type.hidden, .intro.selected .type {
+.homeContentWrap .type.hidden :not(a), .intro.selected .type :not(a){
   opacity: 0;	
 }
 
