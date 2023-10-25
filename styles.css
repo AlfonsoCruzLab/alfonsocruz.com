@@ -21,10 +21,10 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .type {
-  background:linear-gradient(-90deg, #080808 0ch, #bbb 10ch, var(--c,#bbb) 0) 0 0;
+  background:linear-gradient(-90deg, #080808 0ch, #bbb 20ch, var(--c,#bbb) 0) 0 0;
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
-  animation: t calc(var(--n)*.05s) linear;
+  animation: t calc(var(--n)*.1s) linear;
 }
 @keyframes t{
   from {background-size:0 200%}
@@ -54,13 +54,13 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 
-  -webkit-animation-duration:0.5s;
-  -moz-animation-duration:0.5s;
-  animation-duration:0.5s;
+  -webkit-animation-duration:0.75s;
+  -moz-animation-duration:0.75s;
+  animation-duration:0.75s;
 
-  -webkit-animation-delay: 20s;
-  -moz-animation-delay: 20s;
-  animation-delay: 20s;
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s;
 }
 
 a {
