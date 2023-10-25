@@ -39,7 +39,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .homeContentWrap .type.hidden, .intro.selected .type {
-  background:linear-gradient(#000 0 0) 0 0;	
+  opacity: 0;	
 }
 
 
@@ -63,7 +63,6 @@ body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, 
 
 .homeContentWrap p.hidden, .intro.selected p {
   color: rgba(0,0,0,0);
-  background:linear-gradient(#000 0 0) 0 0;	
 }
 
 footer, header, nav, section, main {
