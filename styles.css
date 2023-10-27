@@ -326,6 +326,10 @@ small, .articles {
     z-index: 1;
   }
 	
+	.projects {
+		border: solid 1px #bbb;
+	}	
+	
   .articles .fullwidth {
     height: auto !important;
   }
