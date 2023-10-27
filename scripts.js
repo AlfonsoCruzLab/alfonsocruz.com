@@ -65,11 +65,11 @@ $(document).on("click", '.close', function(event) {
 
 //sidebar
 function openNav() {
-  document.getElementById("mySidenav").style.Left = "77.85vw";
+  document.getElementById("mySidenav").style.marginLeft = "77.85vw";
   document.getElementById("menu").style.marginRight = "20.7vw";
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.Left = "100vw";
+  document.getElementById("mySidenav").style.marginLeft = "100vw";
   document.getElementById("menu").style.marginRight= "0";
 }
