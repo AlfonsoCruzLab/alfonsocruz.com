@@ -320,11 +320,11 @@ small, .articles {
 	
 	.sidenav {
   height: 100%;
-  width: 0;
+  width: 20.7vw;
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0;
+  left: 100vw;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
