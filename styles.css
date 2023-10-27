@@ -330,6 +330,7 @@ small, .articles {
 		border: solid 1px #bbb;
 		padding: 1.2vw;
 		overflow: scroll;
+		bottom: 1.2vw;
 	}
 	
   .articles .fullwidth {
