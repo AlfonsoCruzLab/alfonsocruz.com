@@ -334,11 +334,11 @@ small, .articles {
     transition: margin-right .5s;
     text-align: right;
 	position: fixed;
-	padding: 0 1.5vw 0 0;  
+	padding-right: 2ch;  
     top: 1.2vw;
-    left: 77.85vw;
-    right: 0px;
-    z-index: 1;	
+    width: auto;
+    right: 1.5vw;
+    z-index: 1;
 	}
 	
 	
