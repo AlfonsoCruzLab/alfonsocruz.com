@@ -317,6 +317,7 @@ small, .articles {
 
 @media (min-width: 1024px) {
 	.latest_projects {
+	font-size: max(2.7vw);
 	position: fixed;
 	padding: 0.5vw 1.2vw 0 0;  
     top: 1.2vw;
