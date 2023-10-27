@@ -330,20 +330,15 @@ small, .articles {
   padding-top: 60px;
 }
 
-#menu {
-  transition: margin-left .5s;
-  padding: 16px;
-  text-align: right;
-}
-	
-	.slider {
+    #menu {
+    transition: margin-right .5s;
+    text-align: right;
 	position: fixed;
 	padding: 0 1.5vw 0 0;  
     top: 1.2vw;
     left: 77.85vw;
     right: 0px;
     z-index: 1;	
-	text-align: right;	
 	}
 	
 	
