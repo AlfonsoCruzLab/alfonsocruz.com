@@ -316,6 +316,19 @@ small, .articles {
 }
 
 @media (min-width: 1024px) {
+	
+	.slider {
+	position: fixed;
+	padding: 0.5vw 1.2vw 0 0;  
+    top: 1.2vw;
+    left: 77.85vw;
+    right: 0px;
+	bottom: 1.2vw;
+    z-index: 1;	
+	text-align: right;	
+	}
+	
+	
 	.latest_projects {
 	font-size: max(0.8vw);
 	position: fixed;
@@ -323,7 +336,6 @@ small, .articles {
     top: 1.2vw;
     left: 77.85vw;
     right: 0px;
-	bottom: 1.2vw;
     z-index: 1;	
 	overflow: scroll;
 	}
