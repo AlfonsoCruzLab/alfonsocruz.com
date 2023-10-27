@@ -329,7 +329,8 @@ small, .articles {
 	.latest_projects {
 		border: solid 1px #bbb;
 		padding: 1.2vw;
-	}	
+		overflow: scroll;
+	}
 	
   .articles .fullwidth {
     height: auto !important;
