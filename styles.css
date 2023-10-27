@@ -316,7 +316,18 @@ small, .articles {
 }
 
 @media (min-width: 1024px) {
-  .articles {
+	.latest_projects {
+	padding: 0.5vw 1.2vw 0 0;  
+    top: 1.2vw;
+    left: 77.85vw;
+    right: 0;
+    z-index: 1;	
+	overflow: scroll;
+	bottom: 1.2vw;
+    background: black;		
+	}
+	
+   .articles {
     position: fixed;
     padding-top: 0.5vw;  
     top: 1.2vw;
@@ -325,13 +336,6 @@ small, .articles {
     border-top: none;
     z-index: 1;
   }
-	
-	.latest_projects {
-		padding-right: 1.2vw;
-		right: 0;
-		overflow: scroll;
-		bottom: 1.2vw;
-	}
 	
   .articles .fullwidth {
     height: auto !important;
