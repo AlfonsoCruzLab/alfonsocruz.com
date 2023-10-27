@@ -317,15 +317,15 @@ small, .articles {
 
 @media (min-width: 1024px) {
 	.latest_projects {
-	font-size: max(2.7vw);
+	font-size: max(0.8vw);
 	position: fixed;
 	padding: 0.5vw 1.2vw 0 0;  
     top: 1.2vw;
     left: 77.85vw;
-    right: 0;
+    right: 0px;
+	bottom: 1.2vw;
     z-index: 1;	
 	overflow: scroll;
-	bottom: 1.2vw;
 	}
 	
    .articles {
