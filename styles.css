@@ -321,12 +321,9 @@ small, .articles {
     padding-top: 0.5vw;  
     top: 1.2vw;
     left: 77.85vw;
-    width: 20.7vw;
-	  
-	bottom: 1.2vw;   
+    width: 20.7vw;  
     border-top: none;
     z-index: 1;
-	overflow: scroll;  
   }
 	
   .articles .fullwidth {
