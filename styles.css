@@ -319,14 +319,15 @@ small, .articles {
 	
 	
 	.sidenav {
-  font-size: max(0.8vw);
-	position: fixed;
-	padding: 0.5vw 1.5vw 0 0;  
-    top: 1.2vw;
-    left: 77.85vw;
-    right: 0px;
-    z-index: 1;	
-	overflow: scroll;
+  height: 100%;
+  width: 20.7vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
     #menu {
