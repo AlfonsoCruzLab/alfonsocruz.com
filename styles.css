@@ -319,11 +319,10 @@ small, .articles {
 	
 	.slider {
 	position: fixed;
-	padding: 0.5vw 1.2vw 0 0;  
+	padding: 0 1.5vw 0 0;  
     top: 1.2vw;
     left: 77.85vw;
     right: 0px;
-	bottom: 1.2vw;
     z-index: 1;	
 	text-align: right;	
 	}
