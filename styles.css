@@ -320,7 +320,7 @@ small, .articles {
 	
 	.sidenav {
   height: 100%;
-  width: 20.7vw;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
