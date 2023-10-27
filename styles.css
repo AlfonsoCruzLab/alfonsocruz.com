@@ -326,8 +326,9 @@ small, .articles {
     z-index: 1;
   }
 	
-	.projects {
+	.latest_projects {
 		border: solid 1px #bbb;
+		background: black;
 	}	
 	
   .articles .fullwidth {
