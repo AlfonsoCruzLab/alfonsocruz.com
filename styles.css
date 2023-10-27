@@ -320,26 +320,21 @@ small, .articles {
 	
 	.sidenav {
   height: 100%;
-  width: 20.7vw;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 100vw;
+  right: 0;
   overflow-x: hidden;
-  transition: 1s;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-    #menu {
-    transition: margin-right 1s;
-    text-align: right;
-	position: fixed;
-	padding-right: 2ch;  
-    top: 1.2vw;
-    width: auto;
-    right: 1.5vw;
-    z-index: 1;
-		background: black;
-	}
+#menu {
+  transition: margin-left .5s;
+  padding: 16px;
+  text-align: right;
+}
 	
 	
 	.latest_projects {
