@@ -328,7 +328,7 @@ small, .articles {
 	
 	.latest_projects {
 		border: solid 1px #bbb;
-		background: black;
+		padding: 0.5vw;
 	}	
 	
   .articles .fullwidth {
