@@ -65,8 +65,8 @@ $(document).on("click", '.close', function(event) {
 
 //sidebar
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("menu").style.marginRight = "250px";
+  document.getElementById("mySidenav").style.width = "20.7vw";
+  document.getElementById("menu").style.marginRight = "20.7vw";
 }
 
 function closeNav() {
