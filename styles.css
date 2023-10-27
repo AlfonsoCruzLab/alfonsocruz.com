@@ -326,12 +326,11 @@ small, .articles {
   top: 0;
   left: 100vw;
   overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  transition: 1s;
 }
 
     #menu {
-    transition: margin-right .5s;
+    transition: margin-right 1s;
     text-align: right;
 	position: fixed;
 	padding-right: 2ch;  
@@ -339,6 +338,7 @@ small, .articles {
     width: auto;
     right: 1.5vw;
     z-index: 1;
+		background: black;
 	}
 	
 	
