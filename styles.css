@@ -318,22 +318,24 @@ small, .articles {
 @media (min-width: 1024px) {
 	
 	
-	.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+.sidenav {
+    font-size: max(0.8vw);
+	position: fixed;
+	padding: 0.5vw 1.5vw 0 0;  
+    top: 6vw;
+    right: 0px;
+    z-index: 1;	
+	overflow: scroll;
+	background: blue;
+	width: 0;
 }
 
 #menu {
-  transition: margin-left .5s;
-  padding: 16px;
+  transition: margin-right .5s;
   text-align: right;
+  right: 1.2vw;
+  padding-right: 3ch;
+  position: absolute;
 }
 	
 	
