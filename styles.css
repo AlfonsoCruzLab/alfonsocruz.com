@@ -325,6 +325,7 @@ small, .articles {
     top: 3vw;
     right: 0px;
 	width: 21.9vw;
+	height: calc(100vh - 3vw);
     z-index: 1;	
 	overflow: scroll;
 	transition: 0.5s;
