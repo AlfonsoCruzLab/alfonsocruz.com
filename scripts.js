@@ -66,12 +66,12 @@ $(document).on("click", '.close', function(event) {
 //sidebar
 function openNav() {
   document.getElementById("mySidenav").style.transform = "translate(0)"
-  document.getElementById("menu").style.marginRight = "20.7vw";
+  document.getElementById("menu").style.textAlign = "left";
   document.getElementById("closebtn").style.transform = "rotate(0deg)";
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.transform = "translate(20.7vw)"
-  document.getElementById("menu").style.marginRight= "0";
+  document.getElementById("mySidenav").style.transform = "translate(21.9vw)"
+  document.getElementById("menu").style.textAlign = "right";
   document.getElementById("closebtn").style.transform = "rotate(45deg)";
 }
