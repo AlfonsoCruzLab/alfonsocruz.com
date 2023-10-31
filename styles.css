@@ -21,7 +21,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .type {
-  background:linear-gradient(-90deg, #080808 0ch, #bbb 15ch, var(--c,#bbb) 0) 0 0;
+  background:linear-gradient(-90deg, #0a0a0a 0ch, #ddd 15ch, var(--c,#ddd) 0) 0 0;
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
   animation: t calc(var(--n)*.02s) linear;
@@ -33,10 +33,6 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   color:#0000;
   -webkit-background-clip:text;
   background-clip:text;
-}
-
-.homeContentWrap .type.hidden, .intro.selected .type{
-  background:linear-gradient(#080808 0 0) 0 0;	
 }
 
 /* Keyframes for the fade-in */
@@ -57,32 +53,34 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   -webkit-animation-duration:0.33s;
   -moz-animation-duration:0.33s;
   animation-duration:0.33s;
-
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s;
 }
 
 a {
   text-decoration-thickness: 0.1ch;
   text-underline-offset: 10%;
-  color: #ddd !important;
 }
 
-a:hover, a.hover, a.active, b, h1 {
-  color: #fff !important;
+.intro a {
+  text-decoration: none;
+  padding: 0.4ch 0.75ch 0.2ch 0.75ch;
+  border-radius: 2ch;
+  border: 1px solid;
+  transition: 0.5s;	
 }
 
-body, body main .intro p a, body main .content p a, body .content p a, body .content .articles a, body footer a, body .close, body footer p a, .ajax-link .projectHover em {
+.intro a.hover, .intro a:hover, .intro a.active{
+  background: #ddd;
+  color: #0a0a0a;
+  border-color: #ddd;	
+}
+
+body, a, .projectHover{
   color: #ddd;
 }
 
-body main .intro, body main .content, body footer, .homeContentWrap p.hidden a, .articles a, .intro.selected a {
-  color: #bbb;
-}
-
-.homeContentWrap p.hidden, .intro.selected p {
+.homeContentWrap p.hidden .type, .intro.selected p, .homeContentWrap p.hidden .contact, .intro.selected .contact {
   color: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
 }
 
 footer, header, nav, section, main {
@@ -131,7 +129,7 @@ body {
   font-family: "Univers LT Std", sans-serif, Arial;
   font-size: max(4vw);
   line-height: 1.4;
-  background-color: #080808;
+  background-color: #0a0a0a;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +196,7 @@ body .content img.noMargin {
   margin-bottom: 0 !important;
 }
 body footer {
-  border-top: 0.2vw solid #bbb;
+  border-top: 0.2vw solid #ddd;
   margin-top: 3vw;
   padding-top: 3vw;
   font-size: max(3vw);
@@ -288,7 +286,7 @@ small {
 
 .articles {
   font-size: max(2.7vw);
-  border-top: solid 1px #bbb;
+  border-top: solid 1px #ddd;
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;	
 }
@@ -427,7 +425,7 @@ body.subpage .ajax-wrapper {
   position: fixed;
   top: 0;
   left: 0;
-  background: #080808;
+  background: #0a0a0a;
   width: 100%;
   padding: 2.7vw;
 }
@@ -482,23 +480,23 @@ body.subpage .ajax-wrapper {
 }
 
 .ftt {
-  background-image: url("images/backgrounds/ftt.gif");
+  background-image: url("images/backgrounds/ftt.webp");
 }
 
 .wah {
-  background-image: url("images/backgrounds/wahthy.gif");
+  background-image: url("images/backgrounds/wahthy.webp");
 }
 
 .tm {
-  background-image: url("images/backgrounds/the-mist.gif");
+  background-image: url("images/backgrounds/the-mist.webp");
 }
 
 .ex {
-  background-image: url("images/backgrounds/lab.gif");
+  background-image: url("images/backgrounds/lab.webp");
 }
 
 .eco {
-  background-image: url("images/backgrounds/eco-suit.gif");
+  background-image: url("images/backgrounds/eco-suit.webp");
 }
 
 @media (min-width: 1024px) {
