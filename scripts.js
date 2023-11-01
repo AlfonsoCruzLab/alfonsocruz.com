@@ -60,6 +60,7 @@ $(document).on("click", '.close', function(event) {
     $(".ajax-wrapper").fadeOut();
     $('.homeContentWrap .content p').removeClass("hidden");
     $(".intro").removeClass("selected");
+	$('.contact').removeClass("hidden");
   }
 
 });
