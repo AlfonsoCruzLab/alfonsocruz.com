@@ -42,13 +42,14 @@ $( ".ajax-link" ).on( "click", function(event) {
 
 $(document).on("mouseenter", ".intro:not(.selected) .ajax-link", function() {
     $('.homeContentWrap .content p').addClass("hidden");
+	$('.contact').addClass("hidden");
     $(".ajax-link").removeClass("active");
     $(this).addClass("active");   
 });
 
 $(document).on("mouseleave", ".intro:not(.selected) .ajax-link", function() {
     $('.homeContentWrap .content p').removeClass("hidden"); 
-
+    $('.contact').removeClass("hidden");
 });
 
 //Close links
