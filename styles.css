@@ -25,6 +25,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
   animation: t calc(var(--n)*.02s) linear;
+  transition: 5s;		
 }
 @keyframes t{
   from {background-size:0 200%}
@@ -81,9 +82,6 @@ body, a, .projectHover{
 .homeContentWrap p.hidden .type, .intro.selected p, .contact.hidden, .intro.selected .contact.hidden {
   color: rgba(0,0,0,0);
   background: rgba(0,0,0,0);
-}
-
-.contact {
 }
 
 footer, header, nav, section, main {
