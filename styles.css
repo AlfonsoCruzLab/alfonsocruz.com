@@ -63,7 +63,7 @@ a {
 
 .intro a {
   text-decoration: none;
-  padding: 0.2ch 0.75ch 0.25ch 0.75ch;
+  padding: 0.2ch 0.75ch 0.2ch 0.75ch;
   border-radius: 2ch;
   border: 1px solid;
   transition: 0.5s;	
