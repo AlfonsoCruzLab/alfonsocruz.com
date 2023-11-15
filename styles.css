@@ -126,17 +126,16 @@ html, body {
   height: 100%;
 }
 
+
 body {
   font-family: "Univers LT Std", sans-serif, Arial;
   font-size: max(4vw);
   line-height: 1.4;
   background-color: #0a0a0a;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
   padding: 3vw;
 }
+
 
 @media (min-width: 720px) {
   body {
