@@ -287,9 +287,9 @@ small {
 .tag {
 	text-transform: uppercase;
 	letter-spacing: 0.2ch;
-	padding: 0.25ch 2ch;
+	padding: 0.25ch 1.5ch;
 	border: solid 1px #ddd;
-	border-radius: 0.75ch;
+	border-radius: 0.5ch;
 	margin-right: 1ch;
 }
 
