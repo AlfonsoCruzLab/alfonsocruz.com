@@ -288,7 +288,8 @@ small {
 	text-transform: uppercase;
 	letter-spacing: 0.2ch;
 	padding: 0.25ch 1ch;
-	border: solid 1px #ddd;
+	background: #ddd;
+	color: #0a0a0a;
 	margin-right: 1ch;
 }
 
