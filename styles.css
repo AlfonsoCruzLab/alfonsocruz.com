@@ -286,7 +286,7 @@ small {
 
 .tag {
 	text-transform: uppercase;
-	letter-spacing: 0.25ch;
+	letter-spacing: 0.2ch;
 	padding: 0.25ch 1ch;
 	border: solid 1px #ddd;
 }
