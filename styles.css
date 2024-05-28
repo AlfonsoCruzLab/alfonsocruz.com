@@ -1,5 +1,6 @@
 *, *:before, *:after {
   box-sizing: border-box;
+  cursor: none;	
 }
 
 html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
@@ -12,8 +13,25 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   text-size-adjust: none;
-  cursor: crosshair;
+  cursor: none;
 }
+
+.cursor {
+            position: fixed;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 99999;
+            transition: transform 0.2s;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16,8.5H8.5V16h-1V8.5H0v-1h7.5V0h1v7.5H16V8.5z' fill='%23ddd'/%3E%3C/svg%3E");
+            background-size: 60%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            mix-blend-mode: difference;
+	        background-color: none;
+        }
+
 
 ::selection {
   background: #ddd;
@@ -21,12 +39,13 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .type {
-  background:linear-gradient(-90deg, #0a0a0a 0ch, #ddd 15ch, var(--c,#ddd) 0) 0 0;
+  background:linear-gradient(-90deg, #000 0ch, #ddd 15ch, var(--c,#ddd) 0) 0 0;
   background-size:calc(var(--n)*1ch) 200%;
   background-repeat:no-repeat;
   animation: t calc(var(--n)*.02s) linear;
-  transition: 5s;		
+  transition: 5s;
 }
+
 @keyframes t{
   from {background-size:0 200%}
 }
@@ -57,22 +76,38 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 a {
-  text-decoration-thickness: 0.1ch;
-  text-underline-offset: 10%;
+  text-decoration-thickness: 0.005rem;
+  text-underline-offset: 15%;
+  -moz-transition:color .15s ease-in;
+  -o-transition:color .15s ease-in;
+  -webkit-transition:color .15s ease-in;
 }
 
-.intro a {
+.button {
   text-decoration: none;
-  padding: 0.2ch 0.75ch 0.2ch 0.75ch;
+  padding: 0.15ch 0.75ch 0.2ch 0.75ch;
   border-radius: 2ch;
-  border: 1px solid;
+  background: #000;
+  color: #222;
+  border: #000 solid 1px;
   transition: 0.5s;	
 }
 
-.intro a.hover, .intro a:hover, .intro a.active{
-  background: #ddd;
-  color: #0a0a0a;
-  border-color: #ddd;	
+
+.button.highlight, .button.hover, .button:hover {
+  background: #0a0a0a;
+  border: #777 solid 1px;	
+  color: #ddd;	
+}
+
+.button.active, .button.highlight:hover {
+	border-color: #ddd;
+	color: #0a0a0a;
+	background-color: #ddd;
+}
+
+.selected .button.active {
+	pointer-events: none;
 }
 
 body, a, .projectHover{
@@ -201,8 +236,11 @@ body footer {
   padding-top: 3vw;
   font-size: max(3vw);
   flex-shrink: 0;
-  background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
+  background: url("./images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
   background-size: 15vw;
+  mix-blend-mode: difference;
+  z-index: 90000;
+  position: fixed;
 }
 
 @media (min-width: 720px) {
@@ -235,6 +273,7 @@ body .close {
   top: 2.7vw;
   right: 2.7vw;
   text-decoration: none;
+  mix-blend-mode: difference;
   z-index: 9000;
   transition: all 0.2s linear;	
 }
@@ -271,25 +310,18 @@ body .close {
   width: 100%;
 }
 
-a {
-  cursor: pointer;
-  -moz-transition:color .15s ease-in;
-  -o-transition:color .15s ease-in;
-  -webkit-transition:color .15s ease-in;		
-}
-
 
 small {
   font-size: max(2.4vw);
-  line-height: 1 !important;	
+  line-height: 1.5 !important;	
 }
 
 .tag {
 	text-transform: uppercase;
     letter-spacing: 0.2ch;
     padding: 0.5ch 1.5ch;
-    background: #1a1a1a;
-    border-radius: 0.25ch;
+    background: #000;
+    border-radius: 2ch;
     margin-right: 0.5ch;
 }
 
@@ -297,7 +329,8 @@ small {
   font-size: max(2.7vw);
   border-top: solid 1px #ddd;
   padding-top: 1.5vw;
-  padding-bottom: 1.5vw;	
+  padding-bottom: 1.5vw;
+  z-index: 9000;
 }
 
 @media (min-width: 720px) {
@@ -348,6 +381,12 @@ small, .articles {
   position: absolute;
 }
 	
+	#LP {
+		background: blue;
+		transform: rotate(45deg);
+		transition: 1s;
+	}
+	
 	
 	.latest_projects {
 	font-size: max(0.8vw);
@@ -367,7 +406,8 @@ small, .articles {
     left: 77.85vw;
     width: 20.7vw;  
     border-top: none;
-    z-index: 1;
+    mix-blend-mode: difference;
+    z-index: 9000;
   }
 	
   .articles .fullwidth {
@@ -383,7 +423,6 @@ small, .articles {
   .ajax-wrapper .breakout, .ajax-wrapper .landscape {
     width: 64.5vw;
     position: relative;
-    z-index: 3000;
   }
   .ajax-wrapper .breakout img, .ajax-wrapper .landscape img {
     width: 100% !important;
@@ -489,23 +528,23 @@ body.subpage .ajax-wrapper {
 }
 
 .ftt {
-  background-image: url("images/backgrounds/ftt.webp");
+  background-image: url("images/00_Index/ftt.webp");
 }
 
 .wah {
-  background-image: url("images/backgrounds/wahthy.webp");
+  background-image: url("images/00_Index/wahthy.webp");
 }
 
 .tm {
-  background-image: url("images/backgrounds/the-mist.webp");
+  background-image: url("images/00_Index/the-mist.webp");
 }
 
 .ex {
-  background-image: url("images/backgrounds/lab.webp");
+  background-image: url("images/00_Index/lab.webp");
 }
 
 .eco {
-  background-image: url("images/backgrounds/eco-suit.webp");
+  background-image: url("images/00_Index/eco-suit.webp");
 }
 
 @media (min-width: 1024px) {
@@ -534,7 +573,6 @@ body.subpage .ajax-wrapper {
     align-items: flex-start;
     overflow-x: scroll;
     margin-bottom: 1.5vw;
-    z-index: 3000;
   }
   .content .scroller iframe, .content .scroller > .twitter-tweet, .content .scroller > img {
     width: 100%;
