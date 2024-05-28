@@ -1,346 +1,54 @@
-*, *:before, *:after {
-  box-sizing: border-box; }
+/*
+Error: File to import not found or unreadable: reset.
+       Load paths:
+         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon
+         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat
+         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base
+        on line 1 of /Users/alfonsocruz/Dropbox/LTD/Promo/Website/alfonsocruz.com/styles.scss
 
-html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  text-size-adjust: none; }
+1: @import "reset";
+2: 
+3: @mixin for-phone-only {
+4:   @media (max-width: 599px) { @content; }
+5: }
+6: @mixin for-tablet-portrait-up {
 
-footer, header, nav, section, main {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-input {
-  -webkit-appearance: none;
-  border-radius: 0; }
-
-@font-face {
-  font-family: 'Univers LT Std';
-  src: url("/fonts/UniversLTStd-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-html, body {
-  height: 100%; }
-
-body {
-  font-family: 'Univers LT Std',  sans-serif, Arial;
-  font-size: max(14px, 1.24vw);
-  line-height: 1.4;
-  height: 100%;
-  padding: 12px; }
-  @media (min-width: 900px) {
-    body {
-      display: flex;
-      column-gap: 24px;
-      background: url("/images/alfonso_cruz_logo_2022.svg") 98.5% 97% no-repeat #111;
-      background-size: 100px;
-      padding: 24px;
-      padding-right: 0px;
-      font-size: max(11px, 1.24vw); } }
-  body .homeContentWrap {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    height: 100%; }
-    @media (min-width: 900px) {
-      body .homeContentWrap {
-        max-width: calc(33.333vw - 21px);
-        display: flex !important;
-        opacity: 1 !important;
-        position: sticky;
-        top: 0; } }
-  body main {
-    flex: 1 0 auto; }
-    body main .intro, body main .content {
-      margin: 1em 0; }
-      @media (min-width: 900px) {
-        body main .intro, body main .content {
-          margin-top: 0; } }
-      body main .intro p:not(:last-child), body main .content p:not(:last-child) {
-        margin-bottom: 1.6em; }
-      body main .intro p a, body main .content p a {
-        text-decoration: none; }
-  body .content p:not(:last-child), body .content .articles:not(:last-child) {
-    margin-bottom: 1.6em; }
-  body .content p a, body .content .articles a {
-    text-decoration: none; }
-  body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
-    margin-bottom: 1.6em !important;
-    max-width: 100% !important; }
-  body .content img.noMargin {
-    margin-bottom: 0 !important; }
-  body footer {
-    margin-top: 2.4vw;
-    padding-top: 2.4vw;
-    font-size: max(10px, 0.93vw);
-    flex-shrink: 0;
-    background: url("/images/alfonso_cruz_logo_2022.svg") right 98% no-repeat;
-    background-size: 80px; }
-    @media (min-width: 900px) {
-      body footer {
-        background: transparent;
-        border-top: none;
-        margin-top: 0;
-        position: relative;
-        top: 6px; } }
-    body footer p:not(:last-child) {
-      margin-bottom: 1.6em; }
-    body footer p a {
-      text-decoration: none; }
-  body .close {
-    position: fixed;
-    font-size: 22px;
-    top: 20px;
-    right: 10px;
-    text-decoration: none;
-    z-index: 9000; }
-
-.ajax-wrapper {
-  display: none;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  overflow-x: hidden; }
-  @media (min-width: 900px) {
-    .ajax-wrapper {
-      padding-top: 0;
-      width: calc(66.666vw - 22.222%);
-      overflow-y: scroll;
-      padding-bottom: 0; } }
-
-.fullwidth {
-  width: 100%; }
-
-small {
-  font-size: max(10px, 0.72vw); }
-
-.articles {
-  font-size: max(10px, 0.72vw);
-  padding-top: 1em; }
-
-@media (min-width: 900px) {
-  .homeContentWrap p {
-    transition: opacity, color 0.3s linear; }
-
-  .homeContentWrap p.hidden a {
-    transition: all 0.3s linear; }
-
-  .articles {
-    position: fixed;
-    top: 20px;
-    right: 12px;
-    width: calc(22.222vw - 36px);
-    border-top: none;
-    padding-right: 12px;
-    z-index: 1; }
-
-  .articles .fullwidth {
-    height: auto !important; }
-
-  .ajax-wrapper {
-    width: calc(100vw - 22.222%); }
-
-  .ajax-wrapper p, .ajax-wrapper img, .ajax-wrapper iframe, .ajax-wrapper hr, .ajax-wrapper video {
-    width: calc(44.444vw - 24px) !important;
-    margin-left: 0; }
-
-  .ajax-wrapper .breakout, .ajax-wrapper .landscape {
-    width: calc(66.666vw - 56px);
-    position: relative;
-    z-index: 3000; }
-    .ajax-wrapper .breakout img, .ajax-wrapper .landscape img {
-      width: 100% !important; }
-    .ajax-wrapper .breakout iframe, .ajax-wrapper .landscape iframe {
-      width: 100% !important; }
-
-  .ajax-wrapper .articles iframe {
-    max-width: 100% !important;
-    width: 100% !important; } }
-::-webkit-scrollbar {
-  background-color: transparent;
-  width: 8px;
-  height: 8px; }
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #666;
-  padding: 0; }
-
-body.subpage .ajax-wrapper {
-  display: block; }
-
-.content.loadme.project {
-  padding-top: 100px; }
-  @media (min-width: 900px) {
-    .content.loadme.project {
-      padding-top: 0; } }
-  .content.loadme.project .projectHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #111;
-    width: 100%;
-    padding: 12px; }
-    @media (min-width: 900px) {
-      .content.loadme.project .projectHeader {
-        top: 50%;
-        width: 33.333vw;
-        padding: 24px;
-        transform: translateY(-50%);
-        background: transparent; }
-        .content.loadme.project .projectHeader hr {
-          display: none; } }
-    .content.loadme.project .projectHeader h2 {
-      margin-bottom: 5px; }
-    .content.loadme.project .projectHeader hr {
-      height: 1px;
-      border: none;
-      margin: 0 !important; }
-
-.ajax-link {
-  position: relative; }
-  .ajax-link .projectHover {
-    position: absolute;
-    left: 22.3vw;
-    top: 0px;
-    width: 500px;
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s linear;
-    pointer-events: none; }
-    @media (min-width: 900px) {
-      .ajax-link .projectHover {
-        display: block; } }
-    .ajax-link .projectHover.cv {
-      left: 25vw; }
-      .ajax-link .projectHover.cv em::before {
-        width: 10.5vw !important;
-        left: -11vw; }
-    .ajax-link .projectHover.wah {
-      left: 4.5vw; }
-    .ajax-link .projectHover.ftt {
-      left: 41vw; }
-      .ajax-link .projectHover.ftt em::before {
-        width: 35.5vw !important;
-        left: -36vw; }
-    .ajax-link .projectHover.tm {
-      left: 15.4vw; }
-      .ajax-link .projectHover.tm em::before {
-        width: 7.5vw !important;
-        left: -8vw; }
-    .ajax-link .projectHover.eco {
-      left: 25.5vw; }
-      .ajax-link .projectHover.eco em::before {
-        width: 15vw !important;
-        left: -15.5vw; }
-    .ajax-link .projectHover.ex {
-      left: 38.5vw; }
-      .ajax-link .projectHover.ex em::before {
-        width: 28.5vw !important;
-        left: -29vw; }
-    .ajax-link .projectHover em {
-      position: relative; }
-      .ajax-link .projectHover em::before {
-        content: '';
-        display: block;
-        background: #777;
-        width: 15.5vw;
-        height: 1px;
-        position: absolute;
-        left: -16vw;
-        top: -1vw; }
-  .ajax-link:hover .projectHover {
-    opacity: 1; }
-
-.intro.selected .projectHover {
-  display: none !important; }
-
-@media (min-width: 900px) {
-  .content .scroller {
-    display: flex;
-    column-gap: 20px;
-    align-items: flex-start;
-    overflow-x: scroll;
-    margin-bottom: 1.6em;
-    position: relative;
-    z-index: 3000; }
-    .content .scroller iframe, .content .scroller > .twitter-tweet, .content .scroller > img {
-      width: 100%; } }
-
-.portrait {
-  width: calc(50% - 24px); }
-
-.portrait-small {
-  width: calc(22.222vw - 32px);
-  min-width: calc(22.222vw - 32px); }
-
-body .content .last-item .twitter-tweet, body .content .last-item .scroller {
-  margin-bottom: 0 !important; }
-  body .content .last-item .twitter-tweet img, body .content .last-item .scroller img {
-    margin-bottom: 0 !important; }
-
-img + p small {
-  margin-top: -20px;
-  display: block; }
-
-.breakout + p small {
-  display: block;
-  margin-top: 10px; }
-
-.scroller .portrait {
-  min-width: calc((66.666vw - 72px) / 2); }
-
-.scroller .breakout {
-  min-width: calc((66.666vw - 36px)); }
-
-.last-item .scroller .portrait iframe, body .content .last-item .breakout img {
-  margin-bottom: 0 !important; }
-
-@media (max-width: 899px) {
-  body.subpage .homeContentWrap {
-    display: none; }
-
-  body .content.loadme.project {
-    padding-top: 40px; }
-
-  body.subpage .content.loadme.project {
-    padding-top: 40px; }
-
-  body .close {
-    top: 8px; }
-
-  .portrait-small {
-    width: 100%; }
-
-  .portrait {
-    width: 100%; }
-
-  .scroller > div {
-    margin-bottom: 0.8em; }
-
-  .last-item {
-    margin-bottom: 1.6em; } }
-body.subpage .intro.selected a {
-  transition: color 0.3s linear; }
+Backtrace:
+/Users/alfonsocruz/Dropbox/LTD/Promo/Website/alfonsocruz.com/styles.scss:1
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `load'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: reset.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 1 of /Users/alfonsocruz/Dropbox/LTD/Promo/Website/alfonsocruz.com/styles.scss\A \A 1: @import \"reset\";\A 2: \A 3: @mixin for-phone-only {\A 4:   @media (max-width: 599px) { @content; }\A 5: }\A 6: @mixin for-tablet-portrait-up {"; }
