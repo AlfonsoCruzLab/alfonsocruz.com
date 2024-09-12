@@ -1,54 +1,780 @@
-/*
-Error: File to import not found or unreadable: reset.
-       Load paths:
-         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon
-         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat
-         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base
-        on line 1 of /Users/alfonsocruz/Dropbox/LTD/Promo/Website/alfonsocruz.com/styles.scss
+*, *:before, *:after {
+  box-sizing: border-box;
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"%3E%3Cline x1="0" y1="8" x2="16" y2="8" stroke="%23ddd" stroke-width="1.2" /%3E%3Cline x1="8" y1="0" x2="8" y2="16" stroke="%23ddd" stroke-width="1.2" /%3E%3C/svg%3E') 8 8, crosshair;
+}
 
-1: @import "reset";
-2: 
-3: @mixin for-phone-only {
-4:   @media (max-width: 599px) { @content; }
-5: }
-6: @mixin for-tablet-portrait-up {
+html, body, div, span, object, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"%3E%3Cline x1="0" y1="8" x2="16" y2="8" stroke="%23ddd" stroke-width="1.2" /%3E%3Cline x1="8" y1="0" x2="8" y2="16" stroke="%23ddd" stroke-width="1.2" /%3E%3C/svg%3E') 8 8, crosshair;
+}
 
-Backtrace:
-/Users/alfonsocruz/Dropbox/LTD/Promo/Website/alfonsocruz.com/styles.scss:1
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `load'
-/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: reset.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 1 of /Users/alfonsocruz/Dropbox/LTD/Promo/Website/alfonsocruz.com/styles.scss\A \A 1: @import \"reset\";\A 2: \A 3: @mixin for-phone-only {\A 4:   @media (max-width: 599px) { @content; }\A 5: }\A 6: @mixin for-tablet-portrait-up {"; }
+
+:root {
+    --color-one: #ddd;
+    --color-two: #111;
+    --color-three: #f85;
+    --color-four: #baf; 
+    --color-five: #bf6;
+	
+}
+
+
+a:hover {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"%3E%3Ccircle cx="8" cy="8" r="7" fill="none" stroke="%23ddd" stroke-width="1.2" /%3E%3C/svg%3E') 8 8, auto;
+}
+
+
+::selection {
+  background: var(--color-one);
+  color: var(--color-two);	
+}
+
+a {
+  text-decoration-thickness: 0.075ch;
+  text-underline-offset: 10%;
+}
+
+mark {
+  background: var(--color-two);
+  color: var(--color-one);
+  padding: 0.4ch;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.15ch 0.5ch 0.2ch 0.5ch;
+  border-radius: 0.25ch;
+  color: var(--color-one);
+  border: var(--color-one) solid 0.075ch;
+}
+
+
+.button.highlight, .button.hover, .button:hover {
+  border: var(--color-one) solid 0.075ch;	
+  color: var(--color-one);
+}
+
+.button.active, .button.highlight:hover {
+	color: var(--color-two);
+	background-color: var(--color-one);
+}
+
+.selected .button.active {
+	pointer-events: none;
+}
+
+body, a, .projectHover{
+  color: var(--color-one);
+}
+
+.homeContentWrap p.hidden, .intro.selected p, .contact.hidden, .intro.selected .contact.hidden {
+  color: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
+}
+
+.contact.hidden, .intro.selected .contact.hidden {
+	opacity: 0;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+
+/* Backgrounds */
+
+.ajax-link .projectHover, .background-container {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ajax-link .projectHover {
+  display: none;
+  opacity: 0;
+  top: 1.66vw;
+  pointer-events: none;
+  padding-top: calc(50vh - 2.25vw);
+  padding-left: 1.2vw;
+  z-index: -10 !important;	
+}
+
+#cv .ajax-link .projectHover {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.background-container{
+	top: 0;
+	z-index: -20 !important;
+	opacity: 1;
+}
+
+.cover {
+	height: calc(100vh - 7.2vw);
+	margin: 0 0.6vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@media (min-width: 1024px){
+.cover {
+	width: 97.6vw;
+	margin-left: -32.4vw;
+}
+}
+.intro-text {
+    margin: 100vh 0.6vw 0;
+	width: 100%;
+	min-height: 75vh;
+}
+@media (min-width: 1024px){
+.intro-text p{
+	max-width: 48.2vw;
+}
+}
+
+.cv {
+  padding-top: 1.8vw !important;	
+  padding-left: 34.05vw !important;
+  padding-right: 24vw;
+  background-image: url("images/00_Index/cv.jpg");
+}
+
+.ftt {
+  background-image: url("images/00_Index/ftt.jpg");
+}
+
+.wah {
+  background-image: url("images/00_Index/wahthy.jpg");
+}
+
+.tm {
+  background-image: url("images/00_Index/the-mist.jpg");
+}
+
+.ex {
+  background-image: url("images/00_Index/lab.jpg");
+}
+
+.eco {
+  background-image: url('images/00_Index/eco-suit.jpg');
+}
+
+.homepage {
+  	top: 0;
+	z-index: -20 !important;
+	opacity: 0.75;
+	position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1024px){
+	.homepage {
+	opacity: 0.25;
+		animation: imageTransition 30s infinite;
+}
+}
+
+
+@keyframes imageTransition {
+    0% {
+        background-image: url('images/00_Index/eco-suit.jpg');
+    }
+    20% {
+        background-image: url('images/00_Index/eco-suit.jpg');
+    }
+    21% {
+        background-image: url('images/00_Index/ftt.jpg');
+    }
+    40% {
+        background-image: url('images/00_Index/ftt.jpg');
+    }
+    41% {
+        background-image: url('images/00_Index/lab.jpg');
+    }
+    60% {
+        background-image: url('images/00_Index/lab.jpg');
+    }
+    61% {
+        background-image: url('images/00_Index/the-mist.jpg');
+    }
+    80% {
+        background-image: url('images/00_Index/the-mist.jpg');
+    }
+    81% {
+        background-image: url('images/00_Index/wahthy.jpg');
+    }
+    99% {
+        background-image: url('images/00_Index/wahthy.jpg');
+    }
+    100% {
+        background-image: url('images/00_Index/eco-suit.jpg');
+    }
+}
+
+
+/* Font sizes */
+
+p, .large, .medium, .small {
+}
+
+background-image {
+}
+
+body .close {
+  font-size: max(7.2vw);
+}
+
+.large, body {
+	font-size: max(3.6vw);
+}
+
+.medium, .contact {
+	font-size: max(3vw);
+}
+
+.small, .articles, .tag, .caption {
+    font-size: max(2.4vw);
+}
+
+.caption {
+	padding: 0 0.6vw;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+@media (min-width: 720px) {
+body .close {
+  font-size: max(3vw);
+}
+	
+.large, body {
+	font-size: max(3vw);
+}
+
+.medium, .contact {
+	font-size: max(2.5vw);
+}
+
+.small, .articles, .tag, .caption {
+  font-size: max(2vw);	
+}
+}
+
+@media (min-width: 1024px) {
+body .close {
+  font-size: max(1.25vw);
+	}
+	
+.large, body {
+	font-size: max(1.2vw);
+}
+
+.medium, .contact {
+	font-size: max(0.9vw) !important;
+
+}
+
+.small, .articles, .tag, .caption {
+  font-size: max(0.6vw);	
+}
+}
+
+b {
+	color: #fff;
+}
+
+
+/* Columns */
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 0.6vw;
+
+}
+
+.third {
+	width: 33.33%;
+}
+
+.half {
+	width: 50%;
+}
+
+
+
+#split {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+.columns {
+	display: grid;
+    grid-template-columns: repeat(auto-fit); /* Adjust the minmax value as needed */
+}
+	
+	#split {
+		display: block;
+	}
+}
+
+/* Reticula */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none; /* Makes the overlay non-interactive */
+	padding: 0.6vw;
+	opacity: 0;
+}
+
+.columna {
+    flex: 1;
+    margin: 0.6vw;
+    background-color: #f66;
+}
+
+
+
+/*.ajax-wrapper p, h1, h2, .tag, .small {
+   fill: var(--color-one);	
+  -webkit-text-stroke: 2ch var(--color-two);
+   paint-order: stroke fill;
+}*/
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: "Univers LT Std";
+  src: url("/fonts/UniversLTStd-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+html, body {
+  height: 100%;
+}
+
+
+body {
+  font-family: "Univers LT Std", sans-serif, Arial;
+  line-height: 1.4;
+  background-color: var(--color-two);
+  height: 100%;
+  padding: 3vw;
+}
+
+
+@media (min-width: 720px) {
+  body {
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    column-gap: 1.2vw;
+    padding: 0;
+    padding-right: 0px;
+  }
+}
+body .homeContentWrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+body .homeContentWrap * {
+  pointer-events: auto; /* Re-enables pointer events for its children */
+}
+
+@media (min-width: 1024px) {
+  body .homeContentWrap {
+    display: flex !important;
+    opacity: 1 !important;
+    position: absolute; /* Keeps it within document flow */
+    top: 0;
+    padding: 0.6vw 0;
+	width: 32.9vw;
+	left: 0.6vw;
+  }
+}
+
+body main {
+}
+body main .intro, body main .content {
+}
+
+@media (min-width: 1024px) {
+  body main .intro, body main .content {
+  }
+}
+body main .intro p:not(:last-child), body main .content p:not(:last-child) {
+}
+body main .intro p a, body main .content p a {
+}
+body .content p:not(:last-child), body .content .articles:not(:last-child) {
+}
+body .content p a, body .content .articles a {
+}
+body .content .instagram-media, body .content .twitter-tweet:not(:last-child), body .content video, body .content img, body .content hr, body .content .fb-post {
+  max-width: 100% !important;
+}
+body .content img.noMargin {
+  margin-bottom: 0 !important;
+}
+footer {
+    border-top: 0.2vw solid var(--color-one);
+    margin-top: 3vw;
+    padding-top: 3vw;
+    flex-shrink: 0;
+    background: url("./images/alfonso_cruz_logo_2024.svg") no-repeat;
+    background-position: calc(100% - 0.9vw) calc(100% - 0.9vw); /* Adds 2vw padding */
+    background-size: 15vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+@media (min-width: 720px) {
+  body footer {
+  }
+}
+@media (min-width: 1024px) {
+  body footer {
+    background-size: 2vw;
+	border-top: none;
+	padding: 0 0.6vw;
+  }
+footer p{
+	max-width: 31.65vw;
+}
+}
+body footer p:not(:last-child) {
+  margin-bottom: 1.4em;
+}
+body footer a {
+  text-decoration: none;
+}
+body .close {
+  position: fixed;
+  top: 2.7vw;
+  right: 2.7vw;
+  text-decoration: none;
+  z-index: 9000;
+}
+
+@media (min-width: 720px) {
+body .close {
+}
+}
+@media (min-width: 1024px) {
+body .close {
+  top: 1.2vw;
+  right: 1.45vw;	
+}
+}
+
+.ajax-wrapper {
+  display: none;
+  padding: 1.2vw 0.6vw;
+  overflow-x: hidden;
+  /*margin: 0;*/
+}
+@media (min-width: 1024px) {
+  .ajax-wrapper {
+    padding-top: 0;
+    overflow-y: scroll;
+    padding-bottom: 0;
+  }
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+
+small {
+  line-height: 1.5 !important;	
+}
+
+.tag {
+	text-transform: uppercase;
+    letter-spacing: 0.2ch;
+    padding: 0.5ch 1.5ch;
+    border-radius: 2ch;
+    margin-right: 0.5ch;
+}
+
+.articles {
+  border-top: solid 1px var(--color-one);
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;	
+}
+
+
+@media (min-width: 1024px) {	
+   .articles {
+    position: fixed;
+    padding-top: 0.5vw;  
+    top: 1.2vw;
+    right: 1.2vw;
+    width: 15.2vw;  
+    border-top: none;
+    z-index: 1;
+  }
+	
+  .articles .fullwidth {
+    height: auto !important;
+  }
+  .ajax-wrapper {
+    width: 100%;
+	padding-left: 33.6vw;
+  }
+}
+
+img, iframe, video, .cover {
+  border: 1px solid var(--color-one);
+  border-radius: 0.25vw;
+}
+
+iframe {
+	width: calc(100% - 0.9vw);
+	height: 80vh;
+	margin: 0 0.6vw;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--color-one);
+  padding: 0;
+}
+
+body.subpage .ajax-wrapper {
+  display: block;
+}
+
+.subpage {
+	background-opacity: 0.5;
+	z-index: 999;
+}
+
+.content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
+  padding-top: 18vw;
+}
+@media (min-width: 720px) {
+  .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
+    padding-top: 12vw;
+}
+}	
+@media (min-width: 1024px) {
+  .content.loadme.project, body .content.loadme.project, body.subpage .content.loadme.project {
+    padding-top: 0;
+  }
+}
+.content.loadme.project .projectHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--color-two);
+  width: 100%;
+  padding: 2.7vw;
+}
+@media (min-width: 1024px) {
+  .content.loadme.project .projectHeader {
+    top: 50%;
+    width: 33.333vw;
+    padding: 1.2vw;
+    transform: translateY(-50%);
+	background: transparent;
+  }
+  .content.loadme.project .projectHeader hr {
+    display: none;
+  }
+}
+
+.content.loadme.project .projectHeader h2 {
+  margin-bottom: 1.2vw;
+}
+.content.loadme.project .projectHeader hr {
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid var(--color-one);
+  margin: 0 !important;
+}
+
+.ajax-link {
+  position: relative;
+}
+
+
+@media (min-width: 1024px) {
+  .ajax-link .projectHover {
+    display: block;
+	transform: translateY(-1.68vw);  
+  }
+}
+
+.ajax-link .projectHover em {
+  position: relative;
+}
+
+.ajax-link:hover .projectHover {
+  opacity: 1;
+}
+
+/*.intro.selected .projectHover {
+  display: none !important;
+}*/
+
+@media (min-width: 720px) {
+  .content .scroller {
+    display: flex;
+    column-gap: 3vw;
+    align-items: flex-start;
+    overflow-x: scroll;
+    margin-bottom: 1.5vw;
+    z-index: 3000;
+  }
+  .content .scroller > .twitter-tweet, .content .scroller > img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content .scroller {
+    column-gap: 1.2vw;
+	margin-bottom: 1.2vw;
+	position: relative;  
+  }
+}
+
+.portrait, .portrait-small {
+  width: 100%;
+  padding: 0.6vw;
+}
+@media (min-width: 720px) {
+.portrait, .portrait-small {
+  width: 45vw;
+  min-width: 45vw;
+}
+}
+@media (min-width: 1024px) {
+.portrait, .portrait-small {
+  width: 32.8vw;
+  min-width: 32.8vw;
+}
+}
+
+
+@media (min-width: 1024px) {
+  #brixtonbridge {
+    height: 35vw;
+  }
+}	
+
+@media (max-width: 1024px) {
+  #brixtonbridge {
+    height: 50vw;
+  }
+}
+
+@media (max-width: 1023px) {
+  body.subpage .homeContentWrap {
+    display: none;
+  }
+  body .close {
+    top: 2.7vw;
+  }
+  .scroller > div {
+    margin-bottom: 0;
+  }
+  .last-item {
+    margin-bottom: 1.5vw;
+  }
+}
+body.subpage .intro.selected a {
+}
+
+.content .breakout--has-caption img {
+  margin-bottom: 0 !important;
+}
+
+.last-item .breakout img {
+  display: block;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
